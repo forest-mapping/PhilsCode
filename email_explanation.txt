@@ -1,0 +1,34 @@
+
+I've finally got an archive of our second Fay-Herriot paper (attached) analyses to share with you. There is more to the analysis and the code than we will want to start with, and there is one analysis step I've omitted in this archive, the very first step we started with, which was to prepare statewide canopy height models as 10m rasters for states of NC, TN, and VA. Technically it's two steps because we also cropped/clipped the CHMs to individual counties in the three states as a preliminary step for the data processing. The code for that is no longer in my possession and rather than re-write it and send you full-state 10m rasters, I thought it would expedite our process to begin porting the analysis to your system assuming (for now) that the full set of country raster files (already cropped/clipped) are available to start with.
+
+In the paper we evaluated several options in how we processed the county raster files. The code for processing those options is included in the archive, but I think it would be best to start with just one option. Figure 1 in the paper lists the five options we evaluated, and I've highlighted the one we should use in the attached copy of the figure (NAIP_NLCD). Unfortunately, there are some places where the five options are hard coded in separate blocks/modules rather than being fully generalized to run through a single block of code that accommodates all five options. It may make sense to plan the port so that either 1) the implementation will be general enough to run through multiple/any of the alternative ways of processing the CHMs based on selected input variables, or 2) facilitate multiple options by swapping out functions/modules we'll develop on your system where the analyses paths diverge. In my R scripts, files 02, 02a, 03, 03a, and 04 are where the analyses split based on which alternative is being run, then scripts 05 and 06 return to a common set of code that accepts the results produced from any of the five scenarios. Even so, I expect my code in general require considerable modification to be made sufficiently generic/flexible to smoothly interface with blocks/modules in your system's architecture. With that in mind I think it will serve to some degree as an example of how we programmed the analysis, and even though you may end up using only bits and pieces of the R scripts, hopefully some of our code will work being copied into whatever sort of "template" you'll use to wrap around the code so it can be plugged into your system.
+
+A couple more things I'll warn you about to hopefully avoid too many surprises:
+
+There are many places where we write intermediate data to files (tif for rasters; RDS for R objects; csv for small tables; png for maps or figures; etc.) which worked well for us so we could stop and restart our analyses day after day and week after week without having to re-run everything from script 00. It also gave us the ability to inspect intermediate results such as CHMs of individual counties or counties by scenario.
+There are several scripts that we ran by calling them from bash scripts with command-line arguments. This was a way of parallelizing some of the steps. You'll see this where the commandArgs R function is called in any of the scripts. This is the case at least for scripts 02, 02a, and 05. I can give more details about this when/if needed. I haven't asked you what kind of parallel processing capabilities might be part of your system. With these kinds of embarrassingly parallel analyses I usually let the O/S deal with multitasking by running scripts in bash using utilities like nohup and running multiple processes in the background.
+
+Here are some notes about getting a copy of the archive. I opted to zip everything into a single file that runs close to 23 Gb. The easiest way for me to get you this is to have you copy it from my server via secure copy. Here are details.
+File Protocol: SCP
+Host name: charcoal2.cnre.vt.edu
+Port number: 802
+User name: anonymous
+Password:  (use link sent to you from Google Drive to see password)
+Remote file: /mnt/Hal2/rsfast/upload/UMaine_FH_app.zip
+
+I can never remember the scp command for this so I add an alias to the server in my ~/.ssh/config file like this:
+host charcoal2
+     Hostname charcoal2.cnre.vt.edu
+     Port 802
+     User anonymous
+
+Which makes the scp command easier for me to remember. This should copy the remote file to your working directory from a command line:
+scp charcoal2:/mnt/Hal2/rsfast/upload/UMaine_FH_app.zip .
+
+One last thing, I have modified my firewall settings to allow you to connect from umaine.edu IP addresses in the range 130.111.164.0/24. If you aren't on that domain and need to download the archive from another network, let me know so we can make arrangements for that. Once/if you're able to download the archive successfully, let me know so I can reset my firewall to block connections from any malicious UMainers, ha!
+
+Let me know if any of this doesn't work like I think it should.
+cheers,
+Phil
+
+P.S. Whenever you're ready to look at this code and discuss any details of what might work best in terms of breaking it into steps/modules that will make the most sense on your SAE cloud (UMSAEC?) system , we can schedule a call. 
