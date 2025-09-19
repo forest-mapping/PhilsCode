@@ -204,6 +204,6 @@ These are the design-based direct estimates + variances.
 
 ---
 
-I think these steps are a reasonable set of blocks to implement.  I think that some of these are probably too big - some should be separate blocks for the system.  
+I think these steps are a reasonable set of blocks to implement.  I think that some of these are probably too big - some should be separate blocks for the system.  For example, some of the visualization of outputs can be separated from the calculation of said output (or it can be a feature flag, so that is a choice).
 
 However, there are some challenges about the exact way the code should be implemented to make it flexible for use on other approaches.  
