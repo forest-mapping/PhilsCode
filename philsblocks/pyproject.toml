@@ -7,3 +7,7 @@ dependencies = []
 [build-system]
 requires = [ "setuptools", "setuptools-scm",]
 build-backend = "setuptools.build_meta"
+
+[project.scripts]
+preprocessing = "preprocessing.main:main"
+fit = "fit.main:main"
