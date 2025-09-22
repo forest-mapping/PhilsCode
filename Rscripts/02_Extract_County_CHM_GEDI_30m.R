@@ -12,7 +12,7 @@
 # can be run for a single state in Rstudio (uncomment line 40: args = "Virginia")
 
 # source reproject_align_raster.R, e.g., "/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_align_raster.R"
-source("/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_spat_raster.R")
+source("./Rscripts/reproject_spat_raster.R")
 
 require(raster)
 require(terra)
@@ -44,36 +44,36 @@ args <- commandArgs(trailingOnly = TRUE)
 #    Read data: gediNAM30m (CHM); UScounties (shapefile); nlcd_2019_land_cover_l48_20210604.img; FIAcounties (ref table)
 # Set pathnames (INPUTS)
 # shared path to GEDI CHM
-path_gedi <- "/home/rstudio/data/GEDI"
-path_nlcd <- "/home/rstudio/data/NLCD"
+path_gedi <- "./data/GEDI"
+path_nlcd <- "./data/NLCD"
 
 
 # path to UScounties shapefile
-path_UScounties <- "/home/rstudio/data/Government/Counties/USCounties.shp"
-fn_FIAcounties <- "/home/rstudio/data/FIADB/CSV_DATA/COUNTY.csv"
-fn_FIAunits <- "/home/rstudio/data/FIADB/CSV_DATA/REF_UNIT.csv"
-fn_STATES <- "/home/rstudio/data/Government/STATES.csv"
+path_UScounties <- "./data/USCounties_shapefile/USCounties.shp"
+fn_FIAcounties <- "./data/CSV_DATA/COUNTY.csv"
+fn_FIAunits <- "./data/CSV_DATA/REF_UNIT.csv"
+fn_STATES <- "./data/CSV_DATA/STATES.csv"
 
 # Set pathnames (OUTPUTS)
 stateAbbrev <- state.abb[state.name == args]
 path_chm_default <- file.path(
-  "/home/rstudio/data/GEDI/CHM/default",
+  "./data/GEDI/CHM/default",
   stateAbbrev
 )
 
-# path_chm_NLCD <- file.path("/home/rstudio/data/GEDI/CHM/NLCD",stateAbbrev)
-path_chm_NLCD <- file.path("/home/rstudio/data/GEDI/CHM/NLCD52", stateAbbrev)
+# path_chm_NLCD <- file.path("./data/GEDI/CHM/NLCD",stateAbbrev)
+path_chm_NLCD <- file.path("./data/GEDI/CHM/NLCD52", stateAbbrev)
 path_nlcd_1_state <- file.path(path_nlcd, stateAbbrev)
 
 # create output paths if needed
 if (!dir.exists(path_chm_default)) {
-  dir.create(path_chm_default)
+  dir.create(path_chm_default, recursive = TRUE)
 }
 if (!dir.exists(path_chm_NLCD)) {
-  dir.create(path_chm_NLCD)
+  dir.create(path_chm_NLCD, recursive = TRUE)
 }
 if (!dir.exists(path_nlcd_1_state)) {
-  dir.create(path_nlcd_1_state)
+  dir.create(path_nlcd_1_state, recursive = TRUE)
 }
 
 # Read INPUTS
@@ -90,8 +90,8 @@ statesUS <- statesUS[statesUS$STATECD %in% countiesFIA$STATECD, ] # gets rid of 
 # done once to correct CHM area calculations (PJR)
 # system.time(gediNAM30m_aea <- reproject_align_raster(gediNAM30m,NLCD))
 
-gediNAM30m <- rast(file.path(path_gedi, "Forest_height_2019_NAM.tif"))
-NLCD <- rast(file.path(path_nlcd, "nlcd_2019_land_cover_l48_20210604.img"))
+gediNAM30m <- terra::rast(file.path(path_gedi, "Forest_height_2019_NAM.tif"))
+NLCD <- terra::rast(file.path(path_nlcd, "nlcd_2019_land_cover_l48_20210604.img"))
 
 if (!args %in% unique(countiesUS$STATENAME)) {
   stop("Input state entered incorrectly. Program terminated!")
