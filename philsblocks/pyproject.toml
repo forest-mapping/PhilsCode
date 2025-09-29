@@ -2,7 +2,7 @@
 name = "philsblocks"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [ "runtime4psae",]
 
 [build-system]
 requires = [ "setuptools", "setuptools-scm",]
@@ -11,3 +11,9 @@ build-backend = "setuptools.build_meta"
 [project.scripts]
 preprocessing = "preprocessing.main:main"
 fit = "fit.main:main"
+biomass_query = "biomass_query.main:main"
+vol_query = "vol_query.main:main"
+evaluate = "evaluate.main:main"
+
+[tool.uv.sources.runtime4psae]
+path = "../../psae-runtime-py"

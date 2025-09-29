@@ -1,30 +1,43 @@
-library(RPostgreSQL)
+#library(RPostgreSQL)
 library(readr)
-
+library(DBI)
+library(duckdb)
 # loads the PostgreSQL driver
-drv <- dbDriver("PostgreSQL")
+#drv <- dbDriver("PostgreSQL")
 
-con <- DBI::dbConnect(drv, dbname = "fiadb")
+#con <- DBI::dbConnect(drv, dbname = "fiadb")
 
 # sql script "tree_estn_errors.sql" must be in the working directory
-setwd("/home/pradtke/Rscripts/FIADB/sql/")
+#setwd("/home/pradtke/Rscripts/FIADB/sql/")
 path_data <- "/home/rstudio/data/FIADB/RDS"
+fia_db_path <- system.file("./data/FS_FIADB.db")
 
 
 if (!exists("con")) {
   # loads the PostgreSQL driver
-  drv <- dbDriver("PostgreSQL")
+  #drv <- dbDriver("PostgreSQL")
 
   # creates a connection to the postgres database
   # note that "con" will be used later in each connection to the database
-  con <- dbConnect(
-    drv,
-    dbname = "testdb",
-    host = "localhost",
-    port = 5433,
-    user = "postgres",
-    password = rstudioapi::askForPassword()
-  )
+  #con <- dbConnect(
+  #  drv,
+  #  dbname = "testdb",
+  #  host = "localhost",
+  #  port = 5433,
+  #  user = "postgres",
+  #  password = rstudioapi::askForPassword()
+  #)
+
+  con <- dbConnect(duckdb())
+  # Load the SQLite extension
+
+  install_cmd <- "INSTALL sqlite;"
+  load_cmd <- "LOAD sqlite;"
+  attach_cmd <- "ATTACH './data/FS_FIADB.db' (type sqlite); USE FS_FIADB;"
+
+  dbExecute(con, install_cmd)
+  dbExecute(con, load_cmd)
+  dbExecute(con, attach_cmd)
 }
 
 # this reads a text file in as a character string that you can then
@@ -34,7 +47,8 @@ readQuery <- function(x) {
 }
 
 # this is a general query for any tree variable
-base_tree_query <- readQuery("tree_estn_errors_SE2017.sql")
+base_tree_query <- readQuery("./sql/tree_1.sql")
+query_2 <- readQuery("./sql/tree_2.sql")
 
 # by <- "PLOT.STATECD"
 # tree_table_var <- "DRYBIO_AG"
@@ -89,7 +103,7 @@ getEstimate <- function(
 system.time(
   vol_by_fips_su <- getEstimate(
     "VOLCFGRS",
-    base_tree_query,
+    query_2,
     "PLOT.STATECD * 1000 + PLOT.COUNTYCD+ PLOT.UNITCD *0.1"
   )
 )
@@ -106,3 +120,4 @@ system.time(
 # path_data <- "/home/rstudio/data/FIADB/RDS"
 saveRDS(bio_by_fips_su, file = file.path(path_data, "bio_by_fips_su2017.RDS"))
 saveRDS(vol_by_fips_su, file = file.path(path_data, "vol_by_fips_su2017.RDS"))
+

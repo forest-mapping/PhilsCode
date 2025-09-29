@@ -1,0 +1,10 @@
+Calling block!args from command like (base64): /home/krbundy/GitHub/PhilsCode/philsblocks/.venv/bin/biomass_query
+Failed to Parse Arguments with Error:
+ 1 validation error for InputData
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value=b'\xfe\x1a&{\xf9+n\xe9\xd...ffn*&j\xcb*\xb9\xea\xf2', input_type=bytes]
+    For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+
+Parsed Arguments: None
+2025-09-27 17:27:27.477086	Failed to parse arguments:
+Arguments failed to parse
+

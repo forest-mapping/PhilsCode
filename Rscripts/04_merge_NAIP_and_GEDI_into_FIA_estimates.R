@@ -4,33 +4,37 @@ library(dplyr)
 library(tidyr)
 library(data.table)
 
-path_GEDI_default <- file.path("/home/rstudio/data/GEDI/CHM/default")
-path_GEDI_NLCD <- file.path("/home/rstudio/data/GEDI/CHM/NLCD")
-path_NAIP_noWater <- file.path("/home/rstudio/data/NAIP/CHM/noWater/")
-path_NAIP_GEDI <- file.path("/home/rstudio/data/NAIP/CHM/GEDI/")
-path_NAIP_NLCD <- file.path("/home/rstudio/data/NAIP/CHM/NLCD/")
-fn_STATES <- "/home/rstudio/data/Government/STATES.csv"
-fn_FIAcounties <- "/home/rstudio/data/FIADB/CSV_DATA/COUNTY.csv"
-path_RDS <- file.path("/home/rstudio/data/FIADB/RDS/")
+path_GEDI_default <- file.path("./data/GEDI/CHM/default")
+path_GEDI_NLCD <- file.path("./data/GEDI/CHM/NLCD")
+path_NAIP_noWater <- file.path("./data/NAIP/CHM/noWater/")
+path_NAIP_GEDI <- file.path("./data/NAIP/CHM/GEDI/")
+path_NAIP_NLCD <- file.path("./data/NAIP/CHM/NLCD/")
+fn_STATES <- "./data/CSV_DATA/STATES.csv"
+fn_FIAcounties <- "./data/CSV_DATA/COUNTY.csv"
+path_RDS <- file.path("./data/stage0")
 
 # must designate which states are calculated
 # states <- c("37","47","51")
-states <- c("NC", "VA", "TN")
+states <- c(
+  "NC", 
+  "VA", 
+  "TN"
+  )
 
 countiesFIA <- read.csv(fn_FIAcounties, stringsAsFactors = FALSE)
 # import table with state abbreviations and two-digit code
 statesUS <- read.csv(fn_STATES, stringsAsFactors = FALSE) %>%
   dplyr::filter(STATE <= 56) %>%
-  dplyr::select(-STATENS) %>% # only US states
-  dplyr::rename(STATECD = STATE, STATENAME = STATE_NAME)
-statesUS <- statesUS[statesUS$STATECD %in% countiesFIA$STATECD, ] # gets rid of DC
+  dplyr::select(-STATENS) #%>% # only US states
+ # dplyr::rename(STATECD = STATE, STATENAME = STATE_NAME)
+statesUS <- statesUS[statesUS$STATE %in% countiesFIA$STATECD, ] # gets rid of DC
 
 # import fia estimates
-FIA_est_fn <- dir(path_RDS, pattern = "^fia_estimates.*.RDS$")
+FIA_est_fn <- dir(path_RDS)
 
 FIA_estimates <- do.call(
   rbind,
-  lapply(FIA_est_fn, function(x) readRDS(file.path(path_RDS, x)))
+  lapply(FIA_est_fn, function(x) read.csv(file.path(path_RDS, x)))
 ) %>%
   mutate(STATECD = as.integer(STATECD)) %>%
   rename(COUNTY_FIPS = co_fips)
@@ -105,14 +109,14 @@ FIA_NAIP <- left_join(FIA_estimates, chm)
 
 saveRDS(
   FIA_GEDI,
-  file = file.path("/home/rstudio/data/GEDI/FIA_GEDI_for_Fay-Herriot.RDS")
+  file = file.path("./data/GEDI/FIA_GEDI_for_Fay-Herriot.RDS")
 )
 saveRDS(
   FIA_NAIP,
-  file = file.path("/home/rstudio/data/NAIP/FIA_GEDI_for_Fay-Herriot.RDS")
+  file = file.path("./data/NAIP/FIA_GEDI_for_Fay-Herriot.RDS")
 )
 
 saveRDS(
   rbind(FIA_GEDI, FIA_NAIP),
-  file = file.path("/home/rstudio/data/FIADB/RDS/FIA_GEDI_for_Fay-Herriot.RDS")
+  file = file.path("./data/FIADB/RDS/FIA_GEDI_for_Fay-Herriot.RDS")
 )

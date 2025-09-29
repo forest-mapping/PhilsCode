@@ -11,7 +11,7 @@ states <- c("37", "47", "51")
 # must include ~/GEDI/getPopEstwVar.R (generate the volume(vol_by_fips_su) and biomass(bio_by_fips_su)from FIA database)
 # if RDS files are not current, re-run getPopEstwVar.R. Otherwise read existing RDS files
 # source("/home/qianqian/GEDI/getPopEstwVar.R")
-path_RDS <- file.path("/home/rstudio/data/FIADB/RDS/")
+path_RDS <- file.path("./data/FIADB/RDS/")
 bio_by_fips_su <- readRDS(file.path(path_RDS, "bio_by_fips_su.RDS"))
 vol_by_fips_su <- readRDS(file.path(path_RDS, "vol_by_fips_su.RDS"))
 

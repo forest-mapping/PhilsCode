@@ -6,9 +6,10 @@ alpha = 0.01
 k_best = 5
 
 # read command line args
-args = commandArgs(trailingOnly = TRUE)
+#args = commandArgs(trailingOnly = TRUE)
+ args <- c(37, "GEDI default", "Biomass")
 
-source(file.path("/home/rstudio/data/temp/adj_YL_FisherScore_eblupFH.R"))
+source(file.path("./Rscripts/adj_YL_FisherScore_eblupFH.R"))
 
 if (length(args) != 3) {
   stop(length(args), "Specify command line arguments: STATECD SOURCE response.")

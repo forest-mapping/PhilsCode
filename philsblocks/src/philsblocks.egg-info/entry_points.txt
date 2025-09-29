@@ -1,0 +1,5 @@
+[console_scripts]
+biomass_query = biomass_query.main:main
+fit = fit.main:main
+preprocessing = preprocessing.main:main
+vol_query = vol_query.main:main
