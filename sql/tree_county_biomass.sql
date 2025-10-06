@@ -106,7 +106,7 @@ FROM
                 END
                 END
                 END, 0))) AS y_hid_adjusted,
-PLOT.COUNTYCD AS grp_by_attrib
+PLOT.STATECD * 1000 + PLOT.COUNTYCD + PLOT.UNITCD *0.1 AS grp_by_attrib
          FROM FS_FIADB.POP_EVAL_GRP PEG
          JOIN FS_FIADB.POP_EVAL_TYP PET ON (PET.EVAL_GRP_CN = PEG.CN)
          JOIN FS_FIADB.POP_EVAL PEV ON (PEV.CN = PET.EVAL_CN)
@@ -129,6 +129,7 @@ PLOT.COUNTYCD AS grp_by_attrib
                   pev.cn,
                   pop_stratum.cn,
                   plot.cn,
+                  PLOT.UNITCD,
                   PLOT.STATECD,
                   PLOT.COUNTYCD) plot_summary
       GROUP BY pop_stratum_cn,

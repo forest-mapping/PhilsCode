@@ -34,11 +34,11 @@ bio_by_fips_su$surveyunit <- str_sub(bio_by_fips_su$code, -1)
 bio_by_fips_su$co_fips <- as.numeric(substr(bio_by_fips_su$code, 1, 5))
 
 # FIA county-level volume survey (direct estimates)
-vol_by_fips_su$code <- as.character(
-  vol_by_fips_su$`PLOT.STATECD * 1000 + PLOT.COUNTYCD+ PLOT.UNITCD *0.1` * 10
-)
-vol_by_fips_su$surveyunit <- str_sub(vol_by_fips_su$code, -1)
-vol_by_fips_su$co_fips <- as.numeric(substr(vol_by_fips_su$code, 1, 5))
+#vol_by_fips_su$code <- as.character(
+#  vol_by_fips_su$`PLOT.STATECD * 1000 + PLOT.COUNTYCD+ PLOT.UNITCD *0.1` * 10
+#)
+#vol_by_fips_su$surveyunit <- str_sub(vol_by_fips_su$code, -1)
+#vol_by_fips_su$co_fips <- as.numeric(substr(vol_by_fips_su$code, 1, 5))
 
 # "countylevel_by_state" function that prepare county-level volume/biomass by state code
 # must include the national wide FIA survey data (not including DC)
@@ -50,14 +50,14 @@ vol_by_fips_su$co_fips <- as.numeric(substr(vol_by_fips_su$code, 1, 5))
 # change unit (1) biomass from pound to million kg; (2) variance of biomass from pound^2 to (million kg)^2
 
 calc_vol_bio <- function(statecode) {
-  df1 <- vol_by_fips_su %>%
-    dplyr::mutate(
-      response = c("Volume"),
-      value = VOLCFGRS * 0.0283168 / 1e6,
-      var = var_of_estimate * (0.0283168 / 1e6)^2
-    ) %>%
-    dplyr::select(STATECD, co_fips, surveyunit, response, value, var, YEAR) %>%
-    filter(STATECD == statecode)
+  #df1 <- vol_by_fips_su %>%
+  #  dplyr::mutate(
+  #    response = c("Volume"),
+  #    value = VOLCFGRS * 0.0283168 / 1e6,
+  #    var = var_of_estimate * (0.0283168 / 1e6)^2
+  ##  ) %>%
+   # dplyr::select(STATECD, co_fips, surveyunit, response, value, var, YEAR) %>%
+   # filter(STATECD == statecode)
 
   df2 <- bio_by_fips_su %>%
     dplyr::mutate(
@@ -68,23 +68,23 @@ calc_vol_bio <- function(statecode) {
     dplyr::select(STATECD, co_fips, surveyunit, response, value, var, YEAR) %>%
     filter(STATECD == statecode)
 
-  rbind(df1, df2) %>% dplyr::arrange(STATECD, co_fips, surveyunit, response)
+  return(df2 %>% dplyr::arrange(STATECD, co_fips, surveyunit, response))
 }
 
 fia_estimates <- do.call(rbind, lapply(states, function(x) calc_vol_bio(x)))
 
 # assign mountain indicator by survey unit
 mountain_codes <- read.csv(
-  file.path(path_RDS, "../mountain_ref.csv"),
+  file.path("./data/mountain_ref.csv"),
   stringsAsFactors = FALSE,
   colClasses = c("character", "character", "integer")
 )
 
-fia_estimates <- left_join(fia_estimates, mountain_codes)
+fia_estimates <- left_join(bio_by_fips_su, mountain_codes)
 
 saveRDS(
   fia_estimates,
-  file = file.path(path_RDS, paste0("fia_estimates_TN_NC_VA.RDS"))
+  file = file.path(paste0("./data/fia_estimates_TN_NC_VA.RDS"))
 )
 # lapply(states,function(x)saveRDS(fia_estimates,file=file.path(path_RDS,paste0("fia_estimates_TN_NC_VA.RDS"))))
 # at this point the fia county level estimates are calculated in long format

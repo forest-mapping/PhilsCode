@@ -47,7 +47,6 @@ readQuery <- function(x) {
 }
 
 # this is a general query for any tree variable
-base_tree_query <- readQuery("./sql/tree_county_biomass.sql")
 query_2 <- readQuery("./sql/tree_2.sql")
 
 # by <- "PLOT.STATECD"
@@ -70,17 +69,18 @@ getEstimate <- function(
 
   value <- dbGetQuery(con, query)
 
+  print(summary(value))
   # clean up the names
   value$STATECD <- ifelse(
-    nchar(value$eval_grp) == 5,
-    substr(value$eval_grp, 1, 1),
-    substr(value$eval_grp, 1, 2)
+    nchar(value$EVAL_GRP) == 5,
+    substr(value$EVAL_GRP, 1, 1),
+    substr(value$EVAL_GRP, 1, 2)
   )
 
   value$YEAR <- ifelse(
-    nchar(value$eval_grp) == 5,
-    substr(value$eval_grp, 2, 5),
-    substr(value$eval_grp, 3, 6)
+    nchar(value$EVAL_GRP) == 5,
+    substr(value$EVAL_GRP, 2, 5),
+    substr(value$EVAL_GRP, 3, 6)
   )
 
   names(value)[2] <- by
@@ -100,24 +100,25 @@ getEstimate <- function(
 #   vol_by_state <- getEstimate("VOLCFGRS", base_tree_query, "PLOT.STATECD")
 # )
 # gross merch vol estimate and variances for latest evaluation by county
-system.time(
-  vol_by_fips_su <- getEstimate(
-    "VOLCFGRS",
-    query_2,
-    "PLOT.STATECD * 1000 + PLOT.COUNTYCD+ PLOT.UNITCD *0.1"
-  )
-)
+#system.time(
+#  vol_by_fips_su <- getEstimate(
+#    "VOLCFGRS",
+#    query_2,
+#    "PLOT.STATECD * 1000 + PLOT.COUNTYCD+ PLOT.UNITCD *0.1"
+#  )
+#)
 
 # total biomass estimate and variances for latest evaluation by county
-system.time(
+
+  base_tree_query <- readQuery("sql/tree_county_biomass.sql")
   bio_by_fips_su <- getEstimate(
     "DRYBIO_AG",
     base_tree_query,
     "PLOT.STATECD * 1000 + PLOT.COUNTYCD + PLOT.UNITCD *0.1"
   )
-)
+
 
 # path_data <- "/home/rstudio/data/FIADB/RDS"
-saveRDS(bio_by_fips_su, file = file.path(path_data, "bio_by_fips_su2017.RDS"))
+saveRDS(bio_by_fips_su, file = file.path( "./data/bio_by_fips_su2017.RDS"))
 #saveRDS(vol_by_fips_su, file = file.path(path_data, "vol_by_fips_su2017.RDS"))
-
+head(bio_by_fips_su)

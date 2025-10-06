@@ -41,16 +41,16 @@ require(crayon)
 
 args = commandArgs(trailingOnly = TRUE)
 # test only
-# args = "Tennessee" # c("North Carolina","Tenneessee","Virginia)
-
+ args = "Tennessee" # c("North Carolina","Tenneessee","Virginia)
+#args <- "Virginia"
 # Read data ---------------------------------------------------------------
 #    Read data: gediNAM30m (CHM); UScounties (shapefile); nlcd_2019_land_cover_l48_20210604.img; FIAcounties (ref table)
 # Set pathnames (INPUTS) for mask layers (CHMs) from GEDI and NLCD
 # and for the shared path to NAIP default (noWater) CHM
-path_naip <- "/home/rstudio/data/NAIP/CHM"
-path_gedi_default <- "/home/rstudio/data/GEDI/CHM/default/"
-path_gedi_nlcd <- "/home/rstudio/data/GEDI/CHM/NLCD/"
-# path_nlcd <- "/home/rstudio/data/NLCD/"
+path_naip <- "./data/NAIP_CHM"
+path_gedi_default <- "./data/GEDI/CHM/default/"
+path_gedi_nlcd <- "./data/GEDI/CHM/NLCD/"
+# path_nlcd <- "./data/NLCD/"
 if (!dir.exists(path_naip)) {
   stop("No input path ", path_naip)
 }
@@ -61,20 +61,20 @@ if (!dir.exists(path_gedi_nlcd)) {
   stop("No input path ", path_gedi_nlcd)
 }
 stateAbbrev <- state.abb[state.name == args]
-path_naip_default <- file.path(path_naip, "noWater", stateAbbrev)
+print(path_naip_default)
 if (!dir.exists(path_naip_default)) {
   stop("No input path ", path_naip_default)
 }
 
 # path to UScounties shapefile
-path_counties <- "/home/rstudio/data/Government/Counties/counties4project.shp"
-fn_FIAcounties <- "/home/rstudio/data/FIADB/CSV_DATA/COUNTY.csv"
-# fn_FIAunits <- "/home/rstudio/data/FIADB/CSV_DATA/REF_UNIT.csv"
-fn_STATES <- "/home/rstudio/data/Government/STATES.csv"
+path_counties <- "data/FIA_SE_Counties_shapefile/counties4project.shp"
+fn_FIAcounties <- "data/CSV_DATA/COUNTY.csv"
+# fn_FIAunits <- "./data/FIADB/CSV_DATA/REF_UNIT.csv"
+fn_STATES <- "data/CSV_DATA/STATES.csv"
 
 # Set pathnames (OUTPUTS)
-path_chm_GEDI <- file.path("/home/rstudio/data/NAIP/CHM/GEDI", stateAbbrev)
-path_chm_NLCD <- file.path("/home/rstudio/data/NAIP/CHM/NLCD", stateAbbrev)
+path_chm_GEDI <- file.path("./data/NAIP/CHM/GEDI", stateAbbrev)
+path_chm_NLCD <- file.path("./data/NAIP/CHM/NLCD", stateAbbrev)
 # path_nlcd_1_state <- file.path(path_nlcd,stateAbbrev) # won't need the state raster since county-level gedi CHMs have the NLCD mask
 
 # create output paths if needed
@@ -113,7 +113,14 @@ naip_nlcd_fn <- dir(file.path(path_gedi_nlcd, stateAbbrev), pattern = ".tif$")
 countyLC <- substr(naip_gedi_fn, 5, nchar(naip_gedi_fn) - 4)
 
 # mask NAIP CHM for county i raster in directory list
+
+files <- list.files(path_gedi_default)
+print(files)
+
+
 mask_GEDI_NLCD <- function(i) {
+
+  i <- 1
   COUNTY <- substr(naip_default_fn[i], 5, nchar(naip_default_fn[i]) - 12)
   countyCD <- as.integer(substr(
     counties_1_state$COVER_ID[counties_1_state$COUNTY == COUNTY],
@@ -121,7 +128,7 @@ mask_GEDI_NLCD <- function(i) {
     5
   ))[1]
   # print(paste(COUNTY %in% counties_1_state$COUNTY,COUNTY,"County"))
-  default <- rast(file.path(path_naip_default, naip_default_fn[i]))
+  default <- rast(file.path(path_naip_default, files[i]))
   countynameLC <- countiesFIA_1_state$COUNTYNM[
     countiesFIA_1_state$COUNTYCD == countyCD
   ]
@@ -205,7 +212,9 @@ mask_GEDI_NLCD <- function(i) {
   }
 }
 
-lapply(1:length(naip_default_fn), function(x) mask_GEDI_NLCD(x))
+mask_GEDI_NLCD(1)
+
+lapply(seq_along(naip_default_fn), function(x) mask_GEDI_NLCD(x))
 # lapply(69:72,function(x)mask_GEDI_NLCD(x))
 
 print(cat("Program complete.\n"))
