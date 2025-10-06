@@ -47,7 +47,7 @@ readQuery <- function(x) {
 }
 
 # this is a general query for any tree variable
-base_tree_query <- readQuery("./sql/tree_1.sql")
+base_tree_query <- readQuery("./sql/tree_county_biomass.sql")
 query_2 <- readQuery("./sql/tree_2.sql")
 
 # by <- "PLOT.STATECD"
@@ -119,5 +119,5 @@ system.time(
 
 # path_data <- "/home/rstudio/data/FIADB/RDS"
 saveRDS(bio_by_fips_su, file = file.path(path_data, "bio_by_fips_su2017.RDS"))
-saveRDS(vol_by_fips_su, file = file.path(path_data, "vol_by_fips_su2017.RDS"))
+#saveRDS(vol_by_fips_su, file = file.path(path_data, "vol_by_fips_su2017.RDS"))
 

@@ -14,7 +14,7 @@
 
 # source reproject_align_raster.R, e.g., "/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_align_raster.R"
 # source("/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_align_raster.R")
-source("/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_spat_raster.R")
+source("./Rscripts/reproject_spat_raster.R")
 
 require(raster)
 # require(rgdal)

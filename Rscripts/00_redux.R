@@ -18,8 +18,8 @@ run_query_from_file <- function(query_path, con) {
 biomass_query_file <- system.file("./sql/tree_1.sql")
 volume_query_file <- system.file("./sql/tree_2.sql")
 
-biomass_output_file <- system.file("")
-volume_output_file <- system.file("")
+biomass_output_file <- system.file("./data/bio_by_fips_su2017.RDS")
+volume_output_file <- system.file("./data/vol_by_fips_su2017.RDS")
 
 
 biomass_data <- run_query_from_file(biomass_query_file, con)
