@@ -8,3 +8,72 @@ Parsed Arguments: None
 2025-09-27 17:27:27.477086	Failed to parse arguments:
 Arguments failed to parse
 
+Calling block!args from command like (base64): build
+2025-10-13 14:22:42.014050	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:22:46.911177	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:29:27.400547	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:29:30.616185	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:29:38.350543	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:29:42.061827	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:40:41.157285	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:40:45.055867	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:40:53.481100	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+2025-10-13 14:40:57.380231	Failed to parse arguments:
+Missing docstring for function 'handler'
+
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build
+Calling block!args from command like (base64): build

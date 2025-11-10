@@ -16,6 +16,7 @@ vol_query = "vol_query.main:main"
 evaluate = "evaluate.main:main"
 biomass_00 = "biomass_00.main:main"
 mountain_codes_01 = "mountain_codes_01.main:main"
+extract_02 = "extract_02.main:main"
 
 [tool.uv.sources.runtime4psae]
-path = "../../psae-runtime-py"
+path = "/home/krbundy/GitHub/psae-runtime-py"

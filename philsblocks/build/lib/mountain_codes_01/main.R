@@ -5,7 +5,7 @@ library(stringr)
 
 
 states <- c("37", "47", "51")
-# bio_by_fips_su2017.RDS
+
 # need to list the names and path for all R scripts that are run previously
 # probably ~/GEDI/masked_NAIP.R and GEDI_FH.R
 
@@ -63,9 +63,9 @@ calc_vol_bio <- function(statecode) {
 handler <- function(input_id) {
     
     data_filename <- psaeRuntimeConnector::to_path(input_id)
-    #path_RDS <- file.path("./data/FIADB/RDS/")
+    path_RDS <- file.path("./data/FIADB/RDS/")
 
-    bio_by_fips_su <- readRDS(data_filename)
+    bio_by_fips_su <- readRDS(file.path(path_RDS, data_filename))
     # this is something that we can remove?
     # input_file_path <- psaeRuntimeConnector::to_path(input_data)
     # bio_by_fips_su <- readRDS(input_file_path)
@@ -129,7 +129,7 @@ handler <- function(input_id) {
 
     fia_estimates <- left_join(fia_estimates, mountain_codes)
 
-    output_file <- paste0("fia_estimates_TN_NC_VA.RDS")
+    output_file <- file.path(path_RDS, paste0("fia_estimates_TN_NC_VA.RDS"))
     saveRDS(
         fia_estimates,
         file = output_file

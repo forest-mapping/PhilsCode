@@ -14,8 +14,8 @@
 
 # source reproject_align_raster.R, e.g., "/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_align_raster.R"
 # source("/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_align_raster.R")
-source("./Rscripts/reproject_spat_raster.R")
-
+#source("./Rscripts/reproject_spat_raster.R")
+require(terra)
 require(raster)
 # require(rgdal)
 require(sf)
@@ -41,15 +41,20 @@ require(crayon)
 
 args = commandArgs(trailingOnly = TRUE)
 # test only
- args = "Tennessee" # c("North Carolina","Tenneessee","Virginia)
+ args = "Virginia" # c("North Carolina","Tenneessee","Virginia)
 #args <- "Virginia"
 # Read data ---------------------------------------------------------------
 #    Read data: gediNAM30m (CHM); UScounties (shapefile); nlcd_2019_land_cover_l48_20210604.img; FIAcounties (ref table)
 # Set pathnames (INPUTS) for mask layers (CHMs) from GEDI and NLCD
 # and for the shared path to NAIP default (noWater) CHM
-path_naip <- "./data/NAIP_CHM"
+path_naip <- "./data/NAIP/CHM"
 path_gedi_default <- "./data/GEDI/CHM/default/"
 path_gedi_nlcd <- "./data/GEDI/CHM/NLCD/"
+
+
+
+
+
 # path_nlcd <- "./data/NLCD/"
 if (!dir.exists(path_naip)) {
   stop("No input path ", path_naip)
@@ -61,6 +66,12 @@ if (!dir.exists(path_gedi_nlcd)) {
   stop("No input path ", path_gedi_nlcd)
 }
 stateAbbrev <- state.abb[state.name == args]
+path_gedi_default <- "./data/GEDI/CHM/default/"
+path_gedi_nlcd <- "./data/GEDI/CHM/NLCD/"
+path_naip_default <- file.path(
+  "./data/NAIP_CHM_noWater", 
+  stateAbbrev) # this needs to be generalized 
+naip_default_fn <- dir(path_naip_default, pattern = "*.tif")
 print(path_naip_default)
 if (!dir.exists(path_naip_default)) {
   stop("No input path ", path_naip_default)
@@ -114,33 +125,41 @@ countyLC <- substr(naip_gedi_fn, 5, nchar(naip_gedi_fn) - 4)
 
 # mask NAIP CHM for county i raster in directory list
 
-files <- list.files(path_gedi_default)
+files <- list.files(path_naip_default)
 print(files)
 
 
+i <- 1
 mask_GEDI_NLCD <- function(i) {
 
-  i <- 1
   COUNTY <- substr(naip_default_fn[i], 5, nchar(naip_default_fn[i]) - 12)
+  COUNTY
   countyCD <- as.integer(substr(
     counties_1_state$COVER_ID[counties_1_state$COUNTY == COUNTY],
     3,
     5
   ))[1]
+  countyCD
+
+  files[i]
+  
   # print(paste(COUNTY %in% counties_1_state$COUNTY,COUNTY,"County"))
-  default <- rast(file.path(path_naip_default, files[i]))
+  default <- terra::rast(file.path(path_naip_default, files[i]))
   countynameLC <- countiesFIA_1_state$COUNTYNM[
     countiesFIA_1_state$COUNTYCD == countyCD
   ]
-  if (grepl(" Of ", countynameLC) | grepl(" And ", countynameLC)) {
+  countynameLC
+  if (any(grepl(" Of ", countynameLC)) || any(grepl(" And ", countynameLC))) {
     countynameLC <- gsub(" Of ", " of ", countynameLC)
     countynameLC <- gsub(" And ", " and ", countynameLC)
   }
+  naip_gedi_fn
   gedi_fn <- naip_gedi_fn[grep(
     x = naip_gedi_fn,
     pattern = paste0(countynameLC, ".tif")
   )]
-  gedi <- rast(file.path(path_gedi_default, stateAbbrev, gedi_fn))
+  gedi_fn
+  gedi <- terra::rast(file.path(path_gedi_default, stateAbbrev, gedi_fn))
   nlcd_fn <- naip_nlcd_fn[grep(
     x = naip_nlcd_fn,
     pattern = paste0(countynameLC, "_forest.tif")

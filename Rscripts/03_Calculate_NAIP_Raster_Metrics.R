@@ -1,4 +1,6 @@
-# must source reproject_align_raster.R, e.g., "/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_align_raster.R"  #maybe not, because the county map has reprojected in ArcPro#
+# must source reproject_align_raster.R, e.g., 
+#/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_align_raster.R
+#maybe not, because the county map has reprojected in ArcPro#
 #
 require(raster)
 require(terra)
@@ -6,13 +8,13 @@ require(sf)
 require(crayon)
 # library(gdalUtils)
 # source("/home/qianqian/GEDI/Rscript/reproject_align_raster.R")
-source("/home/pradtke/Rscripts/NAIP-FH/Rscripts/reproject_spat_raster.R")
+source("./Rscripts/reproject_spat_raster.R")
 
 # read stateAbbrev from command line using commandArgs() as below
 # needs an error trap
-args = commandArgs(trailingOnly = T)
+#args <- commandArgs(trailingOnly = T)
 # for testing set to virginia
-# args <- "TN"
+args <- "TN"
 
 if (length(args) == 0) {
   stop("no command line argument entered.\n")
@@ -26,11 +28,11 @@ if (length(args) == 0) {
 }
 
 # read input data -----
-path <- "/home/rstudio/data/Government/Counties/USCounties.shp"
-path_counties <- "/home/rstudio/data/Government/Counties/counties4project.shp"
-fn_FIAcounties <- "/home/rstudio/data/FIADB/CSV_DATA/COUNTY.csv"
-fn_FIAunits <- "/home/rstudio/data/FIADB/CSV_DATA/REF_UNIT.csv"
-fn_STATES <- "/home/rstudio/data/Government/STATES.csv"
+path <- "./data/USCounties_shapefile/USCounties.shp"
+path_counties <- "./data/FIA_SE_Counties_shapefile/counties4project.shp"
+fn_FIAcounties <- "./data/CSV_DATA/COUNTY.csv"
+fn_FIAunits <- "./data/CSV_DATA/REF_UNIT.csv"
+fn_STATES <- "./data/CSV_DATA/STATES.csv"
 
 countiesUS <- st_read(path)
 counties4project <- st_read(path_counties)
@@ -54,10 +56,10 @@ countiesFIA_1_state <- countiesFIA[
 
 
 # NAIP CHMs (noWater, GEDI, and NLCD)
-path_chm <- "/home/rstudio/data/NAIP/CHM/"
-path_chm_noWater <- "/home/rstudio/data/NAIP/CHM/noWater"
-path_chm_GEDI <- "/home/rstudio/data/NAIP/CHM/GEDI"
-path_chm_NLCD <- "/home/rstudio/data/NAIP/CHM/NLCD"
+path_chm <- "./data/NAIP/CHM/"
+path_chm_noWater <- "./data/NAIP/CHM/noWater"
+path_chm_GEDI <- "./data/NAIP/CHM/GEDI"
+path_chm_NLCD <- "./data/NAIP/CHM/NLCD"
 
 # make sure shapefile statenames are consistent with state.name (YES)
 if (state.name[state.abb == stateAbbrev] %in% unique(countiesUS$STATENAME)) {
@@ -90,7 +92,12 @@ countynames <- unlist(lapply(1:length(mapnames_noWater), function(x) {
   )
 }))
 
-# Loop through counties and tabulate the default CHM distribution by 5 m ht classes  #
+############################################
+#    Ask Phil
+############################################
+
+# Loop through counties and tabulate the default
+# CHM distribution by 5 m ht classes  #
 system.time({
   # runs in about 2 minutes for Virginia counties  #
   temp <- lapply(countynames, function(x) {

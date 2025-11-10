@@ -12,7 +12,6 @@ readQuery <- function(x) {
 
 
 getEstimate <- function(
-    con,
     tree_table_var = "DRYBIO_AG",
     base_query,
     by = "PLOT.STATECD"
@@ -68,18 +67,18 @@ getEstimate <- function(
 handler <- function() {
     path_data <- "./data/FIADB/RDS"
 
-    #if (!exists("con")) {
-    con <- dbConnect(duckdb())
+    if (!exists("con")) {
+        con <- dbConnect(duckdb())
 
-    # Load the SQLite extension
-    install_cmd <- "INSTALL sqlite;"
-    load_cmd <- "LOAD sqlite;"
-    attach_cmd <- "ATTACH './data/FS_FIADB.db' (type sqlite); USE FS_FIADB;"
+        # Load the SQLite extension
+        install_cmd <- "INSTALL sqlite;"
+        load_cmd <- "LOAD sqlite;"
+        attach_cmd <- "ATTACH './data/FS_FIADB.db' (type sqlite); USE FS_FIADB;"
 
-    dbExecute(con, install_cmd)
-    dbExecute(con, load_cmd)
-    dbExecute(con, attach_cmd)
-   # }
+        dbExecute(con, install_cmd)
+        dbExecute(con, load_cmd)
+        dbExecute(con, attach_cmd)
+    }
 
     # this is a general query for any tree variable
     base_tree_query <- readQuery("./sql/tree_county_biomass.sql")
@@ -87,14 +86,13 @@ handler <- function() {
     # total biomass estimate and variances for latest evaluation by county
     system.time(
         bio_by_fips_su <- getEstimate(
-            con,
             "DRYBIO_AG",
             base_tree_query,
             "PLOT.STATECD * 1000 + PLOT.COUNTYCD + PLOT.UNITCD *0.1"
         )
     )
 
-    output_path <- file.path("./bio_by_fips_su2017.RDS")
+    output_path <- file.path(path_data, "bio_by_fips_su2017.RDS")
 
     saveRDS(bio_by_fips_su, file = output_path)
 

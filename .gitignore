@@ -1,1 +1,6 @@
 data
+*.RDS
+**/*.Rc
+**/block.schema.json
+log.txt
+r_log.txt
