@@ -6,67 +6,73 @@ library(data.table)
 
 path_GEDI_default <- file.path("./data/GEDI/CHM/default")
 path_GEDI_NLCD <- file.path("./data/GEDI/CHM/NLCD")
-path_NAIP_noWater <- file.path("./data/NAIP/CHM/noWater/")
+path_NAIP_noWater <- file.path("./data/NAIP_CHM_noWater/")
 path_NAIP_GEDI <- file.path("./data/NAIP/CHM/GEDI/")
 path_NAIP_NLCD <- file.path("./data/NAIP/CHM/NLCD/")
 fn_STATES <- "./data/CSV_DATA/STATES.csv"
 fn_FIAcounties <- "./data/CSV_DATA/COUNTY.csv"
 path_RDS <- file.path("./data/stage0")
 
+
 # must designate which states are calculated
 # states <- c("37","47","51")
 states <- c(
-  "NC", 
-  "VA", 
+  # "NC",
+  # "VA",
   "TN"
-  )
+)
 
 countiesFIA <- read.csv(fn_FIAcounties, stringsAsFactors = FALSE)
 # import table with state abbreviations and two-digit code
 statesUS <- read.csv(fn_STATES, stringsAsFactors = FALSE) %>%
   dplyr::filter(STATE <= 56) %>%
-  dplyr::select(-STATENS) #%>% # only US states
- # dplyr::rename(STATECD = STATE, STATENAME = STATE_NAME)
+  dplyr::select(-STATENS) # %>% # only US states
+# dplyr::rename(STATECD = STATE, STATENAME = STATE_NAME)
 statesUS <- statesUS[statesUS$STATE %in% countiesFIA$STATECD, ] # gets rid of DC
 
 # import fia estimates
 FIA_est_fn <- dir(path_RDS)
 
-FIA_estimates <- do.call(
-  rbind,
-  lapply(FIA_est_fn, function(x) read.csv(file.path(path_RDS, x)))
-) %>%
+FIA_estimates_2 <- readRDS("data/fia_estimates_TN_NC_VA.RDS")
+
+
+FIA_estimates <- FIA_estimates_2 %>%
   mutate(STATECD = as.integer(STATECD)) %>%
   rename(COUNTY_FIPS = co_fips)
+# do.call(
+#  rbind,
+#  lapply(FIA_est_fn, function(x) read.csv(file.path(path_RDS, x)))
+# )
 
 # import CHM from GEDI default and GEDI*NLCD
-calc_chm <- function(stateAbbrev) {
-  path_chm_GEDI <- file.path(path_GEDI_default, paste0(stateAbbrev))
-  df1 <- read.csv(file.path(path_chm_GEDI, "CHM_dist_by_county.csv")) %>%
-    dplyr::mutate(SOURCE = c("GEDI_default")) %>%
-    pivot_wider(
-      names_from = BIN_HT,
-      values_from = km2,
-      id_cols = STATECD:SOURCE
-    )
+# calc_chm <- function(stateAbbrev) {
+#  path_chm_GEDI <- file.path(path_GEDI_default, paste0(stateAbbrev))
+#  df1 <- read.csv(file.path(path_chm_GEDI, "CHM_dist_by_county.csv")) %>%
+#    dplyr::mutate(SOURCE = c("GEDI_default")) %>%
+#    pivot_wider(
+#      names_from = BIN_HT,
+#      values_from = km2,
+#      id_cols = STATECD:SOURCE
+#    )#
+#
+#  path_chm_GEDI_NLCD <- file.path(path_GEDI_NLCD, paste0(stateAbbrev))
+#  df2 <- read.csv(file.path(path_chm_GEDI_NLCD, "CHM_dist_by_county.csv")) %>%
+#    dplyr::mutate(SOURCE = c("GEDI_NLCD")) %>%
+#    pivot_wider(
+#      names_from = BIN_HT,
+#      values_from = km2,
+#      id_cols = STATECD:SOURCE
+#    )
+#
+#  df <- rbind(df1, df2) %>%
+#    dplyr::arrange(COUNTYNAME, SOURCE) %>%
+#    mutate(COUNTY_FIPS = STATECD * 1000 + COUNTYCD)
+# }
 
-  path_chm_GEDI_NLCD <- file.path(path_GEDI_NLCD, paste0(stateAbbrev))
-  df2 <- read.csv(file.path(path_chm_GEDI_NLCD, "CHM_dist_by_county.csv")) %>%
-    dplyr::mutate(SOURCE = c("GEDI_NLCD")) %>%
-    pivot_wider(
-      names_from = BIN_HT,
-      values_from = km2,
-      id_cols = STATECD:SOURCE
-    )
+# chm <- do.call(rbind, lapply(states, function(x) calc_chm(x)))
+# FIA_GEDI <- left_join(FIA_estimates, chm)
 
-  df <- rbind(df1, df2) %>%
-    dplyr::arrange(COUNTYNAME, SOURCE) %>%
-    mutate(COUNTY_FIPS = STATECD * 1000 + COUNTYCD)
-}
-
-chm <- do.call(rbind, lapply(states, function(x) calc_chm(x)))
-FIA_GEDI <- left_join(FIA_estimates, chm)
-
+stateAbbrev <- "TN"
 # import CHM from NAIP noWater, GEDI, and GEDI*NLCD
 calc_chm <- function(stateAbbrev) {
   path_chm_NAIP <- file.path(path_NAIP_noWater, paste0(stateAbbrev))
@@ -78,45 +84,48 @@ calc_chm <- function(stateAbbrev) {
       id_cols = STATECD:SOURCE
     )
 
-  path_chm_NAIP_GEDI <- file.path(path_NAIP_GEDI, paste0(stateAbbrev))
-  df2 <- read.csv(file.path(path_chm_NAIP_GEDI, "CHM_dist_by_county.csv")) %>%
-    dplyr::mutate(SOURCE = c("NAIP_GEDI")) %>%
-    pivot_wider(
-      names_from = BIN_HT,
-      values_from = km2,
-      id_cols = STATECD:SOURCE
-    )
+  # path_chm_NAIP_GEDI <- file.path(path_NAIP_GEDI, paste0(stateAbbrev))
+  # df2 <- read.csv(file.path(path_chm_NAIP_GEDI, "CHM_dist_by_county.csv")) %>%
+  #  dplyr::mutate(SOURCE = c("NAIP_GEDI")) %>%
+  #  pivot_wider(
+  #    names_from = BIN_HT,
+  #    values_from = km2,
+  #    id_cols = STATECD:SOURCE
+  #  )
 
-  df <- rbind(df1, df2) %>% dplyr::arrange(COUNTYNAME, SOURCE)
+  # df <- rbind(df1, df2) %>% dplyr::arrange(COUNTYNAME, SOURCE)
 
-  path_chm_NAIP_NLCD <- file.path(path_NAIP_NLCD, paste0(stateAbbrev))
-  df3 <- read.csv(file.path(path_chm_NAIP_NLCD, "CHM_dist_by_county.csv")) %>%
-    dplyr::mutate(SOURCE = c("NAIP_NLCD")) %>%
-    pivot_wider(
-      names_from = BIN_HT,
-      values_from = km2,
-      id_cols = STATECD:SOURCE
-    )
+  # path_chm_NAIP_NLCD <- file.path(path_NAIP_NLCD, paste0(stateAbbrev))
+  # df3 <- read.csv(file.path(path_chm_NAIP_NLCD, "CHM_dist_by_county.csv")) %>%
+  #  dplyr::mutate(SOURCE = c("NAIP_NLCD")) %>%
+  #  pivot_wider(
+  #    names_from = BIN_HT,
+  #    values_from = km2,
+  #    id_cols = STATECD:SOURCE
+  #  )
 
-  df <- rbind(df, df3) %>%
+  df <- df1 %>%
     dplyr::arrange(COUNTYNAME, SOURCE) %>%
     mutate(COUNTY_FIPS = STATECD * 1000 + COUNTYCD)
+
+  return(df)
 }
 
-chm <- do.call(rbind, lapply(states, function(x) calc_chm(x)))
+chm <- do.call(rbind, lapply(states, calc_chm))
+# FIA_estimates <- FIA_estimates[FIA_estimates$STATECD == 47]
+FIA_NAIP <- inner_join(FIA_estimates, chm)
 
-FIA_NAIP <- left_join(FIA_estimates, chm)
+# saveRDS(
+#  FIA_GEDI,
+#  file = file.path("./data/GEDI/FIA_GEDI_for_Fay-Herriot.RDS")
+# )
 
-saveRDS(
-  FIA_GEDI,
-  file = file.path("./data/GEDI/FIA_GEDI_for_Fay-Herriot.RDS")
-)
 saveRDS(
   FIA_NAIP,
   file = file.path("./data/NAIP/FIA_GEDI_for_Fay-Herriot.RDS")
 )
 
-saveRDS(
-  rbind(FIA_GEDI, FIA_NAIP),
-  file = file.path("./data/FIADB/RDS/FIA_GEDI_for_Fay-Herriot.RDS")
-)
+# saveRDS(
+#  rbind(FIA_GEDI, FIA_NAIP),
+#  file = file.path("./data/FIADB/RDS/FIA_GEDI_for_Fay-Herriot.RDS")
+# )

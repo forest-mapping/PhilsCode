@@ -8,13 +8,13 @@ require(sf)
 require(crayon)
 # library(gdalUtils)
 # source("/home/qianqian/GEDI/Rscript/reproject_align_raster.R")
-source("./Rscripts/reproject_spat_raster.R")
+#source("./Rscripts/reproject_spat_raster.R")
 
 # read stateAbbrev from command line using commandArgs() as below
 # needs an error trap
 #args <- commandArgs(trailingOnly = T)
 # for testing set to virginia
-args <- "TN"
+args <- "NC"
 
 if (length(args) == 0) {
   stop("no command line argument entered.\n")
@@ -56,8 +56,8 @@ countiesFIA_1_state <- countiesFIA[
 
 
 # NAIP CHMs (noWater, GEDI, and NLCD)
-path_chm <- "./data/NAIP/CHM/"
-path_chm_noWater <- "./data/NAIP/CHM/noWater"
+path_chm <- "./data/NAIP_CHM_noWater/"
+path_chm_noWater <- path_chm
 path_chm_GEDI <- "./data/NAIP/CHM/GEDI"
 path_chm_NLCD <- "./data/NAIP/CHM/NLCD"
 
@@ -80,7 +80,7 @@ countiesPolygon <- countiesUS[
 
 # calculate height distributions for default (noWater) mask ------------------------------------
 # noWater mask
-path <- file.path(path_chm, "noWater", stateAbbrev)
+path <- file.path(path_chm, stateAbbrev)
 mapnames_noWater <- dir(file.path(path))[grepl("^chm_.*.tif$", dir(path))]
 
 # nchar(mapnames_noWater[1])
@@ -107,7 +107,7 @@ system.time({
     countynameLC = countiesFIA_1_state$COUNTYNM[
       countiesFIA_1_state$COUNTYCD == countyCD
     ] # should be the same as x
-    if (grepl(" Of ", countynameLC) | grepl(" And ", countynameLC)) {
+    if (any(grepl(" Of ", countynameLC), na.rm = TRUE) | any(grepl(" And ", countynameLC), na.rm = TRUE)) {
       countynameLC <- gsub(" Of ", " of ", countynameLC)
       countynameLC <- gsub(" And ", " and ", countynameLC)
     }
@@ -159,13 +159,17 @@ chm_dist <- do.call(rbind, temp) %>%
 write.csv(
   chm_dist,
   file.path(path_chm_noWater, args, "CHM_dist_by_county.csv"),
-  row.names = F
+  row.names = FALSE
 )
 
 print(paste0(
   "Default (noWater) CHM bin distributions calculated for: ",
   statesUS$STATENAME[statesUS$STUSAB == args]
 ))
+
+###########################################################
+#    GEDI
+###########################################################
 
 # calculate height distributions for GEDI mask -------------------------------------
 # GEDI mask
@@ -249,6 +253,12 @@ print(paste0(
   statesUS$STATENAME[statesUS$STUSAB == args]
 ))
 
+
+
+
+###########################################################
+#    NLCD
+###########################################################
 
 # calculate height distributions for NLCD mask -------------------------------------
 # NLCD mask

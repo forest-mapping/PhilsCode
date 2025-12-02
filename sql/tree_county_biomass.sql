@@ -70,9 +70,9 @@ FROM
       JOIN FS_FIADB.POP_EVAL PEV ON (PEV.CN = PET.EVAL_CN)
       JOIN FS_FIADB.POP_ESTN_UNIT PEU ON (PEV.CN = PEU.EVAL_CN)
       JOIN FS_FIADB.POP_STRATUM POP_STRATUM ON (PEU.CN = POP_STRATUM.ESTN_UNIT_CN)
-      WHERE (PEG.EVAL_GRP = 372017)
-            -- OR PEG.EVAL_GRP = 472017
-            -- OR PEG.EVAL_GRP = 512017)
+      WHERE (PEG.EVAL_GRP = 372017
+            OR PEG.EVAL_GRP = 472017
+            OR PEG.EVAL_GRP = 512017)
         AND PET.eval_typ = 'EXPVOL') phase_1_summary
 
    LEFT OUTER JOIN
@@ -121,9 +121,9 @@ PLOT.STATECD * 1000 + PLOT.COUNTYCD + PLOT.UNITCD *0.1 AS grp_by_attrib
          WHERE TREE.STATUSCD = 1
            AND COND.COND_STATUS_CD = 1
            AND PET.EVAL_TYP = 'EXPVOL'
-           AND (PEG.EVAL_GRP = 372017)
-             --OR PEG.EVAL_GRP = 472017
-             --OR PEG.EVAL_GRP = 512017)
+           AND (PEG.EVAL_GRP = 372017
+             OR PEG.EVAL_GRP = 472017
+             OR PEG.EVAL_GRP = 512017)
            AND 1 = 1
          GROUP BY peu.cn,
                   pev.cn,
