@@ -13,6 +13,8 @@ blocks:
   - id: "@sort"
     name: PhilsCode.sort_csv
     inputs:
-      table: "@read.file"
+      - block: "@read"
+        output: "file"
+        as: "table"
     args:
       sort_column: "x"
