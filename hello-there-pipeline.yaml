@@ -1,0 +1,10 @@
+name: hello-demo
+version: "1.0"
+description: Write a greeting to text file.
+
+blocks:
+  - id: "@hello"
+    name: PhilsCode.hello-there
+    inputs: []
+    args:
+      name: "Phil"

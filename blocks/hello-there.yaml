@@ -1,0 +1,20 @@
+id: PhilsCode.hello-there
+version: 0.1.0
+kind: standard
+network: false
+
+description: >
+  Simple demonstration block that generates a greeting.
+
+entrypoint: hello-there
+
+inputs:
+  name:
+    type: string
+    description: Name to greet
+
+outputs:
+  greeting:
+    type: file
+    format: text
+    description: Greeting text file

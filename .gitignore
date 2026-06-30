@@ -4,3 +4,4 @@ data
 **/block.schema.json
 log.txt
 r_log.txt
+*.lock.yaml

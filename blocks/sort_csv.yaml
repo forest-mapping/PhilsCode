@@ -1,0 +1,24 @@
+id: PhilsCode.sort_csv
+version: 0.1.0
+kind: standard
+network: false
+
+description: >
+  Sort a CSV file by a specified column.
+
+entrypoint: sort_csv
+
+inputs:
+  table:
+    type: file
+    format: csv
+    description: CSV file to sort
+  sort_column:
+    type: string
+    description: Name of the column to sort by
+
+outputs:
+  result:
+    type: file
+    format: csv
+    description: Sorted CSV file
