@@ -5,3 +5,5 @@ data
 log.txt
 r_log.txt
 *.lock.yaml
+*.egg-info/
+*.egg-info/

@@ -1,8 +1,0 @@
-[console_scripts]
-biomass_00 = biomass_00.main:main
-biomass_query = biomass_query.main:main
-evaluate = evaluate.main:main
-fit = fit.main:main
-mountain_codes_01 = mountain_codes_01.main:main
-preprocessing = preprocessing.main:main
-vol_query = vol_query.main:main
