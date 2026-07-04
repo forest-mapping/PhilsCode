@@ -1,0 +1,12 @@
+name: GB_est-test
+version: "1.0"
+description: Test pipeline for the GB_est block.
+
+blocks:
+  - id: "@GB_est"
+    name: PhilsCode.GB_est
+    inputs: []
+    args:
+      EVAL_GRP: 512017
+      ATTRIBUTE_NBR: 10
+      GRP_BY_ATTRIB: "STATECD, COUNTYCD"
