@@ -7,6 +7,6 @@ blocks:
     name: PhilsCode.GB_est
     inputs: []
     args:
-      EVAL_GRP: 512017
+      EVAL_GRP: "512017, 372017"
       ATTRIBUTE_NBR: 10
       GRP_BY_ATTRIB: "STATECD, COUNTYCD"
