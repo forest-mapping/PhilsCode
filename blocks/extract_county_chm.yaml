@@ -1,0 +1,80 @@
+id: PhilsCode.extract_county_chm
+version: 0.1.0
+kind: standard
+network: false
+
+description: >
+  Extracts GFCHM (Global Forest Canopy Height Model, Potapov et al. 2021)
+  pixel counts by 15-foot height class for all counties in a single state.
+  Uses FIA-assimilated county boundaries where Virginia independent cities
+  are merged into surrounding counties.
+
+  Pixel values 0-60m are valid canopy heights. Values > 100 (water=101,
+  snow/ice=102, no data=103) are treated as NA. Zero-height pixels are
+  retained as height class 1 (0-15ft).
+
+  Optionally applies an NLCD forest mask retaining only pixels in forest
+  cover classes 41-43 (deciduous, evergreen, mixed forest), 52 (shrub),
+  and 90 (woody wetlands). The GFCHM is referred to as the GFCHM
+  (Global Forest Canopy Height Model) rather than GEDI CHM since it is
+  not an official GEDI product.
+
+  Height classes (15-foot intervals):
+    Class 1:  0-15 ft  (0.0-4.572 m)
+    Class 2:  15-30 ft (4.572-9.144 m)
+    Class 3:  30-45 ft (9.144-13.716 m)
+    Class 4:  45-60 ft (13.716-18.288 m)
+    Class 5:  60-75 ft (18.288-22.860 m)
+    Class 6:  75-90 ft (22.860-27.432 m)
+    Class 7:  90-105 ft (27.432-32.004 m)
+    Class 8:  105-120 ft (32.004-36.576 m)
+    Class 9:  120-135 ft (36.576-41.148 m)
+    Class 10: 135-150 ft (41.148-45.720 m)
+    Class 11: 150-165 ft (45.720-50.292 m)
+    Class 12: 165-197 ft (50.292-60.0 m)
+
+entrypoint: extract_county_chm
+
+inputs:
+  state_abbrev:
+    type: string
+    description: >
+      Two-letter state abbreviation (e.g. "VA", "NC"). Must match
+      subdirectory name in path_nlcd_dir if use_nlcd_mask is true.
+  path_gfchm:
+    type: string
+    description: >
+      Path to the GFCHM raster (Forest_height_2019_NAM.tif).
+  path_counties:
+    type: string
+    description: >
+      Path to the FIA-assimilated county boundary shapefile
+      (tl_2016_us_county_CONUS_Only_City-States_Assimilated.shp).
+  path_survey:
+    type: string
+    description: >
+      Path to the FIADB SURVEY.csv reference file
+      (e.g. /home/rstudio/data/FIADB/CSV_DATA/SURVEY.csv).
+      Only required when use_nlcd_mask is true.
+  path_nlcd_dir:
+    type: string
+    description: >
+      Path to the NLCD directory containing per-state subdirectories
+      with pre-cropped NLCD rasters (e.g. /home/rstudio/data/NLCD).
+      Only required when use_nlcd_mask is true.
+  use_nlcd_mask:
+    type: string
+    description: >
+      Whether to apply NLCD forest mask ("true" or "false").
+      When true, only pixels in forest cover classes 41-43, 52,
+      and 90 are retained.
+
+outputs:
+  result:
+    type: file
+    format: rds
+    description: >
+      RDS data frame with pixel counts and area (acres) per height
+      class per county. Columns: STATEFP, COUNTYFP, co_fips,
+      class_num, lower_ft, upper_ft, lower_m, upper_m,
+      pixel_count, area_acres.

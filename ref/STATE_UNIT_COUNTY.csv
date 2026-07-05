@@ -1,0 +1,3108 @@
+STATECD,UNITCD,UNITNM,COUNTYCD,COUNTYNM
+1,1,Southwest-South,3,Baldwin
+1,1,Southwest-South,39,Covington
+1,1,Southwest-South,53,Escambia
+1,1,Southwest-South,97,Mobile
+1,1,Southwest-South,129,Washington
+1,2,Southwest-North,23,Choctaw
+1,2,Southwest-North,25,Clarke
+1,2,Southwest-North,35,Conecuh
+1,2,Southwest-North,91,Marengo
+1,2,Southwest-North,99,Monroe
+1,2,Southwest-North,119,Sumter
+1,2,Southwest-North,131,Wilcox
+1,3,Southeast,1,Autauga
+1,3,Southeast,5,Barbour
+1,3,Southeast,11,Bullock
+1,3,Southeast,13,Butler
+1,3,Southeast,17,Chambers
+1,3,Southeast,21,Chilton
+1,3,Southeast,31,Coffee
+1,3,Southeast,41,Crenshaw
+1,3,Southeast,45,Dale
+1,3,Southeast,47,Dallas
+1,3,Southeast,51,Elmore
+1,3,Southeast,61,Geneva
+1,3,Southeast,67,Henry
+1,3,Southeast,69,Houston
+1,3,Southeast,81,Lee
+1,3,Southeast,85,Lowndes
+1,3,Southeast,87,Macon
+1,3,Southeast,101,Montgomery
+1,3,Southeast,109,Pike
+1,3,Southeast,113,Russell
+1,3,Southeast,123,Tallapoosa
+1,4,West Central,7,Bibb
+1,4,West Central,57,Fayette
+1,4,West Central,63,Greene
+1,4,West Central,65,Hale
+1,4,West Central,75,Lamar
+1,4,West Central,93,Marion
+1,4,West Central,105,Perry
+1,4,West Central,107,Pickens
+1,4,West Central,125,Tuscaloosa
+1,5,North Central,9,Blount
+1,5,North Central,15,Calhoun
+1,5,North Central,19,Cherokee
+1,5,North Central,27,Clay
+1,5,North Central,29,Cleburne
+1,5,North Central,37,Coosa
+1,5,North Central,43,Cullman
+1,5,North Central,55,Etowah
+1,5,North Central,73,Jefferson
+1,5,North Central,111,Randolph
+1,5,North Central,115,St. Clair
+1,5,North Central,117,Shelby
+1,5,North Central,121,Talladega
+1,5,North Central,127,Walker
+1,5,North Central,133,Winston
+1,6,North,33,Colbert
+1,6,North,49,DeKalb
+1,6,North,59,Franklin
+1,6,North,71,Jackson
+1,6,North,77,Lauderdale
+1,6,North,79,Lawrence
+1,6,North,83,Limestone
+1,6,North,89,Madison
+1,6,North,95,Marshall
+1,6,North,103,Morgan
+2,1,Alaska,13,Aleutians East Borough
+2,1,Alaska,16,Aleutians West Census Area
+2,1,Alaska,20,Anchorage Borough
+2,1,Alaska,50,Bethel Census Area
+2,1,Alaska,60,Bristol Bay Borough
+2,1,Alaska,68,Denali Borough
+2,1,Alaska,70,Dillingham Census Area
+2,1,Alaska,90,Fairbanks North Star Borough
+2,1,Alaska,100,Haines Borough
+2,1,Alaska,110,Juneau Borough
+2,1,Alaska,122,Kenai Peninsula Borough
+2,1,Alaska,130,Ketchikan Gateway Borough
+2,1,Alaska,150,Kodiak Island Borough
+2,1,Alaska,164,Lake and Peninsula Borough
+2,1,Alaska,170,Matanuska-Susitna Borough
+2,1,Alaska,180,Nome Census Area
+2,1,Alaska,185,North Slope Borough
+2,1,Alaska,188,Northwest Arctic Borough
+2,1,Alaska,201,"Prince of Wales-OuterKetchikan Census Area"
+2,1,Alaska,220,Sitka Borough
+2,1,Alaska,232,"Skagway-Hoonah-AngoonCensus Area"
+2,1,Alaska,240,"Southeast Fairbanks CensusArea"
+2,1,Alaska,261,Valdez-Cordova Census Area
+2,1,Alaska,270,Wade Hampton Census Area
+2,1,Alaska,280,"Wrangell-Petersburg CensusArea"
+2,1,Alaska,282,Yakutat Borough
+2,1,Alaska,290,Yukon-Koyukuk Census Area
+4,1,Southern,3,Cochise
+4,1,Southern,9,Graham
+4,1,Southern,11,Greenlee
+4,1,Southern,12,La Paz
+4,1,Southern,13,Maricopa
+4,1,Southern,19,Pima
+4,1,Southern,21,Pinal
+4,1,Southern,23,Santa Cruz
+4,1,Southern,27,Yuma
+4,2,Northern,1,Apache
+4,2,Northern,5,Coconino
+4,2,Northern,7,Gila
+4,2,Northern,15,Mohave
+4,2,Northern,17,Navajo
+4,2,Northern,25,Yavapai
+5,1,South Delta,1,Arkansas
+5,1,South Delta,17,Chicot
+5,1,South Delta,41,Desha
+5,1,South Delta,69,Jefferson
+5,1,South Delta,77,Lee
+5,1,South Delta,79,Lincoln
+5,1,South Delta,85,Lonoke
+5,1,South Delta,95,Monroe
+5,1,South Delta,107,Phillips
+5,1,South Delta,117,Prairie
+5,2,North Delta,21,Clay
+5,2,North Delta,31,Craighead
+5,2,North Delta,35,Crittenden
+5,2,North Delta,37,Cross
+5,2,North Delta,55,Greene
+5,2,North Delta,67,Jackson
+5,2,North Delta,75,Lawrence
+5,2,North Delta,93,Mississippi
+5,2,North Delta,111,Poinsett
+5,2,North Delta,123,St. Francis
+5,2,North Delta,147,Woodruff
+5,3,Southwest,3,Ashley
+5,3,Southwest,11,Bradley
+5,3,Southwest,13,Calhoun
+5,3,Southwest,19,Clark
+5,3,Southwest,25,Cleveland
+5,3,Southwest,27,Columbia
+5,3,Southwest,39,Dallas
+5,3,Southwest,43,Drew
+5,3,Southwest,53,Grant
+5,3,Southwest,57,Hempstead
+5,3,Southwest,59,Hot Spring
+5,3,Southwest,61,Howard
+5,3,Southwest,73,Lafayette
+5,3,Southwest,81,Little River
+5,3,Southwest,91,Miller
+5,3,Southwest,99,Nevada
+5,3,Southwest,103,Ouachita
+5,3,Southwest,109,Pike
+5,3,Southwest,133,Sevier
+5,3,Southwest,139,Union
+5,4,Ouachita,51,Garland
+5,4,Ouachita,83,Logan
+5,4,Ouachita,97,Montgomery
+5,4,Ouachita,105,Perry
+5,4,Ouachita,113,Polk
+5,4,Ouachita,119,Pulaski
+5,4,Ouachita,125,Saline
+5,4,Ouachita,127,Scott
+5,4,Ouachita,131,Sebastian
+5,4,Ouachita,149,Yell
+5,5,Ozark,5,Baxter
+5,5,Ozark,7,Benton
+5,5,Ozark,9,Boone
+5,5,Ozark,15,Carroll
+5,5,Ozark,23,Cleburne
+5,5,Ozark,29,Conway
+5,5,Ozark,33,Crawford
+5,5,Ozark,45,Faulkner
+5,5,Ozark,47,Franklin
+5,5,Ozark,49,Fulton
+5,5,Ozark,63,Independence
+5,5,Ozark,65,Izard
+5,5,Ozark,71,Johnson
+5,5,Ozark,87,Madison
+5,5,Ozark,89,Marion
+5,5,Ozark,101,Newton
+5,5,Ozark,115,Pope
+5,5,Ozark,121,Randolph
+5,5,Ozark,129,Searcy
+5,5,Ozark,135,Sharp
+5,5,Ozark,137,Stone
+5,5,Ozark,141,Van Buren
+5,5,Ozark,143,Washington
+5,5,Ozark,145,White
+6,1,North Coast,15,Del Norte
+6,1,North Coast,23,Humboldt
+6,1,North Coast,45,Mendocino
+6,1,North Coast,97,Sonoma
+6,2,North Interior,35,Lassen
+6,2,North Interior,49,Modoc
+6,2,North Interior,89,Shasta
+6,2,North Interior,93,Siskiyou
+6,2,North Interior,105,Trinity
+6,3,Sacramento,7,Butte
+6,3,Sacramento,11,Colusa
+6,3,Sacramento,17,El Dorado
+6,3,Sacramento,21,Glenn
+6,3,Sacramento,33,Lake
+6,3,Sacramento,55,Napa
+6,3,Sacramento,57,Nevada
+6,3,Sacramento,61,Placer
+6,3,Sacramento,63,Plumas
+6,3,Sacramento,67,Sacramento
+6,3,Sacramento,91,Sierra
+6,3,Sacramento,101,Sutter
+6,3,Sacramento,103,Tehama
+6,3,Sacramento,113,Yolo
+6,3,Sacramento,115,Yuba
+6,4,Central Coast,1,Alameda
+6,4,Central Coast,13,Contra Costa
+6,4,Central Coast,41,Marin
+6,4,Central Coast,53,Monterey
+6,4,Central Coast,69,San Benito
+6,4,Central Coast,75,San Francisco
+6,4,Central Coast,79,San Luis Obispo
+6,4,Central Coast,81,San Mateo
+6,4,Central Coast,83,Santa Barbara
+6,4,Central Coast,85,Santa Clara
+6,4,Central Coast,87,Santa Cruz
+6,4,Central Coast,95,Solano
+6,4,Central Coast,111,Ventura
+6,5,San Joaquin,3,Alpine
+6,5,San Joaquin,5,Amador
+6,5,San Joaquin,9,Calaveras
+6,5,San Joaquin,19,Fresno
+6,5,San Joaquin,29,Kern
+6,5,San Joaquin,31,Kings
+6,5,San Joaquin,39,Madera
+6,5,San Joaquin,43,Mariposa
+6,5,San Joaquin,47,Merced
+6,5,San Joaquin,51,Mono
+6,5,San Joaquin,77,San Joaquin
+6,5,San Joaquin,99,Stanislaus
+6,5,San Joaquin,107,Tulare
+6,5,San Joaquin,109,Tuolumne
+6,6,Southern,25,Imperial
+6,6,Southern,27,Inyo
+6,6,Southern,37,Los Angeles
+6,6,Southern,59,Orange
+6,6,Southern,65,Riverside
+6,6,Southern,71,San Bernardino
+6,6,Southern,73,San Diego
+8,1,Northern Front Range,13,Boulder
+8,1,Northern Front Range,14,Broomfielda
+8,1,Northern Front Range,19,Clear Creek
+8,1,Northern Front Range,35,Douglas
+8,1,Northern Front Range,39,Elbert
+8,1,Northern Front Range,41,El Paso
+8,1,Northern Front Range,47,Gilpin
+8,1,Northern Front Range,59,Jefferson
+8,1,Northern Front Range,65,Lake
+8,1,Northern Front Range,69,Larimer
+8,1,Northern Front Range,93,Park
+8,1,Northern Front Range,119,Teller
+8,2,Southern Front Range,15,Chaffee
+8,2,Southern Front Range,23,Costilla
+8,2,Southern Front Range,27,Custer
+8,2,Southern Front Range,43,Fremont
+8,2,Southern Front Range,55,Huerfano
+8,2,Southern Front Range,71,Las Animas
+8,2,Southern Front Range,101,Pueblo
+8,3,West Central,3,Alamosa
+8,3,West Central,21,Conejos
+8,3,West Central,37,Eagle
+8,3,West Central,49,Grand
+8,3,West Central,51,Gunnison
+8,3,West Central,53,Hinsdale
+8,3,West Central,57,Jackson
+8,3,West Central,79,Mineral
+8,3,West Central,97,Pitkin
+8,3,West Central,105,Rio Grande
+8,3,West Central,107,Routt
+8,3,West Central,109,Saguache
+8,3,West Central,111,San Juan
+8,3,West Central,117,Summit
+8,4,Western,7,Archuleta
+8,4,Western,29,Delta
+8,4,Western,33,Dolores
+8,4,Western,45,Garfield
+8,4,Western,67,La Plata
+8,4,Western,77,Mesa
+8,4,Western,81,Moffat
+8,4,Western,83,Montezuma
+8,4,Western,85,Montrose
+8,4,Western,91,Ouray
+8,4,Western,103,Rio Blanco
+8,4,Western,113,San Miguel
+8,5,Eastern,1,Adams
+8,5,Eastern,5,Arapahoe
+8,5,Eastern,9,Baca
+8,5,Eastern,11,Bent
+8,5,Eastern,17,Cheyenne
+8,5,Eastern,25,Crowley
+8,5,Eastern,31,Denver
+8,5,Eastern,61,Kiowa
+8,5,Eastern,63,Kit Carson
+8,5,Eastern,73,Lincoln
+8,5,Eastern,75,Logan
+8,5,Eastern,87,Morgan
+8,5,Eastern,89,Otero
+8,5,Eastern,95,Phillips
+8,5,Eastern,99,Prowers
+8,5,Eastern,115,Sedgwick
+8,5,Eastern,121,Washington
+8,5,Eastern,123,Weld
+8,5,Eastern,125,Yuma
+9,1,Connecticut,1,Fairfield
+9,1,Connecticut,3,Hartford
+9,1,Connecticut,5,Litchfield
+9,1,Connecticut,7,Middlesex
+9,1,Connecticut,9,New Haven
+9,1,Connecticut,11,New London
+9,1,Connecticut,13,Tolland
+9,1,Connecticut,15,Windham
+10,1,Delaware,1,Kent
+10,1,Delaware,3,New Castle
+10,1,Delaware,5,Sussex
+11,1,District of Columbia,1,District of Columbia
+12,1,Northeast,1,Alachua
+12,1,Northeast,3,Baker
+12,1,Northeast,7,Bradford
+12,1,Northeast,19,Clay
+12,1,Northeast,23,Columbia
+12,1,Northeast,29,Dixie
+12,1,Northeast,31,Duval
+12,1,Northeast,35,Flagler
+12,1,Northeast,41,Gilchrist
+12,1,Northeast,47,Hamilton
+12,1,Northeast,67,Lafayette
+12,1,Northeast,75,Levy
+12,1,Northeast,79,Madison
+12,1,Northeast,83,Marion
+12,1,Northeast,89,Nassau
+12,1,Northeast,107,Putnam
+12,1,Northeast,109,St. Johns
+12,1,Northeast,121,Suwannee
+12,1,Northeast,123,Taylor
+12,1,Northeast,125,Union
+12,1,Northeast,127,Volusia
+12,2,Northwest,5,Bay
+12,2,Northwest,13,Calhoun
+12,2,Northwest,33,Escambia
+12,2,Northwest,37,Franklin
+12,2,Northwest,39,Gadsden
+12,2,Northwest,45,Gulf
+12,2,Northwest,59,Holmes
+12,2,Northwest,63,Jackson
+12,2,Northwest,65,Jefferson
+12,2,Northwest,73,Leon
+12,2,Northwest,77,Liberty
+12,2,Northwest,91,Okaloosa
+12,2,Northwest,113,Santa Rosa
+12,2,Northwest,129,Wakulla
+12,2,Northwest,131,Walton
+12,2,Northwest,133,Washington
+12,3,Central,9,Brevard
+12,3,Central,17,Citrus
+12,3,Central,27,DeSoto
+12,3,Central,49,Hardee
+12,3,Central,53,Hernando
+12,3,Central,55,Highlands
+12,3,Central,57,Hillsborough
+12,3,Central,61,Indian River
+12,3,Central,69,Lake
+12,3,Central,81,Manatee
+12,3,Central,93,Okeechobee
+12,3,Central,95,Orange
+12,3,Central,97,Osceola
+12,3,Central,101,Pasco
+12,3,Central,103,Pinellas
+12,3,Central,105,Polk
+12,3,Central,111,St. Lucie
+12,3,Central,115,Sarasota
+12,3,Central,117,Seminole
+12,3,Central,119,Sumter
+12,4,South,11,Broward
+12,4,South,15,Charlotte
+12,4,South,21,Collier
+12,4,South,25,Dade
+12,4,South,43,Glades
+12,4,South,51,Hendry
+12,4,South,71,Lee
+12,4,South,85,Martin
+12,4,South,87,Monroe
+12,4,South,99,Palm Beach
+13,1,Southeast,1,Appling
+13,1,Southeast,3,Atkinson
+13,1,Southeast,5,Bacon
+13,1,Southeast,25,Brantley
+13,1,Southeast,29,Bryan
+13,1,Southeast,31,Bulloch
+13,1,Southeast,39,Camden
+13,1,Southeast,43,Candler
+13,1,Southeast,49,Charlton
+13,1,Southeast,51,Chatham
+13,1,Southeast,65,Clinch
+13,1,Southeast,69,Coffee
+13,1,Southeast,91,Dodge
+13,1,Southeast,101,Echols
+13,1,Southeast,103,Effingham
+13,1,Southeast,107,Emanuel
+13,1,Southeast,109,Evans
+13,1,Southeast,127,Glynn
+13,1,Southeast,161,Jeff Davis
+13,1,Southeast,165,Jenkins
+13,1,Southeast,167,Johnson
+13,1,Southeast,175,Laurens
+13,1,Southeast,179,Liberty
+13,1,Southeast,183,Long
+13,1,Southeast,191,McIntosh
+13,1,Southeast,209,Montgomery
+13,1,Southeast,229,Pierce
+13,1,Southeast,251,Screven
+13,1,Southeast,267,Tattnall
+13,1,Southeast,271,Telfair
+13,1,Southeast,279,Toombs
+13,1,Southeast,283,Treutlen
+13,1,Southeast,299,Ware
+13,1,Southeast,305,Wayne
+13,1,Southeast,309,Wheeler
+13,2,Southwest,7,Baker
+13,2,Southwest,17,Ben Hill
+13,2,Southwest,19,Berrien
+13,2,Southwest,27,Brooks
+13,2,Southwest,71,Colquitt
+13,2,Southwest,75,Cook
+13,2,Southwest,81,Crisp
+13,2,Southwest,87,Decatur
+13,2,Southwest,93,Dooly
+13,2,Southwest,99,Early
+13,2,Southwest,131,Grady
+13,2,Southwest,155,Irwin
+13,2,Southwest,173,Lanier
+13,2,Southwest,185,Lowndes
+13,2,Southwest,201,Miller
+13,2,Southwest,205,Mitchell
+13,2,Southwest,253,Seminole
+13,2,Southwest,275,Thomas
+13,2,Southwest,277,Tift
+13,2,Southwest,287,Turner
+13,2,Southwest,315,Wilcox
+13,2,Southwest,321,Worth
+13,3,Central,9,Baldwin
+13,3,Central,21,Bibb
+13,3,Central,23,Bleckley
+13,3,Central,33,Burke
+13,3,Central,35,Butts
+13,3,Central,37,Calhoun
+13,3,Central,53,Chattahoochee
+13,3,Central,61,Clay
+13,3,Central,73,Columbia
+13,3,Central,79,Crawford
+13,3,Central,95,Dougherty
+13,3,Central,125,Glascock
+13,3,Central,133,Greene
+13,3,Central,141,Hancock
+13,3,Central,145,Harris
+13,3,Central,153,Houston
+13,3,Central,159,Jasper
+13,3,Central,163,Jefferson
+13,3,Central,169,Jones
+13,3,Central,171,Lamar
+13,3,Central,177,Lee
+13,3,Central,181,Lincoln
+13,3,Central,189,McDuffie
+13,3,Central,193,Macon
+13,3,Central,197,Marion
+13,3,Central,207,Monroe
+13,3,Central,211,Morgan
+13,3,Central,215,Muscogee
+13,3,Central,225,Peach
+13,3,Central,231,Pike
+13,3,Central,235,Pulaski
+13,3,Central,237,Putnam
+13,3,Central,239,Quitman
+13,3,Central,243,Randolph
+13,3,Central,245,Richmond
+13,3,Central,249,Schley
+13,3,Central,259,Stewart
+13,3,Central,261,Sumter
+13,3,Central,263,Talbot
+13,3,Central,265,Taliaferro
+13,3,Central,269,Taylor
+13,3,Central,273,Terrell
+13,3,Central,289,Twiggs
+13,3,Central,293,Upson
+13,3,Central,301,Warren
+13,3,Central,303,Washington
+13,3,Central,307,Webster
+13,3,Central,317,Wilkes
+13,3,Central,319,Wilkinson
+13,4,North Central,11,Banks
+13,4,North Central,13,Barrow
+13,4,North Central,45,Carroll
+13,4,North Central,59,Clarke
+13,4,North Central,63,Clayton
+13,4,North Central,67,Cobb
+13,4,North Central,77,Coweta
+13,4,North Central,89,DeKalb
+13,4,North Central,97,Douglas
+13,4,North Central,105,Elbert
+13,4,North Central,113,Fayette
+13,4,North Central,117,Forsyth
+13,4,North Central,119,Franklin
+13,4,North Central,121,Fulton
+13,4,North Central,135,Gwinnett
+13,4,North Central,139,Hall
+13,4,North Central,143,Haralson
+13,4,North Central,147,Hart
+13,4,North Central,149,Heard
+13,4,North Central,151,Henry
+13,4,North Central,157,Jackson
+13,4,North Central,195,Madison
+13,4,North Central,199,Meriwether
+13,4,North Central,217,Newton
+13,4,North Central,219,Oconee
+13,4,North Central,221,Oglethorpe
+13,4,North Central,223,Paulding
+13,4,North Central,233,Polk
+13,4,North Central,247,Rockdale
+13,4,North Central,255,Spalding
+13,4,North Central,285,Troup
+13,4,North Central,297,Walton
+13,5,North,15,Bartow
+13,5,North,47,Catoosa
+13,5,North,55,Chattooga
+13,5,North,57,Cherokee
+13,5,North,83,Dade
+13,5,North,85,Dawson
+13,5,North,111,Fannin
+13,5,North,115,Floyd
+13,5,North,123,Gilmer
+13,5,North,129,Gordon
+13,5,North,137,Habersham
+13,5,North,187,Lumpkin
+13,5,North,213,Murray
+13,5,North,227,Pickens
+13,5,North,241,Rabun
+13,5,North,257,Stephens
+13,5,North,281,Towns
+13,5,North,291,Union
+13,5,North,295,Walker
+13,5,North,311,White
+13,5,North,313,Whitfield
+15,1,Hawaii,1,Hawaii
+15,1,Hawaii,3,Honolulu
+15,1,Hawaii,5,Kalawao
+15,1,Hawaii,7,Kauai
+15,1,Hawaii,9,Maui
+16,1,Northern,9,Benewah
+16,1,Northern,17,Bonner
+16,1,Northern,21,Boundary
+16,1,Northern,35,Clearwater
+16,1,Northern,49,Idaho
+16,1,Northern,55,Kootenai
+16,1,Northern,57,Latah
+16,1,Northern,61,Lewis
+16,1,Northern,69,Nez Perce
+16,1,Northern,79,Shoshone
+16,2,Southwestern,1,Ada
+16,2,Southwestern,3,Adams
+16,2,Southwestern,15,Boise
+16,2,Southwestern,27,Canyon
+16,2,Southwestern,39,Elmore
+16,2,Southwestern,45,Gem
+16,2,Southwestern,73,Owyhee
+16,2,Southwestern,75,Payette
+16,2,Southwestern,85,Valley
+16,2,Southwestern,87,Washington
+16,3,Southeastern,5,Bannock
+16,3,Southeastern,7,Bear Lake
+16,3,Southeastern,11,Bingham
+16,3,Southeastern,13,Blaine
+16,3,Southeastern,19,Bonneville
+16,3,Southeastern,23,Butte
+16,3,Southeastern,25,Camas
+16,3,Southeastern,29,Caribou
+16,3,Southeastern,31,Cassia
+16,3,Southeastern,33,Clark
+16,3,Southeastern,37,Custer
+16,3,Southeastern,41,Franklin
+16,3,Southeastern,43,Fremont
+16,3,Southeastern,47,Gooding
+16,3,Southeastern,51,Jefferson
+16,3,Southeastern,53,Jerome
+16,3,Southeastern,59,Lemhi
+16,3,Southeastern,63,Lincoln
+16,3,Southeastern,65,Madison
+16,3,Southeastern,67,Minidoka
+16,3,Southeastern,71,Oneida
+16,3,Southeastern,77,Power
+16,3,Southeastern,81,Teton
+16,3,Southeastern,83,Twin Falls
+17,1,Southern,3,Alexander
+17,1,Southern,55,Franklin
+17,1,Southern,59,Gallatin
+17,1,Southern,65,Hamilton
+17,1,Southern,69,Hardin
+17,1,Southern,77,Jackson
+17,1,Southern,87,Johnson
+17,1,Southern,127,Massac
+17,1,Southern,145,Perry
+17,1,Southern,151,Pope
+17,1,Southern,153,Pulaski
+17,1,Southern,157,Randolph
+17,1,Southern,165,Saline
+17,1,Southern,181,Union
+17,1,Southern,193,White
+17,1,Southern,199,Williamson
+17,2,Claypan,5,Bond
+17,2,Claypan,13,Calhoun
+17,2,Claypan,23,Clark
+17,2,Claypan,25,Clay
+17,2,Claypan,27,Clinton
+17,2,Claypan,33,Crawford
+17,2,Claypan,35,Cumberland
+17,2,Claypan,47,Edwards
+17,2,Claypan,49,Effingham
+17,2,Claypan,51,Fayette
+17,2,Claypan,61,Greene
+17,2,Claypan,79,Jasper
+17,2,Claypan,81,Jefferson
+17,2,Claypan,83,Jersey
+17,2,Claypan,101,Lawrence
+17,2,Claypan,117,Macoupin
+17,2,Claypan,119,Madison
+17,2,Claypan,121,Marion
+17,2,Claypan,133,Monroe
+17,2,Claypan,135,Montgomery
+17,2,Claypan,159,Richland
+17,2,Claypan,163,St. Clair
+17,2,Claypan,173,Shelby
+17,2,Claypan,185,Wabash
+17,2,Claypan,189,Washington
+17,2,Claypan,191,Wayne
+17,3,Prairie,1,Adams
+17,3,Prairie,7,Boone
+17,3,Prairie,9,Brown
+17,3,Prairie,11,Bureau
+17,3,Prairie,15,Carroll
+17,3,Prairie,17,Cass
+17,3,Prairie,19,Champaign
+17,3,Prairie,21,Christian
+17,3,Prairie,29,Coles
+17,3,Prairie,31,Cook
+17,3,Prairie,37,DeKalb
+17,3,Prairie,39,De Witt
+17,3,Prairie,41,Douglas
+17,3,Prairie,43,DuPage
+17,3,Prairie,45,Edgar
+17,3,Prairie,53,Ford
+17,3,Prairie,57,Fulton
+17,3,Prairie,63,Grundy
+17,3,Prairie,67,Hancock
+17,3,Prairie,71,Henderson
+17,3,Prairie,73,Henry
+17,3,Prairie,75,Iroquois
+17,3,Prairie,85,Jo Daviess
+17,3,Prairie,89,Kane
+17,3,Prairie,91,Kankakee
+17,3,Prairie,93,Kendall
+17,3,Prairie,95,Knox
+17,3,Prairie,97,Lake
+17,3,Prairie,99,La Salle
+17,3,Prairie,103,Lee
+17,3,Prairie,105,Livingston
+17,3,Prairie,107,Logan
+17,3,Prairie,109,McDonough
+17,3,Prairie,111,McHenry
+17,3,Prairie,113,McLean
+17,3,Prairie,115,Macon
+17,3,Prairie,123,Marshall
+17,3,Prairie,125,Mason
+17,3,Prairie,129,Menard
+17,3,Prairie,131,Mercer
+17,3,Prairie,137,Morgan
+17,3,Prairie,139,Moultrie
+17,3,Prairie,141,Ogle
+17,3,Prairie,143,Peoria
+17,3,Prairie,147,Piatt
+17,3,Prairie,149,Pike
+17,3,Prairie,155,Putnam
+17,3,Prairie,161,Rock Island
+17,3,Prairie,167,Sangamon
+17,3,Prairie,169,Schuyler
+17,3,Prairie,171,Scott
+17,3,Prairie,175,Stark
+17,3,Prairie,177,Stephenson
+17,3,Prairie,179,Tazewell
+17,3,Prairie,183,Vermilion
+17,3,Prairie,187,Warren
+17,3,Prairie,195,Whiteside
+17,3,Prairie,197,Will
+17,3,Prairie,201,Winnebago
+17,3,Prairie,203,Woodford
+18,1,Lower Wabash,21,Clay
+18,1,Lower Wabash,27,Daviess
+18,1,Lower Wabash,51,Gibson
+18,1,Lower Wabash,55,Greene
+18,1,Lower Wabash,83,Knox
+18,1,Lower Wabash,101,Martin
+18,1,Lower Wabash,121,Parke
+18,1,Lower Wabash,125,Pike
+18,1,Lower Wabash,129,Posey
+18,1,Lower Wabash,133,Putnam
+18,1,Lower Wabash,153,Sullivan
+18,1,Lower Wabash,163,Vanderburgh
+18,1,Lower Wabash,165,Vermillion
+18,1,Lower Wabash,167,Vigo
+18,2,Knobs,13,Brown
+18,2,Knobs,19,Clark
+18,2,Knobs,25,Crawford
+18,2,Knobs,37,Dubois
+18,2,Knobs,43,Floyd
+18,2,Knobs,61,Harrison
+18,2,Knobs,71,Jackson
+18,2,Knobs,93,Lawrence
+18,2,Knobs,105,Monroe
+18,2,Knobs,109,Morgan
+18,2,Knobs,117,Orange
+18,2,Knobs,119,Owen
+18,2,Knobs,123,Perry
+18,2,Knobs,143,Scott
+18,2,Knobs,147,Spencer
+18,2,Knobs,173,Warrick
+18,2,Knobs,175,Washington
+18,3,Upland Flats,29,Dearborn
+18,3,Upland Flats,41,Fayette
+18,3,Upland Flats,47,Franklin
+18,3,Upland Flats,77,Jefferson
+18,3,Upland Flats,79,Jennings
+18,3,Upland Flats,115,Ohio
+18,3,Upland Flats,137,Ripley
+18,3,Upland Flats,155,Switzerland
+18,3,Upland Flats,161,Union
+18,4,Northern,1,Adams
+18,4,Northern,3,Allen
+18,4,Northern,5,Bartholomew
+18,4,Northern,7,Benton
+18,4,Northern,9,Blackford
+18,4,Northern,11,Boone
+18,4,Northern,15,Carroll
+18,4,Northern,17,Cass
+18,4,Northern,23,Clinton
+18,4,Northern,31,Decatur
+18,4,Northern,33,De Kalb
+18,4,Northern,35,Delaware
+18,4,Northern,39,Elkhart
+18,4,Northern,45,Fountain
+18,4,Northern,49,Fulton
+18,4,Northern,53,Grant
+18,4,Northern,57,Hamilton
+18,4,Northern,59,Hancock
+18,4,Northern,63,Hendricks
+18,4,Northern,65,Henry
+18,4,Northern,67,Howard
+18,4,Northern,69,Huntington
+18,4,Northern,73,Jasper
+18,4,Northern,75,Jay
+18,4,Northern,81,Johnson
+18,4,Northern,85,Kosciusko
+18,4,Northern,87,Lagrange
+18,4,Northern,89,Lake
+18,4,Northern,91,La Porte
+18,4,Northern,95,Madison
+18,4,Northern,97,Marion
+18,4,Northern,99,Marshall
+18,4,Northern,103,Miami
+18,4,Northern,107,Montgomery
+18,4,Northern,111,Newton
+18,4,Northern,113,Noble
+18,4,Northern,127,Porter
+18,4,Northern,131,Pulaski
+18,4,Northern,135,Randolph
+18,4,Northern,139,Rush
+18,4,Northern,141,St. Joseph
+18,4,Northern,145,Shelby
+18,4,Northern,149,Starke
+18,4,Northern,151,Steuben
+18,4,Northern,157,Tippecanoe
+18,4,Northern,159,Tipton
+18,4,Northern,169,Wabash
+18,4,Northern,171,Warren
+18,4,Northern,177,Wayne
+18,4,Northern,179,Wells
+18,4,Northern,181,White
+18,4,Northern,183,Whitley
+19,1,Northeastern,5,Allamakee
+19,1,Northeastern,11,Benton
+19,1,Northeastern,13,Black Hawk
+19,1,Northeastern,17,Bremer
+19,1,Northeastern,19,Buchanan
+19,1,Northeastern,23,Butler
+19,1,Northeastern,31,Cedar
+19,1,Northeastern,37,Chickasaw
+19,1,Northeastern,43,Clayton
+19,1,Northeastern,45,Clinton
+19,1,Northeastern,55,Delaware
+19,1,Northeastern,61,Dubuque
+19,1,Northeastern,65,Fayette
+19,1,Northeastern,67,Floyd
+19,1,Northeastern,75,Grundy
+19,1,Northeastern,89,Howard
+19,1,Northeastern,97,Jackson
+19,1,Northeastern,103,Johnson
+19,1,Northeastern,105,Jones
+19,1,Northeastern,113,Linn
+19,1,Northeastern,131,Mitchell
+19,1,Northeastern,163,Scott
+19,1,Northeastern,171,Tama
+19,1,Northeastern,191,Winneshiek
+19,2,Southeastern,7,Appanoose
+19,2,Southeastern,15,Boone
+19,2,Southeastern,39,Clarke
+19,2,Southeastern,49,Dallas
+19,2,Southeastern,51,Davis
+19,2,Southeastern,53,Decatur
+19,2,Southeastern,57,Des Moines
+19,2,Southeastern,77,Guthrie
+19,2,Southeastern,79,Hamilton
+19,2,Southeastern,83,Hardin
+19,2,Southeastern,87,Henry
+19,2,Southeastern,95,Iowa
+19,2,Southeastern,99,Jasper
+19,2,Southeastern,101,Jefferson
+19,2,Southeastern,107,Keokuk
+19,2,Southeastern,111,Lee
+19,2,Southeastern,115,Louisa
+19,2,Southeastern,117,Lucas
+19,2,Southeastern,121,Madison
+19,2,Southeastern,123,Mahaska
+19,2,Southeastern,125,Marion
+19,2,Southeastern,127,Marshall
+19,2,Southeastern,135,Monroe
+19,2,Southeastern,139,Muscatine
+19,2,Southeastern,153,Polk
+19,2,Southeastern,157,Poweshiek
+19,2,Southeastern,169,Story
+19,2,Southeastern,177,Van Buren
+19,2,Southeastern,179,Wapello
+19,2,Southeastern,181,Warren
+19,2,Southeastern,183,Washington
+19,2,Southeastern,185,Wayne
+19,2,Southeastern,187,Webster
+19,3,Southwestern,1,Adair
+19,3,Southwestern,3,Adams
+19,3,Southwestern,9,Audubon
+19,3,Southwestern,27,Carroll
+19,3,Southwestern,29,Cass
+19,3,Southwestern,47,Crawford
+19,3,Southwestern,71,Fremont
+19,3,Southwestern,73,Greene
+19,3,Southwestern,85,Harrison
+19,3,Southwestern,129,Mills
+19,3,Southwestern,133,Monona
+19,3,Southwestern,137,Montgomery
+19,3,Southwestern,145,Page
+19,3,Southwestern,155,Pottawattamie
+19,3,Southwestern,159,Ringgold
+19,3,Southwestern,165,Shelby
+19,3,Southwestern,173,Taylor
+19,3,Southwestern,175,Union
+19,3,Southwestern,193,Woodbury
+19,4,Northwestern,21,Buena Vista
+19,4,Northwestern,25,Calhoun
+19,4,Northwestern,33,Cerro Gordo
+19,4,Northwestern,35,Cherokee
+19,4,Northwestern,41,Clay
+19,4,Northwestern,59,Dickinson
+19,4,Northwestern,63,Emmet
+19,4,Northwestern,69,Franklin
+19,4,Northwestern,81,Hancock
+19,4,Northwestern,91,Humboldt
+19,4,Northwestern,93,Ida
+19,4,Northwestern,109,Kossuth
+19,4,Northwestern,119,Lyon
+19,4,Northwestern,141,O'Brien
+19,4,Northwestern,143,Osceola
+19,4,Northwestern,147,Palo Alto
+19,4,Northwestern,149,Plymouth
+19,4,Northwestern,151,Pocahontas
+19,4,Northwestern,161,Sac
+19,4,Northwestern,167,Sioux
+19,4,Northwestern,189,Winnebago
+19,4,Northwestern,195,Worth
+19,4,Northwestern,197,Wright
+20,1,Northeastern,5,Atchison
+20,1,Northeastern,13,Brown
+20,1,Northeastern,27,Clay
+20,1,Northeastern,41,Dickinson
+20,1,Northeastern,43,Doniphan
+20,1,Northeastern,45,Douglas
+20,1,Northeastern,59,Franklin
+20,1,Northeastern,61,Geary
+20,1,Northeastern,85,Jackson
+20,1,Northeastern,87,Jefferson
+20,1,Northeastern,91,Johnson
+20,1,Northeastern,103,Leavenworth
+20,1,Northeastern,117,Marshall
+20,1,Northeastern,121,Miami
+20,1,Northeastern,131,Nemaha
+20,1,Northeastern,139,Osage
+20,1,Northeastern,149,Pottawatomie
+20,1,Northeastern,161,Riley
+20,1,Northeastern,177,Shawnee
+20,1,Northeastern,197,Wabaunsee
+20,1,Northeastern,201,Washington
+20,1,Northeastern,209,Wyandotte
+20,2,Southeastern,1,Allen
+20,2,Southeastern,3,Anderson
+20,2,Southeastern,11,Bourbon
+20,2,Southeastern,15,Butler
+20,2,Southeastern,17,Chase
+20,2,Southeastern,19,Chautauqua
+20,2,Southeastern,21,Cherokee
+20,2,Southeastern,31,Coffey
+20,2,Southeastern,35,Cowley
+20,2,Southeastern,37,Crawford
+20,2,Southeastern,49,Elk
+20,2,Southeastern,73,Greenwood
+20,2,Southeastern,99,Labette
+20,2,Southeastern,107,Linn
+20,2,Southeastern,111,Lyon
+20,2,Southeastern,115,Marion
+20,2,Southeastern,125,Montgomery
+20,2,Southeastern,127,Morris
+20,2,Southeastern,133,Neosho
+20,2,Southeastern,205,Wilson
+20,2,Southeastern,207,Woodson
+20,3,Western,7,Barber
+20,3,Western,9,Barton
+20,3,Western,23,Cheyenne
+20,3,Western,25,Clark
+20,3,Western,29,Cloud
+20,3,Western,33,Comanche
+20,3,Western,39,Decatur
+20,3,Western,47,Edwards
+20,3,Western,51,Ellis
+20,3,Western,53,Ellsworth
+20,3,Western,55,Finney
+20,3,Western,57,Ford
+20,3,Western,63,Gove
+20,3,Western,65,Graham
+20,3,Western,67,Grant
+20,3,Western,69,Gray
+20,3,Western,71,Greeley
+20,3,Western,75,Hamilton
+20,3,Western,77,Harper
+20,3,Western,79,Harvey
+20,3,Western,81,Haskell
+20,3,Western,83,Hodgeman
+20,3,Western,89,Jewell
+20,3,Western,93,Kearny
+20,3,Western,95,Kingman
+20,3,Western,97,Kiowa
+20,3,Western,101,Lane
+20,3,Western,105,Lincoln
+20,3,Western,109,Logan
+20,3,Western,113,McPherson
+20,3,Western,119,Meade
+20,3,Western,123,Mitchell
+20,3,Western,129,Morton
+20,3,Western,135,Ness
+20,3,Western,137,Norton
+20,3,Western,141,Osborne
+20,3,Western,143,Ottawa
+20,3,Western,145,Pawnee
+20,3,Western,147,Phillips
+20,3,Western,151,Pratt
+20,3,Western,153,Rawlins
+20,3,Western,155,Reno
+20,3,Western,157,Republic
+20,3,Western,159,Rice
+20,3,Western,163,Rooks
+20,3,Western,165,Rush
+20,3,Western,167,Russell
+20,3,Western,169,Saline
+20,3,Western,171,Scott
+20,3,Western,173,Sedgwick
+20,3,Western,175,Seward
+20,3,Western,179,Sheridan
+20,3,Western,181,Sherman
+20,3,Western,183,Smith
+20,3,Western,185,Stafford
+20,3,Western,187,Stanton
+20,3,Western,189,Stevens
+20,3,Western,191,Sumner
+20,3,Western,193,Thomas
+20,3,Western,195,Trego
+20,3,Western,199,Wallace
+20,3,Western,203,Wichita
+21,1,Eastern,71,Floyd
+21,1,Eastern,95,Harlan
+21,1,Eastern,119,Knott
+21,1,Eastern,131,Leslie
+21,1,Eastern,133,Letcher
+21,1,Eastern,159,Martin
+21,1,Eastern,193,Perry
+21,1,Eastern,195,Pike
+21,2,Northern Cumberland,19,Boyd
+21,2,Northern Cumberland,43,Carter
+21,2,Northern Cumberland,63,Elliott
+21,2,Northern Cumberland,89,Greenup
+21,2,Northern Cumberland,115,Johnson
+21,2,Northern Cumberland,127,Lawrence
+21,2,Northern Cumberland,135,Lewis
+21,2,Northern Cumberland,153,Magoffin
+21,2,Northern Cumberland,165,Menifee
+21,2,Northern Cumberland,175,Morgan
+21,2,Northern Cumberland,197,Powell
+21,2,Northern Cumberland,205,Rowan
+21,2,Northern Cumberland,237,Wolfe
+21,3,Southern Cumberland,13,Bell
+21,3,Southern Cumberland,25,Breathitt
+21,3,Southern Cumberland,51,Clay
+21,3,Southern Cumberland,65,Estill
+21,3,Southern Cumberland,109,Jackson
+21,3,Southern Cumberland,121,Knox
+21,3,Southern Cumberland,125,Laurel
+21,3,Southern Cumberland,129,Lee
+21,3,Southern Cumberland,147,McCreary
+21,3,Southern Cumberland,189,Owsley
+21,3,Southern Cumberland,203,Rockcastle
+21,3,Southern Cumberland,235,Whitley
+21,4,Bluegrass,5,Anderson
+21,4,Bluegrass,11,Bath
+21,4,Bluegrass,15,Boone
+21,4,Bluegrass,17,Bourbon
+21,4,Bluegrass,21,Boyle
+21,4,Bluegrass,23,Bracken
+21,4,Bluegrass,37,Campbell
+21,4,Bluegrass,41,Carroll
+21,4,Bluegrass,49,Clark
+21,4,Bluegrass,67,Fayette
+21,4,Bluegrass,69,Fleming
+21,4,Bluegrass,73,Franklin
+21,4,Bluegrass,77,Gallatin
+21,4,Bluegrass,79,Garrard
+21,4,Bluegrass,81,Grant
+21,4,Bluegrass,97,Harrison
+21,4,Bluegrass,103,Henry
+21,4,Bluegrass,111,Jefferson
+21,4,Bluegrass,113,Jessamine
+21,4,Bluegrass,117,Kenton
+21,4,Bluegrass,137,Lincoln
+21,4,Bluegrass,151,Madison
+21,4,Bluegrass,161,Mason
+21,4,Bluegrass,167,Mercer
+21,4,Bluegrass,173,Montgomery
+21,4,Bluegrass,181,Nicholas
+21,4,Bluegrass,185,Oldham
+21,4,Bluegrass,187,Owen
+21,4,Bluegrass,191,Pendleton
+21,4,Bluegrass,201,Robertson
+21,4,Bluegrass,209,Scott
+21,4,Bluegrass,211,Shelby
+21,4,Bluegrass,215,Spencer
+21,4,Bluegrass,223,Trimble
+21,4,Bluegrass,229,Washington
+21,4,Bluegrass,239,Woodford
+21,5,Pennyroyal,1,Adair
+21,5,Pennyroyal,27,Breckinridge
+21,5,Pennyroyal,29,Bullitt
+21,5,Pennyroyal,45,Casey
+21,5,Pennyroyal,53,Clinton
+21,5,Pennyroyal,57,Cumberland
+21,5,Pennyroyal,85,Grayson
+21,5,Pennyroyal,87,Green
+21,5,Pennyroyal,91,Hancock
+21,5,Pennyroyal,93,Hardin
+21,5,Pennyroyal,99,Hart
+21,5,Pennyroyal,123,Larue
+21,5,Pennyroyal,155,Marion
+21,5,Pennyroyal,163,Meade
+21,5,Pennyroyal,169,Metcalfe
+21,5,Pennyroyal,179,Nelson
+21,5,Pennyroyal,199,Pulaski
+21,5,Pennyroyal,207,Russell
+21,5,Pennyroyal,217,Taylor
+21,5,Pennyroyal,231,Wayne
+21,6,Western Coalfield,3,Allen
+21,6,Western Coalfield,9,Barren
+21,6,Western Coalfield,31,Butler
+21,6,Western Coalfield,33,Caldwell
+21,6,Western Coalfield,47,Christian
+21,6,Western Coalfield,55,Crittenden
+21,6,Western Coalfield,59,Daviess
+21,6,Western Coalfield,61,Edmonson
+21,6,Western Coalfield,101,Henderson
+21,6,Western Coalfield,107,Hopkins
+21,6,Western Coalfield,141,Logan
+21,6,Western Coalfield,149,McLean
+21,6,Western Coalfield,171,Monroe
+21,6,Western Coalfield,177,Muhlenberg
+21,6,Western Coalfield,183,Ohio
+21,6,Western Coalfield,213,Simpson
+21,6,Western Coalfield,219,Todd
+21,6,Western Coalfield,225,Union
+21,6,Western Coalfield,227,Warren
+21,6,Western Coalfield,233,Webster
+21,7,Western,7,Ballard
+21,7,Western,35,Calloway
+21,7,Western,39,Carlisle
+21,7,Western,75,Fulton
+21,7,Western,83,Graves
+21,7,Western,105,Hickman
+21,7,Western,139,Livingston
+21,7,Western,143,Lyon
+21,7,Western,145,McCracken
+21,7,Western,157,Marshall
+21,7,Western,221,Trigg
+22,1,North Delta,25,Catahoula
+22,1,North Delta,29,Concordia
+22,1,North Delta,35,East Carroll
+22,1,North Delta,41,Franklin
+22,1,North Delta,65,Madison
+22,1,North Delta,67,Morehouse
+22,1,North Delta,83,Richland
+22,1,North Delta,107,Tensas
+22,1,North Delta,123,West Carroll
+22,2,South Delta,1,Acadia
+22,2,South Delta,5,Ascension
+22,2,South Delta,7,Assumption
+22,2,South Delta,9,Avoyelles
+22,2,South Delta,23,Cameron
+22,2,South Delta,45,Iberia
+22,2,South Delta,47,Iberville
+22,2,South Delta,51,Jefferson
+22,2,South Delta,55,Lafayette
+22,2,South Delta,57,Lafourche
+22,2,South Delta,71,Orleans
+22,2,South Delta,75,Plaquemines
+22,2,South Delta,77,Pointe Coupee
+22,2,South Delta,87,St. Bernard
+22,2,South Delta,89,St. Charles
+22,2,South Delta,93,St. James
+22,2,South Delta,95,St. John the Baptist
+22,2,South Delta,97,St. Landry
+22,2,South Delta,99,St. Martin
+22,2,South Delta,101,St. Mary
+22,2,South Delta,109,Terrebonne
+22,2,South Delta,113,Vermilion
+22,2,South Delta,121,West Baton Rouge
+22,2,South Delta,125,West Feliciana
+22,3,Southwest,3,Allen
+22,3,Southwest,11,Beauregard
+22,3,Southwest,19,Calcasieu
+22,3,Southwest,39,Evangeline
+22,3,Southwest,43,Grant
+22,3,Southwest,53,Jefferson Davis
+22,3,Southwest,59,La Salle
+22,3,Southwest,69,Natchitoches
+22,3,Southwest,79,Rapides
+22,3,Southwest,85,Sabine
+22,3,Southwest,115,Vernon
+22,4,Southeast,33,East Baton Rouge
+22,4,Southeast,37,East Feliciana
+22,4,Southeast,63,Livingston
+22,4,Southeast,91,St. Helena
+22,4,Southeast,103,St. Tammany
+22,4,Southeast,105,Tangipahoa
+22,4,Southeast,117,Washington
+22,5,Northwest,13,Bienville
+22,5,Northwest,15,Bossier
+22,5,Northwest,17,Caddo
+22,5,Northwest,21,Caldwell
+22,5,Northwest,27,Claiborne
+22,5,Northwest,31,De Soto
+22,5,Northwest,49,Jackson
+22,5,Northwest,61,Lincoln
+22,5,Northwest,73,Ouachita
+22,5,Northwest,81,Red River
+22,5,Northwest,111,Union
+22,5,Northwest,119,Webster
+22,5,Northwest,127,Winn
+23,1,Washington,29,Washington
+23,2,Aroostook,3,Aroostook
+23,3,Penobscot,19,Penobscot
+23,4,Hancock,9,Hancock
+23,5,Piscataquis,21,Piscataquis
+23,6,Capitol Region,11,Kennebec
+23,6,Capitol Region,13,Knox
+23,6,Capitol Region,15,Lincoln
+23,6,Capitol Region,27,Waldo
+23,7,Somerset,25,Somerset
+23,8,Casco Bay,1,Androscoggin
+23,8,Casco Bay,5,Cumberland
+23,8,Casco Bay,23,Sagadahoc
+23,8,Casco Bay,31,York
+23,9,Western Maine,7,Franklin
+23,9,Western Maine,17,Oxford
+24,2,North Central,3,Anne Arundel
+24,2,North Central,5,Baltimore
+24,2,North Central,11,Caroline
+24,2,North Central,13,Carroll
+24,2,North Central,15,Cecil
+24,2,North Central,21,Frederick
+24,2,North Central,25,Harford
+24,2,North Central,27,Howard
+24,2,North Central,29,Kent
+24,2,North Central,31,Montgomery
+24,2,North Central,33,Prince George's
+24,2,North Central,35,Queen Anne's
+24,2,North Central,41,Talbot
+24,2,North Central,43,Washington
+24,2,North Central,510,Baltimore city
+24,3,Southern,9,Calvert
+24,3,Southern,17,Charles
+24,3,Southern,37,St. Mary's
+24,4,Lower Eastern Shore,19,Dorchester
+24,4,Lower Eastern Shore,39,Somerset
+24,4,Lower Eastern Shore,45,Wicomico
+24,4,Lower Eastern Shore,47,Worcester
+24,5,Western,1,Allegany
+24,5,Western,23,Garrett
+25,1,Massachusetts,1,Barnstable
+25,1,Massachusetts,3,Berkshire
+25,1,Massachusetts,5,Bristol
+25,1,Massachusetts,7,Dukes
+25,1,Massachusetts,9,Essex
+25,1,Massachusetts,11,Franklin
+25,1,Massachusetts,13,Hampden
+25,1,Massachusetts,15,Hampshire
+25,1,Massachusetts,17,Middlesex
+25,1,Massachusetts,19,Nantucket
+25,1,Massachusetts,21,Norfolk
+25,1,Massachusetts,23,Plymouth
+25,1,Massachusetts,25,Suffolk
+25,1,Massachusetts,27,Worcester
+26,1,Eastern Upper Peninsula,3,Alger
+26,1,Eastern Upper Peninsula,33,Chippewa
+26,1,Eastern Upper Peninsula,41,Delta
+26,1,Eastern Upper Peninsula,95,Luce
+26,1,Eastern Upper Peninsula,97,Mackinac
+26,1,Eastern Upper Peninsula,109,Menominee
+26,1,Eastern Upper Peninsula,153,Schoolcraft
+26,2,Western Upper Peninsula,13,Baraga
+26,2,Western Upper Peninsula,43,Dickinson
+26,2,Western Upper Peninsula,53,Gogebic
+26,2,Western Upper Peninsula,61,Houghton
+26,2,Western Upper Peninsula,71,Iron
+26,2,Western Upper Peninsula,83,Keweenaw
+26,2,Western Upper Peninsula,103,Marquette
+26,2,Western Upper Peninsula,131,Ontonagon
+26,3,Northern Lower Peninsula,1,Alcona
+26,3,Northern Lower Peninsula,7,Alpena
+26,3,Northern Lower Peninsula,9,Antrim
+26,3,Northern Lower Peninsula,11,Arenac
+26,3,Northern Lower Peninsula,17,Bay
+26,3,Northern Lower Peninsula,19,Benzie
+26,3,Northern Lower Peninsula,29,Charlevoix
+26,3,Northern Lower Peninsula,31,Cheboygan
+26,3,Northern Lower Peninsula,35,Clare
+26,3,Northern Lower Peninsula,39,Crawford
+26,3,Northern Lower Peninsula,47,Emmet
+26,3,Northern Lower Peninsula,51,Gladwin
+26,3,Northern Lower Peninsula,55,Grand Traverse
+26,3,Northern Lower Peninsula,69,Iosco
+26,3,Northern Lower Peninsula,73,Isabella
+26,3,Northern Lower Peninsula,79,Kalkaska
+26,3,Northern Lower Peninsula,85,Lake
+26,3,Northern Lower Peninsula,89,Leelanau
+26,3,Northern Lower Peninsula,101,Manistee
+26,3,Northern Lower Peninsula,105,Mason
+26,3,Northern Lower Peninsula,107,Mecosta
+26,3,Northern Lower Peninsula,111,Midland
+26,3,Northern Lower Peninsula,113,Missaukee
+26,3,Northern Lower Peninsula,119,Montmorency
+26,3,Northern Lower Peninsula,123,Newaygo
+26,3,Northern Lower Peninsula,127,Oceana
+26,3,Northern Lower Peninsula,129,Ogemaw
+26,3,Northern Lower Peninsula,133,Osceola
+26,3,Northern Lower Peninsula,135,Oscoda
+26,3,Northern Lower Peninsula,137,Otsego
+26,3,Northern Lower Peninsula,141,Presque Isle
+26,3,Northern Lower Peninsula,143,Roscommon
+26,3,Northern Lower Peninsula,165,Wexford
+26,4,Southern Lower Peninsula,5,Allegan
+26,4,Southern Lower Peninsula,15,Barry
+26,4,Southern Lower Peninsula,21,Berrien
+26,4,Southern Lower Peninsula,23,Branch
+26,4,Southern Lower Peninsula,25,Calhoun
+26,4,Southern Lower Peninsula,27,Cass
+26,4,Southern Lower Peninsula,37,Clinton
+26,4,Southern Lower Peninsula,45,Eaton
+26,4,Southern Lower Peninsula,49,Genesee
+26,4,Southern Lower Peninsula,57,Gratiot
+26,4,Southern Lower Peninsula,59,Hillsdale
+26,4,Southern Lower Peninsula,63,Huron
+26,4,Southern Lower Peninsula,65,Ingham
+26,4,Southern Lower Peninsula,67,Ionia
+26,4,Southern Lower Peninsula,75,Jackson
+26,4,Southern Lower Peninsula,77,Kalamazoo
+26,4,Southern Lower Peninsula,81,Kent
+26,4,Southern Lower Peninsula,87,Lapeer
+26,4,Southern Lower Peninsula,91,Lenawee
+26,4,Southern Lower Peninsula,93,Livingston
+26,4,Southern Lower Peninsula,99,Macomb
+26,4,Southern Lower Peninsula,115,Monroe
+26,4,Southern Lower Peninsula,117,Montcalm
+26,4,Southern Lower Peninsula,121,Muskegon
+26,4,Southern Lower Peninsula,125,Oakland
+26,4,Southern Lower Peninsula,139,Ottawa
+26,4,Southern Lower Peninsula,145,Saginaw
+26,4,Southern Lower Peninsula,147,St. Clair
+26,4,Southern Lower Peninsula,149,St. Joseph
+26,4,Southern Lower Peninsula,151,Sanilac
+26,4,Southern Lower Peninsula,155,Shiawassee
+26,4,Southern Lower Peninsula,157,Tuscola
+26,4,Southern Lower Peninsula,159,Van Buren
+26,4,Southern Lower Peninsula,161,Washtenaw
+26,4,Southern Lower Peninsula,163,Wayne
+27,1,Aspen-Birch,17,Carlton
+27,1,Aspen-Birch,31,Cook
+27,1,Aspen-Birch,71,Koochiching
+27,1,Aspen-Birch,75,Lake
+27,1,Aspen-Birch,137,St. Louis
+27,2,Northern Pine,1,Aitkin
+27,2,Northern Pine,5,Becker
+27,2,Northern Pine,7,Beltrami
+27,2,Northern Pine,21,Cass
+27,2,Northern Pine,29,Clearwater
+27,2,Northern Pine,35,Crow Wing
+27,2,Northern Pine,57,Hubbard
+27,2,Northern Pine,61,Itasca
+27,2,Northern Pine,77,Lake of the Woods
+27,2,Northern Pine,87,Mahnomen
+27,2,Northern Pine,135,Roseau
+27,2,Northern Pine,159,Wadena
+27,3,Central Hardwood,3,Anoka
+27,3,Central Hardwood,9,Benton
+27,3,Central Hardwood,19,Carver
+27,3,Central Hardwood,25,Chisago
+27,3,Central Hardwood,37,Dakota
+27,3,Central Hardwood,41,Douglas
+27,3,Central Hardwood,45,Fillmore
+27,3,Central Hardwood,49,Goodhue
+27,3,Central Hardwood,53,Hennepin
+27,3,Central Hardwood,55,Houston
+27,3,Central Hardwood,59,Isanti
+27,3,Central Hardwood,65,Kanabec
+27,3,Central Hardwood,79,Le Sueur
+27,3,Central Hardwood,95,Mille Lacs
+27,3,Central Hardwood,97,Morrison
+27,3,Central Hardwood,109,Olmsted
+27,3,Central Hardwood,111,Otter Tail
+27,3,Central Hardwood,115,Pine
+27,3,Central Hardwood,123,Ramsey
+27,3,Central Hardwood,131,Rice
+27,3,Central Hardwood,139,Scott
+27,3,Central Hardwood,141,Sherburne
+27,3,Central Hardwood,145,Stearns
+27,3,Central Hardwood,153,Todd
+27,3,Central Hardwood,157,Wabasha
+27,3,Central Hardwood,163,Washington
+27,3,Central Hardwood,169,Winona
+27,3,Central Hardwood,171,Wright
+27,4,Prairie,11,Big Stone
+27,4,Prairie,13,Blue Earth
+27,4,Prairie,15,Brown
+27,4,Prairie,23,Chippewa
+27,4,Prairie,27,Clay
+27,4,Prairie,33,Cottonwood
+27,4,Prairie,39,Dodge
+27,4,Prairie,43,Faribault
+27,4,Prairie,47,Freeborn
+27,4,Prairie,51,Grant
+27,4,Prairie,63,Jackson
+27,4,Prairie,67,Kandiyohi
+27,4,Prairie,69,Kittson
+27,4,Prairie,73,Lac qui Parle
+27,4,Prairie,81,Lincoln
+27,4,Prairie,83,Lyon
+27,4,Prairie,85,McLeod
+27,4,Prairie,89,Marshall
+27,4,Prairie,91,Martin
+27,4,Prairie,93,Meeker
+27,4,Prairie,99,Mower
+27,4,Prairie,101,Murray
+27,4,Prairie,103,Nicollet
+27,4,Prairie,105,Nobles
+27,4,Prairie,107,Norman
+27,4,Prairie,113,Pennington
+27,4,Prairie,117,Pipestone
+27,4,Prairie,119,Polk
+27,4,Prairie,121,Pope
+27,4,Prairie,125,Red Lake
+27,4,Prairie,127,Redwood
+27,4,Prairie,129,Renville
+27,4,Prairie,133,Rock
+27,4,Prairie,143,Sibley
+27,4,Prairie,147,Steele
+27,4,Prairie,149,Stevens
+27,4,Prairie,151,Swift
+27,4,Prairie,155,Traverse
+27,4,Prairie,161,Waseca
+27,4,Prairie,165,Watonwan
+27,4,Prairie,167,Wilkin
+27,4,Prairie,173,Yellow Medicine
+28,1,Delta,11,Bolivar
+28,1,Delta,27,Coahoma
+28,1,Delta,51,Holmes
+28,1,Delta,53,Humphreys
+28,1,Delta,55,Issaquena
+28,1,Delta,83,Leflore
+28,1,Delta,119,Quitman
+28,1,Delta,125,Sharkey
+28,1,Delta,133,Sunflower
+28,1,Delta,135,Tallahatchie
+28,1,Delta,143,Tunica
+28,1,Delta,149,Warren
+28,1,Delta,151,Washington
+28,1,Delta,163,Yazoo
+28,2,North,3,Alcorn
+28,2,North,9,Benton
+28,2,North,13,Calhoun
+28,2,North,15,Carroll
+28,2,North,17,Chickasaw
+28,2,North,19,Choctaw
+28,2,North,25,Clay
+28,2,North,33,DeSoto
+28,2,North,43,Grenada
+28,2,North,57,Itawamba
+28,2,North,71,Lafayette
+28,2,North,81,Lee
+28,2,North,87,Lowndes
+28,2,North,93,Marshall
+28,2,North,95,Monroe
+28,2,North,97,Montgomery
+28,2,North,105,Oktibbeha
+28,2,North,107,Panola
+28,2,North,115,Pontotoc
+28,2,North,117,Prentiss
+28,2,North,137,Tate
+28,2,North,139,Tippah
+28,2,North,141,Tishomingo
+28,2,North,145,Union
+28,2,North,155,Webster
+28,2,North,161,Yalobusha
+28,3,Central,7,Attala
+28,3,Central,23,Clarke
+28,3,Central,61,Jasper
+28,3,Central,69,Kemper
+28,3,Central,75,Lauderdale
+28,3,Central,79,Leake
+28,3,Central,99,Neshoba
+28,3,Central,101,Newton
+28,3,Central,103,Noxubee
+28,3,Central,121,Rankin
+28,3,Central,123,Scott
+28,3,Central,127,Simpson
+28,3,Central,129,Smith
+28,3,Central,159,Winston
+28,4,South,31,Covington
+28,4,South,35,Forrest
+28,4,South,39,George
+28,4,South,41,Greene
+28,4,South,45,Hancock
+28,4,South,47,Harrison
+28,4,South,59,Jackson
+28,4,South,65,Jefferson Davis
+28,4,South,67,Jones
+28,4,South,73,Lamar
+28,4,South,77,Lawrence
+28,4,South,91,Marion
+28,4,South,109,Pearl River
+28,4,South,111,Perry
+28,4,South,131,Stone
+28,4,South,147,Walthall
+28,4,South,153,Wayne
+28,5,Southwest,1,Adams
+28,5,Southwest,5,Amite
+28,5,Southwest,21,Claiborne
+28,5,Southwest,29,Copiah
+28,5,Southwest,37,Franklin
+28,5,Southwest,49,Hinds
+28,5,Southwest,63,Jefferson
+28,5,Southwest,85,Lincoln
+28,5,Southwest,89,Madison
+28,5,Southwest,113,Pike
+28,5,Southwest,157,Wilkinson
+29,1,Eastern Ozarks,17,Bollinger
+29,1,Eastern Ozarks,23,Butler
+29,1,Eastern Ozarks,35,Carter
+29,1,Eastern Ozarks,55,Crawford
+29,1,Eastern Ozarks,65,Dent
+29,1,Eastern Ozarks,93,Iron
+29,1,Eastern Ozarks,123,Madison
+29,1,Eastern Ozarks,149,Oregon
+29,1,Eastern Ozarks,179,Reynolds
+29,1,Eastern Ozarks,181,Ripley
+29,1,Eastern Ozarks,187,St. Francois
+29,1,Eastern Ozarks,203,Shannon
+29,1,Eastern Ozarks,221,Washington
+29,1,Eastern Ozarks,223,Wayne
+29,2,Southwestern Ozarks,9,Barry
+29,2,Southwestern Ozarks,43,Christian
+29,2,Southwestern Ozarks,67,Douglas
+29,2,Southwestern Ozarks,91,Howell
+29,2,Southwestern Ozarks,119,McDonald
+29,2,Southwestern Ozarks,145,Newton
+29,2,Southwestern Ozarks,153,Ozark
+29,2,Southwestern Ozarks,209,Stone
+29,2,Southwestern Ozarks,213,Taney
+29,2,Southwestern Ozarks,215,Texas
+29,2,Southwestern Ozarks,225,Webster
+29,2,Southwestern Ozarks,229,Wright
+29,3,Northwestern Ozarks,15,Benton
+29,3,Northwestern Ozarks,29,Camden
+29,3,Northwestern Ozarks,39,Cedar
+29,3,Northwestern Ozarks,59,Dallas
+29,3,Northwestern Ozarks,85,Hickory
+29,3,Northwestern Ozarks,105,Laclede
+29,3,Northwestern Ozarks,125,Maries
+29,3,Northwestern Ozarks,131,Miller
+29,3,Northwestern Ozarks,141,Morgan
+29,3,Northwestern Ozarks,161,Phelps
+29,3,Northwestern Ozarks,167,Polk
+29,3,Northwestern Ozarks,169,Pulaski
+29,3,Northwestern Ozarks,185,St. Clair
+29,4,Prairie,1,Adair
+29,4,Prairie,3,Andrew
+29,4,Prairie,5,Atchison
+29,4,Prairie,7,Audrain
+29,4,Prairie,11,Barton
+29,4,Prairie,13,Bates
+29,4,Prairie,21,Buchanan
+29,4,Prairie,25,Caldwell
+29,4,Prairie,33,Carroll
+29,4,Prairie,37,Cass
+29,4,Prairie,41,Chariton
+29,4,Prairie,45,Clark
+29,4,Prairie,47,Clay
+29,4,Prairie,49,Clinton
+29,4,Prairie,53,Cooper
+29,4,Prairie,57,Dade
+29,4,Prairie,61,Daviess
+29,4,Prairie,63,DeKalb
+29,4,Prairie,75,Gentry
+29,4,Prairie,77,Greene
+29,4,Prairie,79,Grundy
+29,4,Prairie,81,Harrison
+29,4,Prairie,83,Henry
+29,4,Prairie,87,Holt
+29,4,Prairie,95,Jackson
+29,4,Prairie,97,Jasper
+29,4,Prairie,101,Johnson
+29,4,Prairie,103,Knox
+29,4,Prairie,107,Lafayette
+29,4,Prairie,109,Lawrence
+29,4,Prairie,111,Lewis
+29,4,Prairie,113,Lincoln
+29,4,Prairie,115,Linn
+29,4,Prairie,117,Livingston
+29,4,Prairie,121,Macon
+29,4,Prairie,127,Marion
+29,4,Prairie,129,Mercer
+29,4,Prairie,137,Monroe
+29,4,Prairie,147,Nodaway
+29,4,Prairie,159,Pettis
+29,4,Prairie,163,Pike
+29,4,Prairie,165,Platte
+29,4,Prairie,171,Putnam
+29,4,Prairie,173,Ralls
+29,4,Prairie,175,Randolph
+29,4,Prairie,177,Ray
+29,4,Prairie,195,Saline
+29,4,Prairie,197,Schuyler
+29,4,Prairie,199,Scotland
+29,4,Prairie,205,Shelby
+29,4,Prairie,211,Sullivan
+29,4,Prairie,217,Vernon
+29,4,Prairie,227,Worth
+29,5,Riverborder,19,Boone
+29,5,Riverborder,27,Callaway
+29,5,Riverborder,31,Cape Girardeau
+29,5,Riverborder,51,Cole
+29,5,Riverborder,69,Dunklin
+29,5,Riverborder,71,Franklin
+29,5,Riverborder,73,Gasconade
+29,5,Riverborder,89,Howard
+29,5,Riverborder,99,Jefferson
+29,5,Riverborder,133,Mississippi
+29,5,Riverborder,135,Moniteau
+29,5,Riverborder,139,Montgomery
+29,5,Riverborder,143,New Madrid
+29,5,Riverborder,151,Osage
+29,5,Riverborder,155,Pemiscot
+29,5,Riverborder,157,Perry
+29,5,Riverborder,183,St. Charles
+29,5,Riverborder,186,Ste. Genevieve
+29,5,Riverborder,189,St. Louis
+29,5,Riverborder,201,Scott
+29,5,Riverborder,207,Stoddard
+29,5,Riverborder,219,Warren
+29,5,Riverborder,510,St. Louis city
+30,1,Northwestern,29,Flathead
+30,1,Northwestern,47,Lake
+30,1,Northwestern,53,Lincoln
+30,1,Northwestern,89,Sanders
+30,2,Eastern,3,Big Horn
+30,2,Eastern,5,Blaine
+30,2,Eastern,9,Carbon
+30,2,Eastern,11,Carter
+30,2,Eastern,15,Chouteau
+30,2,Eastern,17,Custer
+30,2,Eastern,19,Daniels
+30,2,Eastern,21,Dawson
+30,2,Eastern,25,Fallon
+30,2,Eastern,27,Fergus
+30,2,Eastern,33,Garfield
+30,2,Eastern,35,Glacier
+30,2,Eastern,37,Golden Valley
+30,2,Eastern,41,Hill
+30,2,Eastern,51,Liberty
+30,2,Eastern,55,McCone
+30,2,Eastern,65,Musselshell
+30,2,Eastern,69,Petroleum
+30,2,Eastern,71,Phillips
+30,2,Eastern,73,Pondera
+30,2,Eastern,75,Powder River
+30,2,Eastern,79,Prairie
+30,2,Eastern,83,Richland
+30,2,Eastern,85,Roosevelt
+30,2,Eastern,87,Rosebud
+30,2,Eastern,91,Sheridan
+30,2,Eastern,95,Stillwater
+30,2,Eastern,97,Sweet Grass
+30,2,Eastern,99,Teton
+30,2,Eastern,101,Toole
+30,2,Eastern,103,Treasure
+30,2,Eastern,105,Valley
+30,2,Eastern,109,Wibaux
+30,2,Eastern,111,Yellowstone
+30,2,Eastern,113,Yellowstone National Park
+30,3,Western,39,Granite
+30,3,Western,61,Mineral
+30,3,Western,63,Missoula
+30,3,Western,81,Ravalli
+30,4,West Central,7,Broadwater
+30,4,West Central,13,Cascade
+30,4,West Central,43,Jefferson
+30,4,West Central,45,Judith Basin
+30,4,West Central,49,Lewis and Clark
+30,4,West Central,59,Meagher
+30,4,West Central,77,Powell
+30,4,West Central,107,Wheatland
+30,5,Southwestern,1,Beaverhead
+30,5,Southwestern,23,Deer Lodge
+30,5,Southwestern,31,Gallatin
+30,5,Southwestern,57,Madison
+30,5,Southwestern,67,Park
+30,5,Southwestern,93,Silver Bow
+31,1,Eastern,1,Adams
+31,1,Eastern,11,Boone
+31,1,Eastern,19,Buffalo
+31,1,Eastern,21,Burt
+31,1,Eastern,23,Butler
+31,1,Eastern,25,Cass
+31,1,Eastern,27,Cedar
+31,1,Eastern,35,Clay
+31,1,Eastern,37,Colfax
+31,1,Eastern,39,Cuming
+31,1,Eastern,41,Custer
+31,1,Eastern,43,Dakota
+31,1,Eastern,47,Dawson
+31,1,Eastern,51,Dixon
+31,1,Eastern,53,Dodge
+31,1,Eastern,55,Douglas
+31,1,Eastern,59,Fillmore
+31,1,Eastern,61,Franklin
+31,1,Eastern,63,Frontier
+31,1,Eastern,65,Furnas
+31,1,Eastern,67,Gage
+31,1,Eastern,73,Gosper
+31,1,Eastern,77,Greeley
+31,1,Eastern,79,Hall
+31,1,Eastern,81,Hamilton
+31,1,Eastern,83,Harlan
+31,1,Eastern,87,Hitchcock
+31,1,Eastern,93,Howard
+31,1,Eastern,95,Jefferson
+31,1,Eastern,97,Johnson
+31,1,Eastern,99,Kearney
+31,1,Eastern,109,Lancaster
+31,1,Eastern,119,Madison
+31,1,Eastern,121,Merrick
+31,1,Eastern,125,Nance
+31,1,Eastern,127,Nemaha
+31,1,Eastern,129,Nuckolls
+31,1,Eastern,131,Otoe
+31,1,Eastern,133,Pawnee
+31,1,Eastern,137,Phelps
+31,1,Eastern,139,Pierce
+31,1,Eastern,141,Platte
+31,1,Eastern,143,Polk
+31,1,Eastern,145,Red Willow
+31,1,Eastern,147,Richardson
+31,1,Eastern,151,Saline
+31,1,Eastern,153,Sarpy
+31,1,Eastern,155,Saunders
+31,1,Eastern,159,Seward
+31,1,Eastern,163,Sherman
+31,1,Eastern,167,Stanton
+31,1,Eastern,169,Thayer
+31,1,Eastern,173,Thurston
+31,1,Eastern,175,Valley
+31,1,Eastern,177,Washington
+31,1,Eastern,179,Wayne
+31,1,Eastern,181,Webster
+31,1,Eastern,185,York
+31,2,Western,3,Antelope
+31,2,Western,5,Arthur
+31,2,Western,7,Banner
+31,2,Western,9,Blaine
+31,2,Western,13,Box Butte
+31,2,Western,15,Boyd
+31,2,Western,17,Brown
+31,2,Western,29,Chase
+31,2,Western,31,Cherry
+31,2,Western,33,Cheyenne
+31,2,Western,45,Dawes
+31,2,Western,49,Deuel
+31,2,Western,57,Dundy
+31,2,Western,69,Garden
+31,2,Western,71,Garfield
+31,2,Western,75,Grant
+31,2,Western,85,Hayes
+31,2,Western,89,Holt
+31,2,Western,91,Hooker
+31,2,Western,101,Keith
+31,2,Western,103,Keya Paha
+31,2,Western,105,Kimball
+31,2,Western,107,Knox
+31,2,Western,111,Lincoln
+31,2,Western,113,Logan
+31,2,Western,115,Loup
+31,2,Western,117,McPherson
+31,2,Western,123,Morrill
+31,2,Western,135,Perkins
+31,2,Western,149,Rock
+31,2,Western,157,Scotts Bluff
+31,2,Western,161,Sheridan
+31,2,Western,165,Sioux
+31,2,Western,171,Thomas
+31,2,Western,183,Wheeler
+32,1,Nevada,1,Churchill
+32,1,Nevada,3,Clark
+32,1,Nevada,5,Douglas
+32,1,Nevada,7,Elko
+32,1,Nevada,9,Esmeralda
+32,1,Nevada,11,Eureka
+32,1,Nevada,13,Humboldt
+32,1,Nevada,15,Lander
+32,1,Nevada,17,Lincoln
+32,1,Nevada,19,Lyon
+32,1,Nevada,21,Mineral
+32,1,Nevada,23,Nye
+32,1,Nevada,27,Pershing
+32,1,Nevada,29,Storey
+32,1,Nevada,31,Washoe
+32,1,Nevada,33,White Pine
+32,1,Nevada,510,Carson City
+33,2,Northern,3,Carroll
+33,2,Northern,7,Coos
+33,2,Northern,9,Grafton
+33,3,Southern,1,Belknap
+33,3,Southern,5,Cheshire
+33,3,Southern,11,Hillsborough
+33,3,Southern,13,Merrimack
+33,3,Southern,15,Rockingham
+33,3,Southern,17,Strafford
+33,3,Southern,19,Sullivan
+34,1,New Jersey,1,Atlantic
+34,1,New Jersey,3,Bergen
+34,1,New Jersey,5,Burlington
+34,1,New Jersey,7,Camden
+34,1,New Jersey,9,Cape May
+34,1,New Jersey,11,Cumberland
+34,1,New Jersey,13,Essex
+34,1,New Jersey,15,Gloucester
+34,1,New Jersey,17,Hudson
+34,1,New Jersey,19,Hunterdon
+34,1,New Jersey,21,Mercer
+34,1,New Jersey,23,Middlesex
+34,1,New Jersey,25,Monmouth
+34,1,New Jersey,27,Morris
+34,1,New Jersey,29,Ocean
+34,1,New Jersey,31,Passaic
+34,1,New Jersey,33,Salem
+34,1,New Jersey,35,Somerset
+34,1,New Jersey,37,Sussex
+34,1,New Jersey,39,Union
+34,1,New Jersey,41,Warren
+35,1,Northwestern,1,Bernalillo
+35,1,Northwestern,6,Cibola
+35,1,Northwestern,28,Los Alamos
+35,1,Northwestern,31,McKinley
+35,1,Northwestern,39,Rio Arriba
+35,1,Northwestern,43,Sandoval
+35,1,Northwestern,45,San Juan
+35,1,Northwestern,49,Santa Fe
+35,1,Northwestern,55,Taos
+35,1,Northwestern,61,Valencia
+35,2,Northeastern,7,Colfax
+35,2,Northeastern,19,Guadalupe
+35,2,Northeastern,21,Harding
+35,2,Northeastern,33,Mora
+35,2,Northeastern,37,Quay
+35,2,Northeastern,47,San Miguel
+35,2,Northeastern,57,Torrance
+35,2,Northeastern,59,Union
+35,3,Southwestern,3,Catron
+35,3,Southwestern,13,Dona Ana
+35,3,Southwestern,17,Grant
+35,3,Southwestern,23,Hidalgo
+35,3,Southwestern,29,Luna
+35,3,Southwestern,51,Sierra
+35,3,Southwestern,53,Socorro
+35,4,Southeastern,5,Chaves
+35,4,Southeastern,9,Curry
+35,4,Southeastern,11,DeBaca
+35,4,Southeastern,15,Eddy
+35,4,Southeastern,25,Lea
+35,4,Southeastern,27,Lincoln
+35,4,Southeastern,35,Otero
+35,4,Southeastern,41,Roosevelt
+36,1,Adirondack,19,Clinton
+36,1,Adirondack,33,Franklin
+36,1,Adirondack,45,Jefferson
+36,1,Adirondack,89,St. Lawrence
+36,2,Lake Plain,11,Cayuga
+36,2,Lake Plain,29,Erie
+36,2,Lake Plain,37,Genesee
+36,2,Lake Plain,51,Livingston
+36,2,Lake Plain,53,Madison
+36,2,Lake Plain,55,Monroe
+36,2,Lake Plain,63,Niagara
+36,2,Lake Plain,67,Onondaga
+36,2,Lake Plain,69,Ontario
+36,2,Lake Plain,73,Orleans
+36,2,Lake Plain,75,Oswego
+36,2,Lake Plain,99,Seneca
+36,2,Lake Plain,117,Wayne
+36,2,Lake Plain,121,Wyoming
+36,2,Lake Plain,123,Yates
+36,3,Western Adirondack,35,Fulton
+36,3,Western Adirondack,43,Herkimer
+36,3,Western Adirondack,49,Lewis
+36,3,Western Adirondack,65,Oneida
+36,4,Eastern Adirondack,31,Essex
+36,4,Eastern Adirondack,41,Hamilton
+36,4,Eastern Adirondack,113,Warren
+36,5,Southwest Highlands,3,Allegany
+36,5,Southwest Highlands,9,Cattaraugus
+36,5,Southwest Highlands,13,Chautauqua
+36,5,Southwest Highlands,101,Steuben
+36,6,South-Central Highlands,7,Broome
+36,6,South-Central Highlands,15,Chemung
+36,6,South-Central Highlands,17,Chenango
+36,6,South-Central Highlands,23,Cortland
+36,6,South-Central Highlands,25,Delaware
+36,6,South-Central Highlands,77,Otsego
+36,6,South-Central Highlands,97,Schuyler
+36,6,South-Central Highlands,107,Tioga
+36,6,South-Central Highlands,109,Tompkins
+36,7,Capitol District,1,Albany
+36,7,Capitol District,21,Columbia
+36,7,Capitol District,57,Montgomery
+36,7,Capitol District,83,Rensselaer
+36,7,Capitol District,91,Saratoga
+36,7,Capitol District,93,Schenectady
+36,7,Capitol District,115,Washington
+36,8,Catskill-Lower Hudson,5,Bronx
+36,8,Catskill-Lower Hudson,27,Dutchess
+36,8,Catskill-Lower Hudson,39,Greene
+36,8,Catskill-Lower Hudson,47,Kings
+36,8,Catskill-Lower Hudson,59,Nassau
+36,8,Catskill-Lower Hudson,61,New York
+36,8,Catskill-Lower Hudson,71,Orange
+36,8,Catskill-Lower Hudson,79,Putnam
+36,8,Catskill-Lower Hudson,81,Queens
+36,8,Catskill-Lower Hudson,85,Richmond
+36,8,Catskill-Lower Hudson,87,Rockland
+36,8,Catskill-Lower Hudson,95,Schoharie
+36,8,Catskill-Lower Hudson,103,Suffolk
+36,8,Catskill-Lower Hudson,105,Sullivan
+36,8,Catskill-Lower Hudson,111,Ulster
+36,8,Catskill-Lower Hudson,119,Westchester
+37,1,Southern Coastal Plain,17,Bladen
+37,1,Southern Coastal Plain,19,Brunswick
+37,1,Southern Coastal Plain,47,Columbus
+37,1,Southern Coastal Plain,51,Cumberland
+37,1,Southern Coastal Plain,61,Duplin
+37,1,Southern Coastal Plain,79,Greene
+37,1,Southern Coastal Plain,85,Harnett
+37,1,Southern Coastal Plain,93,Hoke
+37,1,Southern Coastal Plain,101,Johnston
+37,1,Southern Coastal Plain,103,Jones
+37,1,Southern Coastal Plain,105,Lee
+37,1,Southern Coastal Plain,107,Lenoir
+37,1,Southern Coastal Plain,125,Moore
+37,1,Southern Coastal Plain,129,New Hanover
+37,1,Southern Coastal Plain,133,Onslow
+37,1,Southern Coastal Plain,141,Pender
+37,1,Southern Coastal Plain,153,Richmond
+37,1,Southern Coastal Plain,155,Robeson
+37,1,Southern Coastal Plain,163,Sampson
+37,1,Southern Coastal Plain,165,Scotland
+37,1,Southern Coastal Plain,191,Wayne
+37,2,Northern Coastal Plain,13,Beaufort
+37,2,Northern Coastal Plain,15,Bertie
+37,2,Northern Coastal Plain,29,Camden
+37,2,Northern Coastal Plain,31,Carteret
+37,2,Northern Coastal Plain,41,Chowan
+37,2,Northern Coastal Plain,49,Craven
+37,2,Northern Coastal Plain,53,Currituck
+37,2,Northern Coastal Plain,55,Dare
+37,2,Northern Coastal Plain,65,Edgecombe
+37,2,Northern Coastal Plain,73,Gates
+37,2,Northern Coastal Plain,83,Halifax
+37,2,Northern Coastal Plain,91,Hertford
+37,2,Northern Coastal Plain,95,Hyde
+37,2,Northern Coastal Plain,117,Martin
+37,2,Northern Coastal Plain,127,Nash
+37,2,Northern Coastal Plain,131,Northampton
+37,2,Northern Coastal Plain,137,Pamlico
+37,2,Northern Coastal Plain,139,Pasquotank
+37,2,Northern Coastal Plain,143,Perquimans
+37,2,Northern Coastal Plain,147,Pitt
+37,2,Northern Coastal Plain,177,Tyrrell
+37,2,Northern Coastal Plain,187,Washington
+37,2,Northern Coastal Plain,195,Wilson
+37,3,Piedmont,1,Alamance
+37,3,Piedmont,3,Alexander
+37,3,Piedmont,7,Anson
+37,3,Piedmont,25,Cabarrus
+37,3,Piedmont,33,Caswell
+37,3,Piedmont,35,Catawba
+37,3,Piedmont,37,Chatham
+37,3,Piedmont,45,Cleveland
+37,3,Piedmont,57,Davidson
+37,3,Piedmont,59,Davie
+37,3,Piedmont,63,Durham
+37,3,Piedmont,67,Forsyth
+37,3,Piedmont,69,Franklin
+37,3,Piedmont,71,Gaston
+37,3,Piedmont,77,Granville
+37,3,Piedmont,81,Guilford
+37,3,Piedmont,97,Iredell
+37,3,Piedmont,109,Lincoln
+37,3,Piedmont,119,Mecklenburg
+37,3,Piedmont,123,Montgomery
+37,3,Piedmont,135,Orange
+37,3,Piedmont,145,Person
+37,3,Piedmont,149,Polk
+37,3,Piedmont,151,Randolph
+37,3,Piedmont,157,Rockingham
+37,3,Piedmont,159,Rowan
+37,3,Piedmont,161,Rutherford
+37,3,Piedmont,167,Stanly
+37,3,Piedmont,169,Stokes
+37,3,Piedmont,171,Surry
+37,3,Piedmont,179,Union
+37,3,Piedmont,181,Vance
+37,3,Piedmont,183,Wake
+37,3,Piedmont,185,Warren
+37,3,Piedmont,197,Yadkin
+37,4,Mountains,5,Alleghany
+37,4,Mountains,9,Ashe
+37,4,Mountains,11,Avery
+37,4,Mountains,21,Buncombe
+37,4,Mountains,23,Burke
+37,4,Mountains,27,Caldwell
+37,4,Mountains,39,Cherokee
+37,4,Mountains,43,Clay
+37,4,Mountains,75,Graham
+37,4,Mountains,87,Haywood
+37,4,Mountains,89,Henderson
+37,4,Mountains,99,Jackson
+37,4,Mountains,111,McDowell
+37,4,Mountains,113,Macon
+37,4,Mountains,115,Madison
+37,4,Mountains,121,Mitchell
+37,4,Mountains,173,Swain
+37,4,Mountains,175,Transylvania
+37,4,Mountains,189,Watauga
+37,4,Mountains,193,Wilkes
+37,4,Mountains,199,Yancey
+38,1,Eastern,1,Adams
+38,1,Eastern,3,Barnes
+38,1,Eastern,5,Benson
+38,1,Eastern,7,Billings
+38,1,Eastern,9,Bottineau
+38,1,Eastern,11,Bowman
+38,1,Eastern,13,Burke
+38,1,Eastern,15,Burleigh
+38,1,Eastern,17,Cass
+38,1,Eastern,19,Cavalier
+38,1,Eastern,21,Dickey
+38,1,Eastern,23,Divide
+38,1,Eastern,25,Dunn
+38,1,Eastern,27,Eddy
+38,1,Eastern,29,Emmons
+38,1,Eastern,31,Foster
+38,1,Eastern,33,Golden Valley
+38,1,Eastern,35,Grand Forks
+38,1,Eastern,37,Grant
+38,1,Eastern,39,Griggs
+38,1,Eastern,41,Hettinger
+38,1,Eastern,43,Kidder
+38,1,Eastern,45,LaMoure
+38,1,Eastern,47,Logan
+38,1,Eastern,49,McHenry
+38,1,Eastern,51,McIntosh
+38,1,Eastern,53,McKenzie
+38,1,Eastern,55,McLean
+38,1,Eastern,57,Mercer
+38,1,Eastern,59,Morton
+38,1,Eastern,61,Mountrail
+38,1,Eastern,63,Nelson
+38,1,Eastern,65,Oliver
+38,1,Eastern,67,Pembina
+38,1,Eastern,69,Pierce
+38,1,Eastern,71,Ramsey
+38,1,Eastern,73,Ransom
+38,1,Eastern,75,Renville
+38,1,Eastern,77,Richland
+38,1,Eastern,79,Rolette
+38,1,Eastern,81,Sargent
+38,1,Eastern,83,Sheridan
+38,1,Eastern,85,Sioux
+38,1,Eastern,87,Slope
+38,1,Eastern,89,Stark
+38,1,Eastern,91,Steele
+38,1,Eastern,93,Stutsman
+38,1,Eastern,95,Towner
+38,1,Eastern,97,Traill
+38,1,Eastern,99,Walsh
+38,1,Eastern,101,Ward
+38,1,Eastern,103,Wells
+38,1,Eastern,105,Williams
+39,1,South-Central,1,Adams
+39,1,South-Central,15,Brown
+39,1,South-Central,25,Clermont
+39,1,South-Central,53,Gallia
+39,1,South-Central,71,Highland
+39,1,South-Central,79,Jackson
+39,1,South-Central,87,Lawrence
+39,1,South-Central,131,Pike
+39,1,South-Central,141,Ross
+39,1,South-Central,145,Scioto
+39,2,Southeastern,9,Athens
+39,2,Southeastern,73,Hocking
+39,2,Southeastern,105,Meigs
+39,2,Southeastern,115,Morgan
+39,2,Southeastern,127,Perry
+39,2,Southeastern,163,Vinton
+39,2,Southeastern,167,Washington
+39,3,East-Central,13,Belmont
+39,3,East-Central,19,Carroll
+39,3,East-Central,31,Coshocton
+39,3,East-Central,59,Guernsey
+39,3,East-Central,67,Harrison
+39,3,East-Central,75,Holmes
+39,3,East-Central,81,Jefferson
+39,3,East-Central,111,Monroe
+39,3,East-Central,119,Muskingum
+39,3,East-Central,121,Noble
+39,3,East-Central,157,Tuscarawas
+39,4,Northeastern,5,Ashland
+39,4,Northeastern,7,Ashtabula
+39,4,Northeastern,29,Columbiana
+39,4,Northeastern,35,Cuyahoga
+39,4,Northeastern,43,Erie
+39,4,Northeastern,55,Geauga
+39,4,Northeastern,77,Huron
+39,4,Northeastern,85,Lake
+39,4,Northeastern,93,Lorain
+39,4,Northeastern,99,Mahoning
+39,4,Northeastern,103,Medina
+39,4,Northeastern,133,Portage
+39,4,Northeastern,139,Richland
+39,4,Northeastern,151,Stark
+39,4,Northeastern,153,Summit
+39,4,Northeastern,155,Trumbull
+39,4,Northeastern,169,Wayne
+39,5,Southwestern,17,Butler
+39,5,Southwestern,23,Clark
+39,5,Southwestern,27,Clinton
+39,5,Southwestern,37,Darke
+39,5,Southwestern,45,Fairfield
+39,5,Southwestern,47,Fayette
+39,5,Southwestern,49,Franklin
+39,5,Southwestern,57,Greene
+39,5,Southwestern,61,Hamilton
+39,5,Southwestern,89,Licking
+39,5,Southwestern,97,Madison
+39,5,Southwestern,109,Miami
+39,5,Southwestern,113,Montgomery
+39,5,Southwestern,129,Pickaway
+39,5,Southwestern,135,Preble
+39,5,Southwestern,165,Warren
+39,6,Northwestern,3,Allen
+39,6,Northwestern,11,Auglaize
+39,6,Northwestern,21,Champaign
+39,6,Northwestern,33,Crawford
+39,6,Northwestern,39,Defiance
+39,6,Northwestern,41,Delaware
+39,6,Northwestern,51,Fulton
+39,6,Northwestern,63,Hancock
+39,6,Northwestern,65,Hardin
+39,6,Northwestern,69,Henry
+39,6,Northwestern,83,Knox
+39,6,Northwestern,91,Logan
+39,6,Northwestern,95,Lucas
+39,6,Northwestern,101,Marion
+39,6,Northwestern,107,Mercer
+39,6,Northwestern,117,Morrow
+39,6,Northwestern,123,Ottawa
+39,6,Northwestern,125,Paulding
+39,6,Northwestern,137,Putnam
+39,6,Northwestern,143,Sandusky
+39,6,Northwestern,147,Seneca
+39,6,Northwestern,149,Shelby
+39,6,Northwestern,159,Union
+39,6,Northwestern,161,Van Wert
+39,6,Northwestern,171,Williams
+39,6,Northwestern,173,Wood
+39,6,Northwestern,175,Wyandot
+40,1,Southeast,5,Atoka
+40,1,Southeast,13,Bryan
+40,1,Southeast,23,Choctaw
+40,1,Southeast,29,Coal
+40,1,Southeast,61,Haskell
+40,1,Southeast,77,Latimer
+40,1,Southeast,79,Le Flore
+40,1,Southeast,89,McCurtain
+40,1,Southeast,121,Pittsburg
+40,1,Southeast,127,Pushmataha
+40,2,Northeast,1,Adair
+40,2,Northeast,21,Cherokee
+40,2,Northeast,41,Delaware
+40,2,Northeast,91,McIntosh
+40,2,Northeast,97,Mayes
+40,2,Northeast,101,Muskogee
+40,2,Northeast,115,Ottawa
+40,2,Northeast,135,Sequoyah
+40,3,North Central,35,Craig
+40,3,North Central,37,Creek
+40,3,North Central,105,Nowata
+40,3,North Central,113,Osage
+40,3,North Central,117,Pawnee
+40,3,North Central,119,Payne
+40,3,North Central,131,Rogers
+40,3,North Central,143,Tulsa
+40,3,North Central,145,Wagoner
+40,3,North Central,147,Washington
+40,4,South Central,19,Carter
+40,4,South Central,27,Cleveland
+40,4,South Central,49,Garvin
+40,4,South Central,63,Hughes
+40,4,South Central,69,Johnston
+40,4,South Central,81,Lincoln
+40,4,South Central,83,Logan
+40,4,South Central,85,Love
+40,4,South Central,87,McClain
+40,4,South Central,95,Marshall
+40,4,South Central,99,Murray
+40,4,South Central,107,Okfuskee
+40,4,South Central,109,Oklahoma
+40,4,South Central,111,Okmulgee
+40,4,South Central,123,Pontotoc
+40,4,South Central,125,Pottawatomie
+40,4,South Central,133,Seminole
+40,5,Southwest,9,Beckham
+40,5,Southwest,11,Blaine
+40,5,Southwest,15,Caddo
+40,5,Southwest,17,Canadian
+40,5,Southwest,31,Comanche
+40,5,Southwest,33,Cotton
+40,5,Southwest,39,Custer
+40,5,Southwest,43,Dewey
+40,5,Southwest,51,Grady
+40,5,Southwest,55,Greer
+40,5,Southwest,57,Harmon
+40,5,Southwest,65,Jackson
+40,5,Southwest,67,Jefferson
+40,5,Southwest,73,Kingfisher
+40,5,Southwest,75,Kiowa
+40,5,Southwest,129,Roger Mills
+40,5,Southwest,137,Stephens
+40,5,Southwest,141,Tillman
+40,5,Southwest,149,Washita
+40,6,High Plains,7,Beaver
+40,6,High Plains,25,Cimarron
+40,6,High Plains,45,Ellis
+40,6,High Plains,59,Harper
+40,6,High Plains,139,Texas
+40,7,Great Plains,3,Alfalfa
+40,7,Great Plains,47,Garfield
+40,7,Great Plains,53,Grant
+40,7,Great Plains,71,Kay
+40,7,Great Plains,93,Major
+40,7,Great Plains,103,Noble
+40,7,Great Plains,151,Woods
+40,7,Great Plains,153,Woodward
+41,0,Northwest,5,Clackamas
+41,0,Northwest,7,Clatsop
+41,0,Northwest,9,Columbia
+41,0,Northwest,27,Hood River
+41,0,Northwest,47,Marion
+41,0,Northwest,51,Multnomah
+41,0,Northwest,53,Polk
+41,0,Northwest,57,Tillamook
+41,0,Northwest,67,Washington
+41,0,Northwest,71,Yamhill
+41,1,West Central,3,Benton
+41,1,West Central,39,Lane
+41,1,West Central,41,Lincoln
+41,1,West Central,43,Linn
+41,2,Southwest,11,Coos
+41,2,Southwest,15,Curry
+41,2,Southwest,19,Douglas
+41,2,Southwest,29,Jackson
+41,2,Southwest,33,Josephine
+41,3,Central,13,Crook
+41,3,Central,17,Deschutes
+41,3,Central,21,Gilliam
+41,3,Central,31,Jefferson
+41,3,Central,35,Klamath
+41,3,Central,37,Lake
+41,3,Central,55,Sherman
+41,3,Central,65,Wasco
+41,3,Central,69,Wheeler
+41,4,Blue Mountains,1,Baker
+41,4,Blue Mountains,23,Grant
+41,4,Blue Mountains,25,Harney
+41,4,Blue Mountains,45,Malheur
+41,4,Blue Mountains,49,Morrow
+41,4,Blue Mountains,59,Umatilla
+41,4,Blue Mountains,61,Union
+41,4,Blue Mountains,63,Wallowa
+42,0,South Central,43,Dauphin
+42,0,South Central,55,Franklin
+42,0,South Central,57,Fulton
+42,0,South Central,61,Huntingdon
+42,0,South Central,67,Juniata
+42,0,South Central,87,Mifflin
+42,0,South Central,99,Perry
+42,0,South Central,109,Snyder
+42,0,South Central,119,Union
+42,5,Western,3,Allegheny
+42,5,Western,5,Armstrong
+42,5,Western,7,Beaver
+42,5,Western,19,Butler
+42,5,Western,39,Crawford
+42,5,Western,49,Erie
+42,5,Western,59,Greene
+42,5,Western,63,Indiana
+42,5,Western,73,Lawrence
+42,5,Western,85,Mercer
+42,5,Western,125,Washington
+42,5,Western,129,Westmoreland
+42,6,North Central/Allegheny,23,Cameron
+42,6,North Central/Allegheny,27,Centre
+42,6,North Central/Allegheny,31,Clarion
+42,6,North Central/Allegheny,33,Clearfield
+42,6,North Central/Allegheny,35,Clinton
+42,6,North Central/Allegheny,47,Elk
+42,6,North Central/Allegheny,53,Forest
+42,6,North Central/Allegheny,65,Jefferson
+42,6,North Central/Allegheny,81,Lycoming
+42,6,North Central/Allegheny,83,McKean
+42,6,North Central/Allegheny,105,Potter
+42,6,North Central/Allegheny,113,Sullivan
+42,6,North Central/Allegheny,117,Tioga
+42,6,North Central/Allegheny,121,Venango
+42,6,North Central/Allegheny,123,Warren
+42,7,Southwestern,9,Bedford
+42,7,Southwestern,13,Blair
+42,7,Southwestern,21,Cambria
+42,7,Southwestern,51,Fayette
+42,7,Southwestern,111,Somerset
+42,8,Northeastern/Pocono,15,Bradford
+42,8,Northeastern/Pocono,25,Carbon
+42,8,Northeastern/Pocono,37,Columbia
+42,8,Northeastern/Pocono,69,Lackawanna
+42,8,Northeastern/Pocono,79,Luzerne
+42,8,Northeastern/Pocono,89,Monroe
+42,8,Northeastern/Pocono,93,Montour
+42,8,Northeastern/Pocono,97,Northumberland
+42,8,Northeastern/Pocono,103,Pike
+42,8,Northeastern/Pocono,107,Schuylkill
+42,8,Northeastern/Pocono,115,Susquehanna
+42,8,Northeastern/Pocono,127,Wayne
+42,8,Northeastern/Pocono,131,Wyoming
+42,9,Southeastern,1,Adams
+42,9,Southeastern,11,Berks
+42,9,Southeastern,17,Bucks
+42,9,Southeastern,29,Chester
+42,9,Southeastern,41,Cumberland
+42,9,Southeastern,45,Delaware
+42,9,Southeastern,71,Lancaster
+42,9,Southeastern,75,Lebanon
+42,9,Southeastern,77,Lehigh
+42,9,Southeastern,91,Montgomery
+42,9,Southeastern,95,Northampton
+42,9,Southeastern,101,Philadelphia
+42,9,Southeastern,133,York
+44,1,Rhode Island,1,Bristol
+44,1,Rhode Island,3,Kent
+44,1,Rhode Island,5,Newport
+44,1,Rhode Island,7,Providence
+44,1,Rhode Island,9,Washington
+45,1,Southern Coastal Plain,3,Aiken
+45,1,Southern Coastal Plain,5,Allendale
+45,1,Southern Coastal Plain,9,Bamberg
+45,1,Southern Coastal Plain,11,Barnwell
+45,1,Southern Coastal Plain,13,Beaufort
+45,1,Southern Coastal Plain,17,Calhoun
+45,1,Southern Coastal Plain,29,Colleton
+45,1,Southern Coastal Plain,35,Dorchester
+45,1,Southern Coastal Plain,49,Hampton
+45,1,Southern Coastal Plain,53,Jasper
+45,1,Southern Coastal Plain,63,Lexington
+45,1,Southern Coastal Plain,75,Orangeburg
+45,2,Northern Coastal Plain,15,Berkeley
+45,2,Northern Coastal Plain,19,Charleston
+45,2,Northern Coastal Plain,25,Chesterfield
+45,2,Northern Coastal Plain,27,Clarendon
+45,2,Northern Coastal Plain,31,Darlington
+45,2,Northern Coastal Plain,33,Dillon
+45,2,Northern Coastal Plain,41,Florence
+45,2,Northern Coastal Plain,43,Georgetown
+45,2,Northern Coastal Plain,51,Horry
+45,2,Northern Coastal Plain,55,Kershaw
+45,2,Northern Coastal Plain,61,Lee
+45,2,Northern Coastal Plain,67,Marion
+45,2,Northern Coastal Plain,69,Marlboro
+45,2,Northern Coastal Plain,79,Richland
+45,2,Northern Coastal Plain,85,Sumter
+45,2,Northern Coastal Plain,89,Williamsburg
+45,3,Piedmont,1,Abbeville
+45,3,Piedmont,7,Anderson
+45,3,Piedmont,21,Cherokee
+45,3,Piedmont,23,Chester
+45,3,Piedmont,37,Edgefield
+45,3,Piedmont,39,Fairfield
+45,3,Piedmont,45,Greenville
+45,3,Piedmont,47,Greenwood
+45,3,Piedmont,57,Lancaster
+45,3,Piedmont,59,Laurens
+45,3,Piedmont,65,McCormick
+45,3,Piedmont,71,Newberry
+45,3,Piedmont,73,Oconee
+45,3,Piedmont,77,Pickens
+45,3,Piedmont,81,Saluda
+45,3,Piedmont,83,Spartanburg
+45,3,Piedmont,87,Union
+45,3,Piedmont,91,York
+46,1,Eastern,3,Aurora
+46,1,Eastern,5,Beadle
+46,1,Eastern,7,Bennett
+46,1,Eastern,9,Bon Homme
+46,1,Eastern,11,Brookings
+46,1,Eastern,13,Brown
+46,1,Eastern,15,Brule
+46,1,Eastern,17,Buffalo
+46,1,Eastern,21,Campbell
+46,1,Eastern,23,Charles Mix
+46,1,Eastern,25,Clark
+46,1,Eastern,27,Clay
+46,1,Eastern,29,Codington
+46,1,Eastern,31,Corson
+46,1,Eastern,35,Davison
+46,1,Eastern,37,Day
+46,1,Eastern,39,Deuel
+46,1,Eastern,41,Dewey
+46,1,Eastern,43,Douglas
+46,1,Eastern,45,Edmunds
+46,1,Eastern,49,Faulk
+46,1,Eastern,51,Grant
+46,1,Eastern,53,Gregory
+46,1,Eastern,55,Haakon
+46,1,Eastern,57,Hamlin
+46,1,Eastern,59,Hand
+46,1,Eastern,61,Hanson
+46,1,Eastern,65,Hughes
+46,1,Eastern,67,Hutchinson
+46,1,Eastern,69,Hyde
+46,1,Eastern,71,Jackson
+46,1,Eastern,73,Jerauld
+46,1,Eastern,75,Jones
+46,1,Eastern,77,Kingsbury
+46,1,Eastern,79,Lake
+46,1,Eastern,83,Lincoln
+46,1,Eastern,85,Lyman
+46,1,Eastern,87,McCook
+46,1,Eastern,89,McPherson
+46,1,Eastern,91,Marshall
+46,1,Eastern,95,Mellette
+46,1,Eastern,97,Miner
+46,1,Eastern,99,Minnehaha
+46,1,Eastern,101,Moody
+46,1,Eastern,105,Perkins
+46,1,Eastern,107,Potter
+46,1,Eastern,109,Roberts
+46,1,Eastern,111,Sanborn
+46,1,Eastern,115,Spink
+46,1,Eastern,117,Stanley
+46,1,Eastern,119,Sully
+46,1,Eastern,121,Todd
+46,1,Eastern,123,Tripp
+46,1,Eastern,125,Turner
+46,1,Eastern,127,Union
+46,1,Eastern,129,Walworth
+46,1,Eastern,135,Yankton
+46,1,Eastern,137,Ziebach
+46,2,Western,19,Butte
+46,2,Western,33,Custer
+46,2,Western,47,Fall River
+46,2,Western,63,Harding
+46,2,Western,81,Lawrence
+46,2,Western,93,Meade
+46,2,Western,103,Pennington
+46,2,Western,113,Shannon
+47,1,West,17,Carroll
+47,1,West,23,Chester
+47,1,West,33,Crockett
+47,1,West,45,Dyer
+47,1,West,47,Fayette
+47,1,West,53,Gibson
+47,1,West,69,Hardeman
+47,1,West,75,Haywood
+47,1,West,77,Henderson
+47,1,West,79,Henry
+47,1,West,95,Lake
+47,1,West,97,Lauderdale
+47,1,West,109,McNairy
+47,1,West,113,Madison
+47,1,West,131,Obion
+47,1,West,157,Shelby
+47,1,West,167,Tipton
+47,1,West,183,Weakley
+47,2,West Central,5,Benton
+47,2,West Central,39,Decatur
+47,2,West Central,71,Hardin
+47,2,West Central,81,Hickman
+47,2,West Central,83,Houston
+47,2,West Central,85,Humphreys
+47,2,West Central,99,Lawrence
+47,2,West Central,101,Lewis
+47,2,West Central,135,Perry
+47,2,West Central,161,Stewart
+47,2,West Central,181,Wayne
+47,3,Central,3,Bedford
+47,3,Central,15,Cannon
+47,3,Central,21,Cheatham
+47,3,Central,27,Clay
+47,3,Central,31,Coffee
+47,3,Central,37,Davidson
+47,3,Central,41,DeKalb
+47,3,Central,43,Dickson
+47,3,Central,55,Giles
+47,3,Central,87,Jackson
+47,3,Central,103,Lincoln
+47,3,Central,111,Macon
+47,3,Central,117,Marshall
+47,3,Central,119,Maury
+47,3,Central,125,Montgomery
+47,3,Central,127,Moore
+47,3,Central,147,Robertson
+47,3,Central,149,Rutherford
+47,3,Central,159,Smith
+47,3,Central,165,Sumner
+47,3,Central,169,Trousdale
+47,3,Central,187,Williamson
+47,3,Central,189,Wilson
+47,4,Plateau,7,Bledsoe
+47,4,Plateau,13,Campbell
+47,4,Plateau,35,Cumberland
+47,4,Plateau,49,Fentress
+47,4,Plateau,51,Franklin
+47,4,Plateau,61,Grundy
+47,4,Plateau,115,Marion
+47,4,Plateau,129,Morgan
+47,4,Plateau,133,Overton
+47,4,Plateau,137,Pickett
+47,4,Plateau,141,Putnam
+47,4,Plateau,151,Scott
+47,4,Plateau,153,Sequatchie
+47,4,Plateau,175,Van Buren
+47,4,Plateau,177,Warren
+47,4,Plateau,185,White
+47,5,East,1,Anderson
+47,5,East,9,Blount
+47,5,East,11,Bradley
+47,5,East,19,Carter
+47,5,East,25,Claiborne
+47,5,East,29,Cocke
+47,5,East,57,Grainger
+47,5,East,59,Greene
+47,5,East,63,Hamblen
+47,5,East,65,Hamilton
+47,5,East,67,Hancock
+47,5,East,73,Hawkins
+47,5,East,89,Jefferson
+47,5,East,91,Johnson
+47,5,East,93,Knox
+47,5,East,105,Loudon
+47,5,East,107,McMinn
+47,5,East,121,Meigs
+47,5,East,123,Monroe
+47,5,East,139,Polk
+47,5,East,143,Rhea
+47,5,East,145,Roane
+47,5,East,155,Sevier
+47,5,East,163,Sullivan
+47,5,East,171,Unicoi
+47,5,East,173,Union
+47,5,East,179,Washington
+48,1,Southeast,5,Angelina
+48,1,Southeast,71,Chambers
+48,1,Southeast,185,Grimes
+48,1,Southeast,199,Hardin
+48,1,Southeast,201,Harris
+48,1,Southeast,225,Houston
+48,1,Southeast,241,Jasper
+48,1,Southeast,245,Jefferson
+48,1,Southeast,289,Leon
+48,1,Southeast,291,Liberty
+48,1,Southeast,313,Madison
+48,1,Southeast,339,Montgomery
+48,1,Southeast,351,Newton
+48,1,Southeast,361,Orange
+48,1,Southeast,373,Polk
+48,1,Southeast,403,Sabine
+48,1,Southeast,405,San Augustine
+48,1,Southeast,407,San Jacinto
+48,1,Southeast,455,Trinity
+48,1,Southeast,457,Tyler
+48,1,Southeast,471,Walker
+48,1,Southeast,473,Waller
+48,2,Northeast,1,Anderson
+48,2,Northeast,37,Bowie
+48,2,Northeast,63,Camp
+48,2,Northeast,67,Cass
+48,2,Northeast,73,Cherokee
+48,2,Northeast,159,Franklin
+48,2,Northeast,183,Gregg
+48,2,Northeast,203,Harrison
+48,2,Northeast,213,Henderson
+48,2,Northeast,315,Marion
+48,2,Northeast,343,Morris
+48,2,Northeast,347,Nacogdoches
+48,2,Northeast,365,Panola
+48,2,Northeast,387,Red River
+48,2,Northeast,401,Rusk
+48,2,Northeast,419,Shelby
+48,2,Northeast,423,Smith
+48,2,Northeast,449,Titus
+48,2,Northeast,459,Upshur
+48,2,Northeast,467,Van Zandt
+48,2,Northeast,499,Wood
+48,3,North Central,15,Austin
+48,3,North Central,21,Bastrop
+48,3,North Central,41,Brazos
+48,3,North Central,51,Burleson
+48,3,North Central,55,Caldwell
+48,3,North Central,77,Clay
+48,3,North Central,85,Collin
+48,3,North Central,89,Colorado
+48,3,North Central,97,Cooke
+48,3,North Central,113,Dallas
+48,3,North Central,119,Delta
+48,3,North Central,121,Denton
+48,3,North Central,123,De Witt
+48,3,North Central,139,Ellis
+48,3,North Central,145,Falls
+48,3,North Central,147,Fannin
+48,3,North Central,149,Fayette
+48,3,North Central,161,Freestone
+48,3,North Central,175,Goliad
+48,3,North Central,177,Gonzales
+48,3,North Central,181,Grayson
+48,3,North Central,187,Guadalupe
+48,3,North Central,217,Hill
+48,3,North Central,223,Hopkins
+48,3,North Central,231,Hunt
+48,3,North Central,237,Jack
+48,3,North Central,251,Johnson
+48,3,North Central,257,Kaufman
+48,3,North Central,277,Lamar
+48,3,North Central,285,Lavaca
+48,3,North Central,287,Lee
+48,3,North Central,293,Limestone
+48,3,North Central,331,Milam
+48,3,North Central,337,Montague
+48,3,North Central,349,Navarro
+48,3,North Central,367,Parker
+48,3,North Central,379,Rains
+48,3,North Central,395,Robertson
+48,3,North Central,397,Rockwall
+48,3,North Central,439,Tarrant
+48,3,North Central,477,Washington
+48,3,North Central,497,Wise
+48,3,North Central,503,Young
+48,4,South,7,Aransas
+48,4,South,13,Atascosa
+48,4,South,25,Bee
+48,4,South,39,Brazoria
+48,4,South,47,Brooks
+48,4,South,57,Calhoun
+48,4,South,61,Cameron
+48,4,South,127,Dimmit
+48,4,South,131,Duval
+48,4,South,157,Fort Bend
+48,4,South,163,Frio
+48,4,South,167,Galveston
+48,4,South,215,Hidalgo
+48,4,South,239,Jackson
+48,4,South,247,Jim Hogg
+48,4,South,249,Jim Wells
+48,4,South,255,Karnes
+48,4,South,261,Kenedy
+48,4,South,273,Kleberg
+48,4,South,283,La Salle
+48,4,South,297,Live Oak
+48,4,South,311,McMullen
+48,4,South,321,Matagorda
+48,4,South,323,Maverick
+48,4,South,355,Nueces
+48,4,South,391,Refugio
+48,4,South,409,San Patricio
+48,4,South,427,Starr
+48,4,South,469,Victoria
+48,4,South,479,Webb
+48,4,South,481,Wharton
+48,4,South,489,Willacy
+48,4,South,493,Wilson
+48,4,South,505,Zapata
+48,4,South,507,Zavala
+48,5,West Central,19,Bandera
+48,5,West Central,27,Bell
+48,5,West Central,29,Bexar
+48,5,West Central,31,Blanco
+48,5,West Central,35,Bosque
+48,5,West Central,49,Brown
+48,5,West Central,53,Burnet
+48,5,West Central,59,Callahan
+48,5,West Central,83,Coleman
+48,5,West Central,91,Comal
+48,5,West Central,93,Comanche
+48,5,West Central,95,Concho
+48,5,West Central,99,Coryell
+48,5,West Central,105,Crockett
+48,5,West Central,133,Eastland
+48,5,West Central,137,Edwards
+48,5,West Central,143,Erath
+48,5,West Central,171,Gillespie
+48,5,West Central,193,Hamilton
+48,5,West Central,209,Hays
+48,5,West Central,221,Hood
+48,5,West Central,259,Kendall
+48,5,West Central,265,Kerr
+48,5,West Central,267,Kimble
+48,5,West Central,271,Kinney
+48,5,West Central,281,Lampasas
+48,5,West Central,299,Llano
+48,5,West Central,307,McCulloch
+48,5,West Central,309,McLennan
+48,5,West Central,319,Mason
+48,5,West Central,325,Medina
+48,5,West Central,327,Menard
+48,5,West Central,333,Mills
+48,5,West Central,363,Palo Pinto
+48,5,West Central,385,Real
+48,5,West Central,399,Runnels
+48,5,West Central,411,San Saba
+48,5,West Central,413,Schleicher
+48,5,West Central,425,Somervell
+48,5,West Central,429,Stephens
+48,5,West Central,435,Sutton
+48,5,West Central,453,Travis
+48,5,West Central,463,Uvalde
+48,5,West Central,465,Val Verde
+48,5,West Central,491,Williamson
+48,6,Northwest,3,Andrews
+48,6,Northwest,9,Archer
+48,6,Northwest,11,Armstrong
+48,6,Northwest,17,Bailey
+48,6,Northwest,23,Baylor
+48,6,Northwest,33,Borden
+48,6,Northwest,45,Briscoe
+48,6,Northwest,65,Carson
+48,6,Northwest,69,Castro
+48,6,Northwest,75,Childress
+48,6,Northwest,79,Cochran
+48,6,Northwest,81,Coke
+48,6,Northwest,87,Collingsworth
+48,6,Northwest,101,Cottle
+48,6,Northwest,107,Crosby
+48,6,Northwest,111,Dallam
+48,6,Northwest,115,Dawson
+48,6,Northwest,117,Deaf Smith
+48,6,Northwest,125,Dickens
+48,6,Northwest,129,Donley
+48,6,Northwest,151,Fisher
+48,6,Northwest,153,Floyd
+48,6,Northwest,155,Foard
+48,6,Northwest,165,Gaines
+48,6,Northwest,169,Garza
+48,6,Northwest,173,Glasscock
+48,6,Northwest,179,Gray
+48,6,Northwest,189,Hale
+48,6,Northwest,191,Hall
+48,6,Northwest,195,Hansford
+48,6,Northwest,197,Hardeman
+48,6,Northwest,205,Hartley
+48,6,Northwest,207,Haskell
+48,6,Northwest,211,Hemphill
+48,6,Northwest,219,Hockley
+48,6,Northwest,227,Howard
+48,6,Northwest,233,Hutchinson
+48,6,Northwest,235,Irion
+48,6,Northwest,253,Jones
+48,6,Northwest,263,Kent
+48,6,Northwest,269,King
+48,6,Northwest,275,Knox
+48,6,Northwest,279,Lamb
+48,6,Northwest,295,Lipscomb
+48,6,Northwest,303,Lubbock
+48,6,Northwest,305,Lynn
+48,6,Northwest,317,Martin
+48,6,Northwest,329,Midland
+48,6,Northwest,335,Mitchell
+48,6,Northwest,341,Moore
+48,6,Northwest,345,Motley
+48,6,Northwest,353,Nolan
+48,6,Northwest,357,Ochiltree
+48,6,Northwest,359,Oldham
+48,6,Northwest,369,Parmer
+48,6,Northwest,375,Potter
+48,6,Northwest,381,Randall
+48,6,Northwest,383,Reagan
+48,6,Northwest,393,Roberts
+48,6,Northwest,415,Scurry
+48,6,Northwest,417,Shackelford
+48,6,Northwest,421,Sherman
+48,6,Northwest,431,Sterling
+48,6,Northwest,433,Stonewall
+48,6,Northwest,437,Swisher
+48,6,Northwest,441,Taylor
+48,6,Northwest,445,Terry
+48,6,Northwest,447,Throckmorton
+48,6,Northwest,451,Tom Green
+48,6,Northwest,483,Wheeler
+48,6,Northwest,485,Wichita
+48,6,Northwest,487,Wilbarger
+48,6,Northwest,501,Yoakum
+48,7,West,43,Brewster
+48,7,West,103,Crane
+48,7,West,109,Culberson
+48,7,West,135,Ector
+48,7,West,141,El Paso
+48,7,West,229,Hudspeth
+48,7,West,243,Jeff Davis
+48,7,West,301,Loving
+48,7,West,371,Pecos
+48,7,West,377,Presidio
+48,7,West,389,Reeves
+48,7,West,443,Terrell
+48,7,West,461,Upton
+48,7,West,475,Ward
+48,7,West,495,Winkler
+49,1,Northern,3,Box Elder
+49,1,Northern,5,Cache
+49,1,Northern,11,Davis
+49,1,Northern,29,Morgan
+49,1,Northern,33,Rich
+49,1,Northern,35,Salt Lake
+49,1,Northern,43,Summit
+49,1,Northern,45,Tooele
+49,1,Northern,49,Utah
+49,1,Northern,51,Wasatch
+49,1,Northern,57,Weber
+49,2,Uinta,9,Daggett
+49,2,Uinta,13,Duchesne
+49,2,Uinta,47,Uintah
+49,3,Central,23,Juab
+49,3,Central,27,Millard
+49,3,Central,31,Piute
+49,3,Central,39,Sanpete
+49,3,Central,41,Sevier
+49,3,Central,55,Wayne
+49,4,Eastern,7,Carbon
+49,4,Eastern,15,Emery
+49,4,Eastern,19,Grand
+49,4,Eastern,37,San Juan
+49,5,Southwestern,1,Beaver
+49,5,Southwestern,17,Garfield
+49,5,Southwestern,21,Iron
+49,5,Southwestern,25,Kane
+49,5,Southwestern,53,Washington
+50,2,Northern,5,Caledonia
+50,2,Northern,9,Essex
+50,2,Northern,11,Franklin
+50,2,Northern,13,Grand Isle
+50,2,Northern,15,Lamoille
+50,2,Northern,17,Orange
+50,2,Northern,19,Orleans
+50,2,Northern,23,Washington
+50,3,Southern,1,Addison
+50,3,Southern,3,Bennington
+50,3,Southern,7,Chittenden
+50,3,Southern,21,Rutland
+50,3,Southern,25,Windham
+50,3,Southern,27,Windsor
+51,1,Coastal Plain,1,Accomack
+51,1,Coastal Plain,25,Brunswick
+51,1,Coastal Plain,33,Caroline
+51,1,Coastal Plain,36,Charles City
+51,1,Coastal Plain,41,Chesterfield
+51,1,Coastal Plain,53,Dinwiddie
+51,1,Coastal Plain,57,Essex
+51,1,Coastal Plain,73,Gloucester
+51,1,Coastal Plain,81,Greensville
+51,1,Coastal Plain,85,Hanover
+51,1,Coastal Plain,87,Henrico
+51,1,Coastal Plain,93,Isle Of Wight
+51,1,Coastal Plain,95,James City
+51,1,Coastal Plain,97,King And Queen
+51,1,Coastal Plain,99,King George
+51,1,Coastal Plain,101,King William
+51,1,Coastal Plain,103,Lancaster
+51,1,Coastal Plain,115,Mathews
+51,1,Coastal Plain,119,Middlesex
+51,1,Coastal Plain,127,New Kent
+51,1,Coastal Plain,131,Northampton
+51,1,Coastal Plain,133,Northumberland
+51,1,Coastal Plain,149,Prince George
+51,1,Coastal Plain,159,Richmond
+51,1,Coastal Plain,175,Southampton
+51,1,Coastal Plain,181,Surry
+51,1,Coastal Plain,183,Sussex
+51,1,Coastal Plain,193,Westmoreland
+51,1,Coastal Plain,199,York
+51,1,Coastal Plain,550,Chesapeake city
+51,1,Coastal Plain,650,Hampton city
+51,1,Coastal Plain,700,Newport News city
+51,1,Coastal Plain,800,Suffolk city
+51,1,Coastal Plain,810,Virginia Beach city
+51,2,Southern Piedmont,7,Amelia
+51,2,Southern Piedmont,11,Appomattox
+51,2,Southern Piedmont,19,Bedford
+51,2,Southern Piedmont,29,Buckingham
+51,2,Southern Piedmont,31,Campbell
+51,2,Southern Piedmont,37,Charlotte
+51,2,Southern Piedmont,49,Cumberland
+51,2,Southern Piedmont,67,Franklin
+51,2,Southern Piedmont,83,Halifax
+51,2,Southern Piedmont,89,Henry
+51,2,Southern Piedmont,111,Lunenburg
+51,2,Southern Piedmont,117,Mecklenburg
+51,2,Southern Piedmont,135,Nottoway
+51,2,Southern Piedmont,141,Patrick
+51,2,Southern Piedmont,143,Pittsylvania
+51,2,Southern Piedmont,145,Powhatan
+51,2,Southern Piedmont,147,Prince Edward
+51,3,Northern Piedmont,3,Albemarle
+51,3,Northern Piedmont,9,Amherst
+51,3,Northern Piedmont,13,Arlington
+51,3,Northern Piedmont,47,Culpeper
+51,3,Northern Piedmont,59,Fairfax
+51,3,Northern Piedmont,61,Fauquier
+51,3,Northern Piedmont,65,Fluvanna
+51,3,Northern Piedmont,75,Goochland
+51,3,Northern Piedmont,79,Greene
+51,3,Northern Piedmont,107,Loudoun
+51,3,Northern Piedmont,109,Louisa
+51,3,Northern Piedmont,113,Madison
+51,3,Northern Piedmont,125,Nelson
+51,3,Northern Piedmont,137,Orange
+51,3,Northern Piedmont,153,Prince William
+51,3,Northern Piedmont,157,Rappahannock
+51,3,Northern Piedmont,177,Spotsylvania
+51,3,Northern Piedmont,179,Stafford
+51,4,Northern Mountains,5,Alleghany
+51,4,Northern Mountains,15,Augusta
+51,4,Northern Mountains,17,Bath
+51,4,Northern Mountains,23,Botetourt
+51,4,Northern Mountains,43,Clarke
+51,4,Northern Mountains,45,Craig
+51,4,Northern Mountains,69,Frederick
+51,4,Northern Mountains,91,Highland
+51,4,Northern Mountains,139,Page
+51,4,Northern Mountains,161,Roanoke
+51,4,Northern Mountains,163,Rockbridge
+51,4,Northern Mountains,165,Rockingham
+51,4,Northern Mountains,171,Shenandoah
+51,4,Northern Mountains,187,Warren
+51,5,Southern Mountains,21,Bland
+51,5,Southern Mountains,27,Buchanan
+51,5,Southern Mountains,35,Carroll
+51,5,Southern Mountains,51,Dickenson
+51,5,Southern Mountains,63,Floyd
+51,5,Southern Mountains,71,Giles
+51,5,Southern Mountains,77,Grayson
+51,5,Southern Mountains,105,Lee
+51,5,Southern Mountains,121,Montgomery
+51,5,Southern Mountains,155,Pulaski
+51,5,Southern Mountains,167,Russell
+51,5,Southern Mountains,169,Scott
+51,5,Southern Mountains,173,Smyth
+51,5,Southern Mountains,185,Tazewell
+51,5,Southern Mountains,191,Washington
+51,5,Southern Mountains,195,Wise
+51,5,Southern Mountains,197,Wythe
+51,510,Alexandria city,59,Fairfax
+51,515,Bedford city,19,Bedford
+51,520,Bristol city,191,Washington
+51,530,Buena Vista city,163,Rockbridge
+51,540,Charlottesville city,3,Albemarle
+51,560,Clifton Forge city,5,Allegheny
+53,5,Puget Sound,29,Island
+53,5,Puget Sound,33,King
+53,5,Puget Sound,35,Kitsap
+53,5,Puget Sound,53,Pierce
+53,5,Puget Sound,55,San Juan
+53,5,Puget Sound,57,Skagit
+53,5,Puget Sound,61,Snohomish
+53,5,Puget Sound,73,Whatcom
+53,6,Olympic Peninsula,9,Clallam
+53,6,Olympic Peninsula,27,Grays Harbor
+53,6,Olympic Peninsula,31,Jefferson
+53,6,Olympic Peninsula,45,Mason
+53,6,Olympic Peninsula,67,Thurston
+53,7,Southwest,11,Clark
+53,7,Southwest,15,Cowlitz
+53,7,Southwest,41,Lewis
+53,7,Southwest,49,Pacific
+53,7,Southwest,59,Skamania
+53,7,Southwest,69,Wahkiakum
+53,8,Central,7,Chelan
+53,8,Central,17,Douglas
+53,8,Central,37,Kittitas
+53,8,Central,39,Klickitat
+53,8,Central,47,Okanogan
+53,8,Central,77,Yakima
+53,9,Inland Empire,1,Adams
+53,9,Inland Empire,3,Asotin
+53,9,Inland Empire,5,Benton
+53,9,Inland Empire,13,Columbia
+53,9,Inland Empire,19,Ferry
+53,9,Inland Empire,21,Franklin
+53,9,Inland Empire,23,Garfield
+54,2,Northeastern,1,Barbour
+54,2,Northeastern,3,Berkeley
+54,2,Northeastern,7,Braxton
+54,2,Northeastern,23,Grant
+54,2,Northeastern,27,Hampshire
+54,2,Northeastern,31,Hardy
+54,2,Northeastern,33,Harrison
+54,2,Northeastern,37,Jefferson
+54,2,Northeastern,41,Lewis
+54,2,Northeastern,57,Mineral
+54,2,Northeastern,65,Morgan
+54,2,Northeastern,71,Pendleton
+54,2,Northeastern,75,Pocahontas
+54,2,Northeastern,77,Preston
+54,2,Northeastern,83,Randolph
+54,2,Northeastern,91,Taylor
+54,2,Northeastern,93,Tucker
+54,2,Northeastern,97,Upshur
+54,2,Northeastern,101,Webster
+54,3,Southern,5,Boone
+54,3,Southern,15,Clay
+54,3,Southern,19,Fayette
+54,3,Southern,25,Greenbrier
+54,3,Southern,39,Kanawha
+54,3,Southern,45,Logan
+54,3,Southern,47,McDowell
+54,3,Southern,55,Mercer
+54,3,Southern,59,Mingo
+54,3,Southern,63,Monroe
+54,3,Southern,67,Nicholas
+54,3,Southern,81,Raleigh
+54,3,Southern,89,Summers
+54,3,Southern,109,Wyoming
+54,4,Northwestern,9,Brooke
+54,4,Northwestern,11,Cabell
+54,4,Northwestern,13,Calhoun
+54,4,Northwestern,17,Doddridge
+54,4,Northwestern,21,Gilmer
+54,4,Northwestern,29,Hancock
+54,4,Northwestern,35,Jackson
+54,4,Northwestern,43,Lincoln
+54,4,Northwestern,49,Marion
+54,4,Northwestern,51,Marshall
+54,4,Northwestern,53,Mason
+54,4,Northwestern,61,Monongalia
+54,4,Northwestern,69,Ohio
+54,4,Northwestern,73,Pleasants
+54,4,Northwestern,79,Putnam
+54,4,Northwestern,85,Ritchie
+54,4,Northwestern,87,Roane
+54,4,Northwestern,95,Tyler
+54,4,Northwestern,99,Wayne
+54,4,Northwestern,103,Wetzel
+54,4,Northwestern,105,Wirt
+54,4,Northwestern,107,Wood
+55,1,Northeastern,37,Florence
+55,1,Northeastern,41,Forest
+55,1,Northeastern,67,Langlade
+55,1,Northeastern,69,Lincoln
+55,1,Northeastern,75,Marinette
+55,1,Northeastern,78,Menominee
+55,1,Northeastern,83,Oconto
+55,1,Northeastern,85,Oneida
+55,1,Northeastern,115,Shawano
+55,1,Northeastern,125,Vilas
+55,2,Northwestern,3,Ashland
+55,2,Northwestern,5,Barron
+55,2,Northwestern,7,Bayfield
+55,2,Northwestern,13,Burnett
+55,2,Northwestern,31,Douglas
+55,2,Northwestern,51,Iron
+55,2,Northwestern,95,Polk
+55,2,Northwestern,99,Price
+55,2,Northwestern,107,Rusk
+55,2,Northwestern,113,Sawyer
+55,2,Northwestern,119,Taylor
+55,2,Northwestern,129,Washburn
+55,3,Central,1,Adams
+55,3,Central,17,Chippewa
+55,3,Central,19,Clark
+55,3,Central,35,Eau Claire
+55,3,Central,53,Jackson
+55,3,Central,57,Juneau
+55,3,Central,73,Marathon
+55,3,Central,77,Marquette
+55,3,Central,81,Monroe
+55,3,Central,97,Portage
+55,3,Central,135,Waupaca
+55,3,Central,137,Waushara
+55,3,Central,141,Wood
+55,4,Southwestern,11,Buffalo
+55,4,Southwestern,23,Crawford
+55,4,Southwestern,33,Dunn
+55,4,Southwestern,43,Grant
+55,4,Southwestern,49,Iowa
+55,4,Southwestern,63,La Crosse
+55,4,Southwestern,65,Lafayette
+55,4,Southwestern,91,Pepin
+55,4,Southwestern,93,Pierce
+55,4,Southwestern,103,Richland
+55,4,Southwestern,109,St. Croix
+55,4,Southwestern,111,Sauk
+55,4,Southwestern,121,Trempealeau
+55,4,Southwestern,123,Vernon
+55,5,Southeastern,9,Brown
+55,5,Southeastern,15,Calumet
+55,5,Southeastern,21,Columbia
+55,5,Southeastern,25,Dane
+55,5,Southeastern,27,Dodge
+55,5,Southeastern,29,Door
+55,5,Southeastern,39,Fond du Lac
+55,5,Southeastern,45,Green
+55,5,Southeastern,47,Green Lake
+55,5,Southeastern,55,Jefferson
+55,5,Southeastern,59,Kenosha
+55,5,Southeastern,61,Kewaunee
+55,5,Southeastern,71,Manitowoc
+55,5,Southeastern,79,Milwaukee
+55,5,Southeastern,87,Outagamie
+55,5,Southeastern,89,Ozaukee
+55,5,Southeastern,101,Racine
+55,5,Southeastern,105,Rock
+55,5,Southeastern,117,Sheboygan
+55,5,Southeastern,127,Walworth
+55,5,Southeastern,131,Washington
+55,5,Southeastern,133,Waukesha
+55,5,Southeastern,139,Winnebago
+56,1,Western,13,Fremont
+56,1,Western,17,Hot Springs
+56,1,Western,23,Lincoln
+56,1,Western,29,Park
+56,1,Western,35,Sublette
+56,1,Western,37,Sweetwater
+56,1,Western,39,Teton
+56,1,Western,41,Uinta
+56,2,Central and Southeastern,1,Albany
+56,2,Central and Southeastern,3,Big Horn
+56,2,Central and Southeastern,7,Carbon
+56,2,Central and Southeastern,9,Converse
+56,2,Central and Southeastern,15,Goshen
+56,2,Central and Southeastern,19,Johnson
+56,2,Central and Southeastern,21,Laramie
+56,2,Central and Southeastern,25,Natrona
+56,2,Central and Southeastern,27,Niobrara
+56,2,Central and Southeastern,31,Platte
+56,2,Central and Southeastern,33,Sheridan
+56,2,Central and Southeastern,43,Washakie
+56,3,Northeastern,5,Campbell
+56,3,Northeastern,11,Crook
+56,3,Northeastern,45,Weston

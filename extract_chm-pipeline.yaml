@@ -1,0 +1,15 @@
+name: extract-chm-test
+version: "1.0"
+description: Test CHM extraction for a single state.
+
+blocks:
+  - id: "@extract"
+    name: PhilsCode.extract_county_chm
+    inputs: []
+    args:
+      state_abbrev: "VA"
+      path_gfchm: "/home/rstudio/data/GEDI/Forest_height_2019_NAM.tif"
+      path_counties: "/home/rstudio/data/Government/Counties/FIA/County_Boundaries/tl_2016_us_county_CONUS_Only_City-States_Assimilated.shp"
+      path_nlcd_dir: "/home/rstudio/data/NLCD"
+      path_survey: "/home/rstudio/data/FIADB/CSV_DATA/SURVEY.csv"
+      use_nlcd_mask: "true"
