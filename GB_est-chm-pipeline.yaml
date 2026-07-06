@@ -1,0 +1,36 @@
+name: GB_est-chm-pipeline
+version: "1.0"
+description: >
+  Query FIA GB_est, reformat the result, and join per-county CHM
+  height-bin distribution columns onto it.
+
+blocks:
+  - id: "@GB_est"
+    name: PhilsCode.GB_est
+    inputs: []
+    args:
+      EVAL_GRP: "512017, 372017"
+      ATTRIBUTE_NBR: 10
+      GRP_BY_ATTRIB: "STATECD, COUNTYCD"
+
+  - id: "@reformat"
+    name: PhilsCode.reformat_fia
+    inputs:
+      - block: "@GB_est"
+        output: "result"
+        as: "gb_est_result"
+    args:
+      unit_ref: "/home/pradtke/source/PhilsCode/ref/STATE_UNIT_COUNTY.csv"
+
+  - id: "@chm_stats"
+    name: PhilsCode.join_chm_stats
+    inputs:
+      - block: "@reformat"
+        output: "result"
+        as: "fia_data"
+    args:
+      state_abbrev: "VA"
+      path_gfchm: "/home/pradtke/source/PhilsCode/ref/chm_Tazewell_aea.tif"
+      gfchm_option: "default"
+      path_state: "/home/pradtke/source/PhilsCode/ref/STATES.csv"
+      path_county: "/home/pradtke/source/PhilsCode/ref/COUNTY.csv"
