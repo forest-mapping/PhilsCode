@@ -1,17 +1,11 @@
 # Block: GB_est
 
 library(spade)
-library(RPostgreSQL)
-library(DBI)
-library(FIADB.diRect)
+library(FIAapi)
 
 handler <- function(EVAL_GRP = "512017",
                     ATTRIBUTE_NBR = 10,
-                    GRP_BY_ATTRIB = "STATECD, COUNTYCD",
-                    FIADB_HOST = "localhost",
-                    FIADB_PORT = 5432,
-                    FIADB_USER = "spade",
-                    FIADB_PASSWORD = "") {
+                    GRP_BY_ATTRIB = "STATECD, COUNTYCD") {
 
   # Parse EVAL_GRP from comma-separated string to integer vector
   eval_grp_vec <- as.integer(trimws(strsplit(EVAL_GRP, ",")[[1]]))
@@ -28,8 +22,8 @@ handler <- function(EVAL_GRP = "512017",
   # Parse GRP_BY_ATTRIB
   grp_by_vec <- trimws(strsplit(GRP_BY_ATTRIB, ",")[[1]])
 
-  # Call GB_est with vector of EVAL_GRP values
-  result <- GB_est(
+  # Call GB_api with vector of EVAL_GRP values
+  result <- GB_api(
     EVAL_GRP      = eval_grp_vec,
     ATTRIBUTE_NBR = as.integer(ATTRIBUTE_NBR),
     GRP_BY_ATTRIB = grp_by_vec

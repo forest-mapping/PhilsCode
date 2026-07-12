@@ -1,5 +1,6 @@
+# blocks/reformat_fia.yaml
 id: PhilsCode.reformat_fia
-version: 0.1.0
+version: 0.1.1   # was 0.1.0
 kind: standard
 network: false
 
@@ -21,10 +22,9 @@ inputs:
     format: rds
     description: RDS file output from the GB_est block
   unit_ref:
-    type: string
-    description: >
-      Path to the STATE_UNIT_COUNTY.csv reference file mapping
-      STATECD and COUNTYCD to UNITCD and UNITNM
+    type: file
+    format: CSV
+    description: State/unit/county lookup table used to join FIA codes
 
 outputs:
   result:

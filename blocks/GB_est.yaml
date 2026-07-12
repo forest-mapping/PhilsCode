@@ -11,8 +11,10 @@ entrypoint: GB_est
 
 inputs:
   EVAL_GRP:
-    type: number
-    description: Evaluation group identifier (up to 6-digit positive integer)
+    type: string
+    description: >
+      Comma-separated list of EVAL_GRP identifiers, one per state
+      (e.g. "512017, 372017")
   ATTRIBUTE_NBR:
     type: number
     description: Attribute number (up to 6-digit positive integer)
