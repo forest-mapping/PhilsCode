@@ -1,5 +1,5 @@
 # Block: reformat_fia
-# Reformats GB_est output: selects columns, constructs co_fips,
+# Reformats GB_est output: selects columns, constructs CO_FIPS,
 # joins UNITCD from reference CSV.
 
 library(spade)
@@ -18,9 +18,9 @@ handler <- function(gb_est_result,
   unit_ref_df <- read.csv(unit_ref@path) %>% filter(UNITCD < 100) %>%
     dplyr::select(STATECD, COUNTYCD, UNITCD, UNITNM)
 
-  # Construct co_fips and select/reorder columns
+  # Construct CO_FIPS and select/reorder columns
   result <- result %>%
-    dplyr::mutate(co_fips = STATECD * 1000 + COUNTYCD) %>%
+    dplyr::mutate(CO_FIPS = STATECD * 1000 + COUNTYCD) %>%
     dplyr::left_join(unit_ref_df, by = c("STATECD", "COUNTYCD")) %>%
     dplyr::select(
       # EVAL_GRP,
@@ -28,7 +28,7 @@ handler <- function(gb_est_result,
       UNITCD,
       UNITNM,
       COUNTYCD,
-      co_fips,
+      CO_FIPS,
       COUNTY_NAME,
       # ATTRIBUTE_NBR,
       ESTIMATE,

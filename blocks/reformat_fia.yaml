@@ -1,6 +1,6 @@
 # blocks/reformat_fia.yaml
 id: PhilsCode.reformat_fia
-version: 0.1.1   # was 0.1.0
+version: 0.1.2   # was 0.1.0
 kind: standard
 network: false
 
@@ -30,4 +30,4 @@ outputs:
   result:
     type: file
     format: rds
-    description: Reformatted FIA estimates with co_fips and UNITCD
+    description: Reformatted FIA estimates with CO_FIPS and UNITCD

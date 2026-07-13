@@ -1,4 +1,4 @@
-name: GB_est-test
+name: GB_est-pipeline
 version: "1.0"
 description: Query FIA GB_est and reformat result.
 

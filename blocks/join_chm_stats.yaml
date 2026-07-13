@@ -1,15 +1,15 @@
 id: PhilsCode.join_chm_stats
-version: 0.1.0
+version: 0.2.0
 kind: standard
 network: false
 
 description: >
-  Computes a canopy height distribution summary for each county in
-  state_abbrev from GFCHM raster files (5-ft height bins, with area in
-  km^2 per bin), pivots the bins to columns, and left-joins them onto
-  the reformat_fia estimates table by co_fips. Rasters are matched to
-  counties by filename against COUNTYNM from the FIA COUNTY.csv
-  reference table.
+  Computes a canopy height distribution summary for one county from a
+  GFCHM raster (5-ft height bins, area fraction per bin), pivots the
+  bins to columns, and right-joins them onto the matching county's row
+  in the reformat_fia estimates table by CO_FIPS. Designed to run as a
+  mapped block, once per county raster; combine outputs with a reduce
+  block (base.reduce_stack) to reconstruct the full multi-county table.
 
 entrypoint: join_chm_stats
 
@@ -17,43 +17,25 @@ inputs:
   fia_data:
     type: file
     format: rds
-    description: >
-      Reformatted FIA estimates RDS produced by reformat_fia, keyed by
-      co_fips. New CHM height-bin columns are left-joined onto this
-      table.
+    description: Reformatted FIA estimates RDS from reformat_fia (broadcast to every invocation).
   state_abbrev:
     type: string
-    description: >
-      Two-letter state abbreviation identifying which state's county
-      CHM rasters to process (e.g. "VA").
-  path_gfchm:
-    type: string
-    description: >
-      Path to the root directory of GFCHM rasters, expected to contain
-      <path_gfchm>/<gfchm_option>/<state_abbrev>/aea/*aea.tif, one file
-      per county.
-  gfchm_option:
-    type: string
-    description: >
-      CHM raster variant to summarize. One of "default", "NLCD", or
-      "NLCD52". Selects the subdirectory under path_gfchm.
-  path_state:
-    type: string
-    description: >
-      Path to a STATES.csv reference file mapping state abbreviations
-      (STUSAB) to STATECD.
-  path_county:
-    type: string
-    description: >
-      Path to the FIA COUNTY.csv reference file, used to get the
-      ordered list of county names/COUNTYCD for state_abbrev and to
-      match against GFCHM raster filenames.
+    description: Two-letter state abbreviation (e.g. "VA").
+  gfchm_file:
+    type: file
+    format: GeoTIFF
+    description: One county's GFCHM raster (mapped input — one per invocation).
+  state_file:
+    type: file
+    format: CSV
+    description: STATES.csv reference (broadcast).
+  county_file:
+    type: file
+    format: CSV
+    description: COUNTY.csv reference (broadcast).
 
 outputs:
   result:
     type: file
-    format: rds
-    description: >
-      fia_data with new km2_ht<N> columns appended (one per 5-ft CHM
-      height bin), giving per-county canopy height area in km^2 for
-      each bin, joined by co_fips.
+    format: Parquet
+    description: Single county's row from fia_data with CHM height-bin FRAC_HT<N> columns appended.
