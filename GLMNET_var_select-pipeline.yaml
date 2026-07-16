@@ -1,0 +1,12 @@
+# code to add to @diagnostics
+
+- id: "@glmnet_select"
+    name: PhilsCode.glmnet_var_select
+    inputs:
+      - block: "@combined"
+        output: "result"
+        as: "joined_data"
+    args:
+      response: "ESTIMATE"
+      alphas: "0,0.25,0.5,0.75,1"
+      seed: 42

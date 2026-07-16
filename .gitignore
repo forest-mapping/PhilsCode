@@ -1,7 +1,10 @@
 data
 *.RDS
+ref/
+*.bak
 **/*.Rc
 **/block.schema.json
+repro-map-cache-bug.yaml
 log.txt
 r_log.txt
 *.lock.yaml
