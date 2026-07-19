@@ -17,9 +17,9 @@ handler <- function(joined_data,
   id_col_vec <- trimws(strsplit(id_cols, ",")[[1]])
   id_col_vec <- id_col_vec[id_col_vec %in% names(df)]
 
-  ht_col_vec <- grep("^FRAC_HT", names(df), value = TRUE)
+  ht_col_vec <- grep("^HT", names(df), value = TRUE)
   if (length(ht_col_vec) == 0)
-    stop("No FRAC_HT* (GFCHM height-bin) columns found in joined_data.")
+    stop("No HT* (GFCHM height-bin) columns found in joined_data.")
 
   if (nzchar(fia_cols)) {
     fia_col_vec <- trimws(strsplit(fia_cols, ",")[[1]])
@@ -33,7 +33,7 @@ handler <- function(joined_data,
   }
 
   if (length(fia_col_vec) == 0)
-    stop("No FIA estimate columns identified (after excluding id_cols and FRAC_HT* columns). Pass fia_cols explicitly.")
+    stop("No FIA estimate columns identified (after excluding id_cols and HT* columns). Pass fia_cols explicitly.")
 
   message("FIA estimate columns: ", paste(fia_col_vec, collapse = ", "), "\n")
   message("GFCHM height-bin columns: ", paste(ht_col_vec, collapse = ", "), "\n")

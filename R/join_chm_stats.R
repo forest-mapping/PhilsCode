@@ -82,7 +82,8 @@ handler <- function(fia_data,
   chm_dist$COUNTYNM = county_name
   chm_dist$BIN_HT = as.numeric(as.character(chm_dist$bins))
   chm_dist$KM2 <- chm_dist$Freq * prod(res(county_rast))/1e6
-  chm_dist$AREA_FRAC = chm_dist$KM2 / sum(chm_dist$KM2)
+  # chm_dist$AREA_FRAC = chm_dist$KM2 / sum(chm_dist$KM2)
+  chm_dist$AREA = chm_dist$KM2
 
   chm_dist <- chm_dist %>% left_join(state_codes) %>%
     dplyr::select(-STATENS)
@@ -90,11 +91,11 @@ handler <- function(fia_data,
   message("Pivoting CHM height-bin distribution wide (one column per bin)...\n")
   chm_wide <- chm_dist %>%
     dplyr::mutate(CO_FIPS = STATECD * 1000 + COUNTYCD) %>%
-    dplyr::select(STATECD, COUNTYCD, CO_FIPS, BIN_HT, AREA_FRAC) %>%
+    dplyr::select(STATECD, COUNTYCD, CO_FIPS, BIN_HT, AREA) %>%
     tidyr::pivot_wider(
       names_from = BIN_HT,
-      values_from = AREA_FRAC,
-      names_prefix = "FRAC_HT",
+      values_from = AREA,
+      names_prefix = "HT",
       values_fill = 0
     )
 
